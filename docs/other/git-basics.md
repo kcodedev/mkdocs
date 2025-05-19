@@ -4,24 +4,6 @@ A simple, beginner-friendly guide to using Git from the command line.
 
 ---
 
-## 🔧 Step 0: Install Git
-
-### macOS
-```bash
-brew install git
-```
-
-### Ubuntu/Linux
-```bash
-sudo apt update
-sudo apt install git
-```
-
-### Windows
-Download Git from [https://git-scm.com/downloads](https://git-scm.com/downloads) and install it.
-
----
-
 ## 🔑 Step 1: Set up Git
 
 ```bash
