@@ -73,11 +73,3 @@ This is how **CIDR** (Classless Inter-Domain Routing) enables **flexible, effici
 - Routers use subnet IDs to direct packets within your internal network.
 
 ---
-
-## Related Topics
-
-- [IP Addresses](ip-addresses.md)
-- [Network Address Translation (NAT)](nat.md)
-
-
-

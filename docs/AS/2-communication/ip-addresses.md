@@ -76,6 +76,14 @@ An **IP address** (Internet Protocol address) is a unique label assigned to ever
 
 Understanding IP addressing is key to designing, securing, and troubleshooting modern networks! 🚀🔧  
 
+---
 
+## 🖥️ Bonus: Check Your IPs
+
+| Action                         | macOS / Linux Command(s)                        | Windows Command(s)                            |
+|--------------------------------|-------------------------------------------------|-----------------------------------------------|
+| **Check public IP (browser)**  | Open browser → `https://whatismyipaddress.com/`  | Open browser → `https://whatismyipaddress.com/` |
+| **Check public IP (CLI)**      | ```curl ifconfig.me```               | ```curl ifconfig.me```       |
+| **Check private IP**           | ```ifconfig``` or ```ip a``` or ```hostname -I``` | ```ipconfig```                      |
 
 

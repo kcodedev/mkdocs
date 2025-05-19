@@ -80,6 +80,8 @@ nav:
           - The internet and the www: AS/2-communication/internet-www.md
           - Internet Hardware: AS/2-communication/internet-hardware.md
           - IP Addresses: AS/2-communication/ip-addresses.md
+          - Subnetting: AS/2-communication/subnetting.md
+          - Network Address Translation: AS/2-communication/nat.md
           - URLs and DNS: AS/2-communication/urls-dns.md
   - AL: 
       - Overview: AL/AL-overview.md
