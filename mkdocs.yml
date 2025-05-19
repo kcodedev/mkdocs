@@ -16,6 +16,13 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 nav:
   - Home: index.md
   - IG:
@@ -56,8 +63,24 @@ nav:
           - readme: readme.md
   - AS:
       - Overview: AS/AS-overview.md
-      - 1-Information Representation:
+      - 1 - Information Representation:
           - kibi vs kilo: AS/1-information-representation/kibi-vs-kilo.md
+      - 2 - Communication:
+          - Networking devices: AS/2-communication/networks.md
+          - LANs and WANs: AS/2-communication/lans-wans.md
+          - Client Server vs P2P: AS/2-communication/client-server-p2p.md
+          - Thin vs Thick clients: AS/2-communication/thin-thick-clients.md
+          - Network topologies: AS/2-communication/network-topologies.md
+          - Cloud Computing: AS/2-communication/cloud-computing.md
+          - Wired vs Wireless: AS/2-communication/wired-vs-wireless.md
+          - LAN Hardware: AS/2-communication/lan-hardware.md
+          - Routers: AS/2-communication/routers.md
+          - Ethernet and Collisions: AS/2-communication/ethernet-collision.md
+          - Bit Streaming: AS/2-communication/bit-streaming.md 
+          - The internet and the www: AS/2-communication/internet-www.md
+          - Internet Hardware: AS/2-communication/internet-hardware.md
+          - IP Addresses: AS/2-communication/ip-addresses.md
+          - URLs and DNS: AS/2-communication/urls-dns.md
   - AL: 
       - Overview: AL/AL-overview.md
       - 13-Data Representation:
