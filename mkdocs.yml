@@ -1,0 +1,68 @@
+site_name: K-CodeDev
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - IG:
+      - Overview: IG/IG-overview.md
+      - 1 - Data Representation:
+          - binary: IG/1-data-representation/binary.md
+      - 2 - Data Transmission:
+          - readme: readme.md
+      - 3 - Hardware:
+          - readme: readme.md
+      - 4 - Software:
+          - System vs Application Software: IG/4-software/system-vs-application.md
+          - Basic OS Functions: IG/4-software/os-functions.md
+          - Hardware, Firmware, and OS: IG/4-software/hardware-firmware-os.md
+          - Interrupts: IG/4-software/interrupts.md
+          - High vs Low Level Languages: IG/4-software/high-vs-low-level.md
+          - Assembly Language and Assembler: IG/4-software/assembly-language.md
+          - Compilers vs Interpreters: IG/4-software/compiler-vs-interpreter.md
+          - IDEs: IG/4-software/ide-functions.md
+      - 5 - The Internet:
+          - The internet vs www: IG/5-the-internet/internet-vs-www.md
+          - URLs: IG/5-the-internet/urls.md
+          - HTTP vs HTTPs: IG/5-the-internet/http-vs-https.md
+          - Web Browsers: IG/5-the-internet/web-browsers.md
+          - Loading Webpages: IG/5-the-internet/loading-webpages.md
+          - Cookies: IG/5-the-internet/cookies.md
+          - Digital Currency: IG/5-the-internet/digital-currency.md
+          - Cyber Security: IG/5-the-internet/cyber-security.md
+      - 6 - Automated and Emerging Technologies:
+          - readme: readme.md
+      - 7 - Algorithm Design and Problem-Solving:
+          - readme: readme.md
+      - 8 - Programming:
+          - readme: readme.md
+      - 9 - Databases:
+          - readme: readme.md
+      - 10 - Boolean Logic:
+          - readme: readme.md
+  - AS:
+      - Overview: AS/AS-overview.md
+      - 1-Information Representation:
+          - kibi vs kilo: AS/1-information-representation/kibi-vs-kilo.md
+  - AL: 
+      - Overview: AL/AL-overview.md
+      - 13-Data Representation:
+          - Floating Point: AL/13-data-representation/floating-point.md
+  - Other:
+      - Git Basics: other/git-basics.md
+  - Blog: blog/index.md
+
