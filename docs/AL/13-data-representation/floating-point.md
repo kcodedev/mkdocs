@@ -6,10 +6,10 @@ Binary floating-point representation is a method of storing **real numbers** (nu
 
 ## A-Level Format of Binary Floating-Point Numbers
 
-A binary floating-point number consists of **three parts**:
+For A-Level a binary floating-point number consists of **two parts** both typically in **two's complement**:
 
-1. **Mantissa (M)** → Holds the actual digits of the number in binary (**also two's complement**)
-2. **Exponent (E)** → Determines how far the binary point is shifted (**two’s complement**)  
+1. **Mantissa (M)** → Holds the actual digits of the number in binary
+2. **Exponent (E)** → Determines how far the binary point is shifted 
 
 
 ## Two’s Complement recap
