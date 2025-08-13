@@ -73,7 +73,7 @@ A set is an **unordered collection** of unique items.
 
 ```python
 colors = {"red", "green", "blue"}
-colors.add("yellow")
+colors.add("maroon")
 print(colors)
 ```
 
