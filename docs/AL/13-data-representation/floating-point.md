@@ -14,8 +14,7 @@ For A-Level a binary floating-point number consists of **two parts** both typica
 
 ## Two’s Complement recap
 
-In our system, the **exponent** is stored in **two’s complement** form.  
-Example: With 4 bits for the exponent:
+Example: With 4 bits in two's complement:
 - `0111` = +7  
 - `1000` = -8  
 - `1111` = -1  
