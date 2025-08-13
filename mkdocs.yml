@@ -93,7 +93,7 @@ nav:
   - AL: 
       - Overview: AL/AL-overview.md
       - 13-Data Representation:
-          - Floating Point: AL/13-data-representation/floating-point.md
+          - User Defined Types: AL/13-data-representation/user-defined-types.md
   - Other:
       - Git Basics: other/git-basics.md
   - Blog: blog/index.md
