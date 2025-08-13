@@ -4,16 +4,15 @@ Binary floating-point representation is a method of storing **real numbers** (nu
 
 ---
 
-## 📦 Format of Binary Floating-Point Numbers
+## A-Level Format of Binary Floating-Point Numbers
 
 A binary floating-point number consists of **three parts**:
 
-1. **Sign bit (S)** → 0 for positive, 1 for negative  
+1. **Mantissa (M)** → Holds the actual digits of the number in binary (**also two's complement**)
 2. **Exponent (E)** → Determines how far the binary point is shifted (**two’s complement**)  
-3. **Mantissa (M)** → Holds the actual digits of the number in binary
 
 
-## 🌀 Two’s Complement for Exponent
+## Two’s Complement recap
 
 In our system, the **exponent** is stored in **two’s complement** form.  
 Example: With 4 bits for the exponent:
@@ -21,7 +20,7 @@ Example: With 4 bits for the exponent:
 - `1000` = -8  
 - `1111` = -1  
 
-This allows both positive and negative exponents (for very large and very small numbers).
+This allows both positive and negative exponents (for representing very large and very small numbers).
 
 ---
 
