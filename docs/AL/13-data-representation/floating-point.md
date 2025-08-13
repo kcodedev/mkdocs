@@ -9,24 +9,13 @@ Binary floating-point representation is a method of storing **real numbers** (nu
 A binary floating-point number consists of **three parts**:
 
 1. **Sign bit (S)** → 0 for positive, 1 for negative  
-2. **Exponent (E)** → Determines how far the binary point is shifted (uses **two’s complement** or **biased representation**, depending on the system)  
-3. **Mantissa (M)** (also called significand) → Holds the actual digits of the number in binary
+2. **Exponent (E)** → Determines how far the binary point is shifted (**two’s complement**)  
+3. **Mantissa (M)** → Holds the actual digits of the number in binary
 
-### General Layout:
-```
-[ Sign | Exponent | Mantissa ]
-```
-
-**Value Calculation:**
-\$
-	ext{Value} = (-1)^{S} 	imes M 	imes 2^{E}
-\$
-
----
 
 ## 🌀 Two’s Complement for Exponent
 
-In some systems, the **exponent** is stored in **two’s complement** form.  
+In our system, the **exponent** is stored in **two’s complement** form.  
 Example: With 4 bits for the exponent:
 - `0111` = +7  
 - `1000` = -8  
@@ -53,17 +42,16 @@ This allows both positive and negative exponents (for very large and very small 
 Example:  
 Suppose we have:
 ```
-Sign: 0  
-Exponent: 0001 (two’s complement = +1)  
-Mantissa: 1.101 (binary)  
+Exponent: 0001  
+Mantissa: 1.101
 ```
 Step 1️⃣: Convert mantissa to decimal:  
-`1.101₂ = 1 + 0.5 + 0 + 0.125 = 1.625`  
+`...`  
 
 Step 2️⃣: Apply exponent:  
-`1.625 × 2¹ = 3.25`  
+`...`  
 
-✅ Final Value: **3.25**
+✅ Final Value: **....**
 
 ---
 
