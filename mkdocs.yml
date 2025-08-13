@@ -96,6 +96,9 @@ nav:
            - User Defined Types: AL/13-data-representation/user-defined-types.md
            - File organisation & access: AL/13-data-representation/file-org-access.md
            - Floating Point: AL/13-data-representation/floating-point.md
+      - 14 - Communication & The Internet:
+           - Protocols: AL/14-communication/protocols.md
+           - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
   - Other:
       - Git Basics: other/git-basics.md
   - Blog: blog/index.md
