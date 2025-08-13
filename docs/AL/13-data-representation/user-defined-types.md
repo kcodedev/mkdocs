@@ -18,6 +18,7 @@ year = 2020
 We need **user-defined types** to group related data and behaviors into one logical unit.
 
 ✅ **Advantages:**
+
 - Organises related data together 📦
 - Makes code easier to read 📖
 - Can model real-world objects more naturally 🌍
@@ -29,7 +30,7 @@ We need **user-defined types** to group related data and behaviors into one logi
 Non-composite means **the type itself doesn’t hold multiple different fields**.  
 They’re still “user-defined” because we design them.
 
-### 1. 🎯 Enumerated Types (`Enum`)
+### 1. Enumerated Types (`Enum`)
 An **enumeration** is a set of named values.
 
 ```python
@@ -50,7 +51,7 @@ print(Direction.NORTH.name)  # "NORTH"
 
 ---
 
-### 2. 📍 Pointers (Conceptual in Python)
+### 2. Pointers (Conceptual in Python)
 Python does not have traditional pointers like C/C++,  
 but **variables hold references** to objects.
 
@@ -67,7 +68,7 @@ print(a)  # [1, 2, 3, 4] — changes affect both!
 
 Composite types **combine multiple pieces of data** (fields/attributes) together.
 
-### 1. 🗂️ Sets
+### 1. Sets
 A set is an **unordered collection** of unique items.
 
 ```python
@@ -78,7 +79,7 @@ print(colors)
 
 ---
 
-### 2. 📑 Record (Using `NamedTuple` or `dataclass`)
+### 2. Record (Using `NamedTuple` or `dataclass`)
 A record is a **group of related fields** (like a database row).
 
 ```python
@@ -91,7 +92,7 @@ print(my_car.make)  # Toyota
 
 ---
 
-### 3. 🏷️ Class / Object
+### 3. Class / Object
 A class is a **blueprint** for creating objects with attributes and methods.
 
 ```python
