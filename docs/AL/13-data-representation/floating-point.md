@@ -42,8 +42,8 @@ This allows both positive and negative exponents (for very large and very small 
 Example:  
 Suppose we have:
 ```
-Exponent: 0001  
 Mantissa: 1.101
+Exponent: 0001  
 ```
 Step 1️⃣: Convert mantissa to decimal:  
 `...`  
