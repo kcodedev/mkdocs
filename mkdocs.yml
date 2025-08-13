@@ -52,7 +52,14 @@ nav:
           - Digital Currency: IG/5-the-internet/digital-currency.md
           - Cyber Security: IG/5-the-internet/cyber-security.md
       - 6 - Automated and Emerging Technologies:
-          - readme: readme.md
+          - Automated Systems: IG/6-automated-and-emerging-tech/automated-systems.md
+          - Scenarios: IG/6-automated-and-emerging-tech/scenarios.md
+          - What is Robotics?: IG/6-automated-and-emerging-tech/robotics.md
+          - Robot characteristics: IG/6-automated-and-emerging-tech/robot-characteristics.md
+          - Robot roles: IG/6-automated-and-emerging-tech/robot-roles.md
+          - Artificial Intelligence: IG/6-automated-and-emerging-tech/ai.md
+          - AI characteristics: IG/6-automated-and-emerging-tech/ai-characteristics.md
+          - Expert Systems vs Machine Learning: IG/6-automated-and-emerging-tech/expert-systems-and-ml.md
       - 7 - Algorithm Design and Problem-Solving:
           - readme: readme.md
       - 8 - Programming:

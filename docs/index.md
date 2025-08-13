@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# Mr. Kieran's Computer Science Website
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is not intended as your sole learning resource. This is like the quick guide to every topic that will get you most of the way there. For more detail you can refer to the digital textbook. And ultimately past exam papers are the best resource in preparing for exams.
 
-## Commands
+## Courses
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* 0478 IGCSE Computer Science (Y10 & 11)
+* 9618 AS Computer Science (Y12)
+* 9618 AL Computer Science (Y13)
 
-## Project layout
+## Homework, notes and revision
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The policy is that you always have homework, and here are the minimal weekly guidelines:
+
+* IGCSE (20 minutes a day * 2 days, continous python work 30 minutes a week)
+* AS & AL (30 minutes a day * 3 days, continouts python work, 1 hour a week)
+
+
+
