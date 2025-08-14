@@ -51,16 +51,31 @@ print(Direction.NORTH.name)  # "NORTH"
 
 ---
 
-### 2. Pointers (Conceptual in Python)
-Python does not have traditional pointers like C/C++,  
-but **variables hold references** to objects.
+### 2. Pointers
+Pointers in Pseudo code.
 
-```python
-a = [1, 2, 3]
-b = a  # b points to the same list as a
-b.append(4)
-print(a)  # [1, 2, 3, 4] — changes affect both!
+```arduino
+TYPE IntPointer = ^INT
+
+DECLARE MyIntPointer : IntPointer
+
+AddressStored ⬅ MyIntPointer
+ValueAtAddress ⬅ MyIntPointer^
 ```
+
+| Variable    | Address | Contents |
+|-------------|---------|----------|
+|             | 1260    |          |
+| IntVar      | 1261    | 66       |
+|             | 1262    |          |
+|             | ...     |          |
+|             | 2411    |          |
+| IntPointer  | 2412    | 1261     |
+|             | ...     |          |
+|             | 3201    |          |
+| Var1        | 3202    | 66       |
+| Var2        | 3203    | 42       |
+
 
 ---
 
