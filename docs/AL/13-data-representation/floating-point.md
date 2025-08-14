@@ -14,7 +14,7 @@ For A-Level a binary floating-point number consists of **two parts** both typica
 
 ## Two’s Complement recap
 
-Example: With 4 bits in two's complement:
+Example: 4 bits in two's complement:
 
 - `0111` = +7  
 - `1000` = -8  
@@ -65,7 +65,7 @@ Step 1️⃣: Convert to binary:
 `1.5625 → 1 + 0.5 + 0.0625 → 1.1001`  
 
 Step 2️⃣: Shift binary point:  
-`1.1001 → 0.11001 x 2^1` so the exponent is 1  
+`1.1001 → 0.11001 x 2¹` so the exponent is 1  
 
 Step 3️⃣: Write out the binary (mantissa || exponent) :  
 `0.11001000000 || 0001` 
