@@ -41,15 +41,17 @@ Example:
 Suppose we have:
 ```
 Mantissa: 1.101
-Exponent: 0001  
+Exponent: 0010  
 ```
-Step 1️⃣: Convert mantissa to decimal:  
-`...`  
+Step 1️⃣: Convert exponent:  
+`0010 → 2`  
 
-Step 2️⃣: Apply exponent:  
-`...`  
+Step 2️⃣: Shift binary point:  
+`1.101 → 110.1`  
 
-✅ Final Value: **....**
+Step 3️⃣: Convert to denary:  
+`110.1 → 4 + 2 + 0.5` 
+✅ Final Value: **6.5**
 
 ---
 
