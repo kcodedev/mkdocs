@@ -24,7 +24,7 @@ This allows both positive and negative exponents (for representing very large an
 
 ---
 
-## 🎚 Effect of Changing Mantissa and Exponent Sizes
+## 🧮 Effect of Changing Mantissa and Exponent Sizes
 
 - **More mantissa bits** → Higher **precision** (more accurate numbers)
 - **More exponent bits** → Larger **range** (can represent bigger or smaller numbers)
