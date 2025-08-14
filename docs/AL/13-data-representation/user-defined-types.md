@@ -34,16 +34,16 @@ They’re still “user-defined” because we design them.
 An **enumerated type** is a user defined type where the programmer maps a set of names to numeric values. The values of enumerated types are ordered.
 
 ```
-# Define the new type first
+// Define the new type first
 TYPE
 TMonths(Jan, Feb, Mar, Apr, May, Jun,
 		 Jul, Aug, Sep, Oct, Nov, Dec)
 ENDTYPE
 
-# Declare a variable of that new type
+// Declare a variable of that new type
 DECLARE BirthMonth : TMonths
 
-# Example usage
+// Example usage
 BirthMonth ⬅ Feb
 BirthMonth ⬅ Feb + 1
 
@@ -108,15 +108,18 @@ print(colors)
 
 ---
 
-### 2. Record (Using `NamedTuple` or `dataclass`)
+### 2. Record
 A record is a **group of related fields** (like a database row).
 
-```python
-from collections import namedtuple
-Car = namedtuple("Car", ["make", "model", "year"])
+```
+TYPE TStudentRecord
+	DECLARE FirstName : STRING
+	DECLARE FamilyName : STRING
+	DECLARE FeesPaid : BOOLEAN
+ENDTYPE
 
-my_car = Car("Toyota", "Corolla", 2020)
-print(my_car.make)  # Toyota
+DECLARE Student1 : TStudentRecord
+Student1.FeesPaid ⬅ TRUE
 ```
 
 ---
