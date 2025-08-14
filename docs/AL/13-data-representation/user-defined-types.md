@@ -1,4 +1,4 @@
-# 🛠️ Understanding User-Defined Data Types in Python
+# 🛠️ User-Defined Data Types
 
 ## 🤔 Why Do We Need User-Defined Types?
 
@@ -55,12 +55,15 @@ print(Direction.NORTH.name)  # "NORTH"
 Pointers store an address, essentially **pointing** at that address. In Psuedocode you must define a pointer as a new TYPE. Then you can declare a variable of this type and use it.
 
 Step 1️⃣: Define a pointer to an particular type:
+
 `TYPE IntPointer = ^INT`
 
 Step 2️⃣: Declare a variable of the new type `IntPointer`:
+
 `DECLARE MyIntPointer : IntPointer`
 
 You can **de-reference** (get the contents at the address being pointed at) a pointer as shown:
+
 `ValueAtAddress ⬅ MyIntPointer^`
 
 #### Pointer Exam Question
@@ -79,11 +82,12 @@ You can **de-reference** (get the contents at the address being pointed at) a po
 | Var2        | 3203    | 42       |
 
 State the values of the following expressions:
-i) IntVar		
-ii) IntPointer	
-iii) IntPointer^
-iv) @Var1			
-v) IntPointer^ = Var2 + 14
+
+- IntVar		
+- IntPointer	
+- IntPointer^
+- @Var1			
+- IntPointer^ = Var2 + 14
 
 ---
 
