@@ -30,21 +30,23 @@ We need **user-defined types** to group related data and behaviors into one logi
 Non-composite means **the type itself doesn’t hold multiple different fields**.  
 They’re still “user-defined” because we design them.
 
-### 1. Enumerated Types (`Enum`)
-An **enumeration** is a set of named values.
+### 1. Enumerated Types
+An **enumerated type** is a user defined type where the programmer maps a set of names to numeric values. The values of enumerated types are ordered.
 
-```python
-from enum import Enum
+```
+# Define the new type first
+TYPE
+TMonths(Jan, Feb, Mar, Apr, May, Jun,
+		 Jul, Aug, Sep, Oct, Nov, Dec)
+ENDTYPE
 
-class Direction(Enum):
-    NORTH = 1
-    EAST = 2
-    SOUTH = 3
-    WEST = 4
+# Declare a variable of that new type
+DECLARE BirthMonth : TMonths
 
-# Usage:
-print(Direction.NORTH)   # Direction.NORTH
-print(Direction.NORTH.name)  # "NORTH"
+# Example usage
+BirthMonth ⬅ Feb
+BirthMonth ⬅ Feb + 1
+
 ```
 
 💡 Good for representing a **fixed set of options**.
