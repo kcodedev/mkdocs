@@ -38,6 +38,27 @@ This allows both positive and negative exponents (for representing very large an
 
 ## 🔄 Converting Binary Floating-Point → Decimal
 
+Example:
+Suppose we have `11010010` with 4 bits for the mantissa and 4 bits for the exponent:
+```
+Mantissa: 1.101
+Exponent: 0010  
+```
+Step 1️⃣: Convert exponent:
+`0010 → 2`
+
+Step 2️⃣: Shift binary point:
+`1.101 → 110.1`
+
+Step 3️⃣: Convert to denary:
+`110.1 → 4 + 2 + 0.5`
+
+✅ Final Value: 6.5
+
+---
+
+## 🔄 Converting Decimal → Binary Floating-Point
+
 Convert `+1.5625` to normalised floating-point representation. 12 bits for mantissa 4 bits for the exponent:
 
 Step 1️⃣: Convert to binary:  
@@ -48,22 +69,8 @@ Step 2️⃣: Shift binary point:
 
 Step 3️⃣: Write out the binary (mantissa || exponent) :  
 `0.11001000000 || 0001` 
+
 ✅ Final Value: **011001000000 0001**
-
----
-
-## 🔄 Converting Decimal → Binary Floating-Point
-
-Example: Convert **-5.25** (with 4-bit exponent, 5-bit mantissa):  
-1. Sign bit = **1** (negative)  
-2. Convert integer part (5) → `101₂`  
-3. Convert fractional part (.25) → `0.01₂`  
-4. Combine → `101.01₂`  
-5. Normalize → `1.0101 × 2²`  
-6. Exponent = `2` in two’s complement (4 bits) → `0010`  
-7. Mantissa = `0101` (store fractional part only)  
-
-Result: `1 0010 0101`
 
 ---
 
