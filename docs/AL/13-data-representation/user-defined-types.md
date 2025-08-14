@@ -52,16 +52,18 @@ print(Direction.NORTH.name)  # "NORTH"
 ---
 
 ### 2. Pointers
-Pointers in Pseudo code.
+Pointers store an address, essentially **pointing** at that address. In Psuedocode you must define a pointer as a new TYPE. Then you can declare a variable of this type and use it.
 
-```arduino
-TYPE IntPointer = ^INT
+Step 1️⃣: Define a pointer to an particular type:
+`TYPE IntPointer = ^INT`
 
-DECLARE MyIntPointer : IntPointer
+Step 2️⃣: Declare a variable of the new type `IntPointer`:
+`DECLARE MyIntPointer : IntPointer`
 
-AddressStored ⬅ MyIntPointer
-ValueAtAddress ⬅ MyIntPointer^
-```
+You can **de-reference** (get the contents at the address being pointed at) a pointer as shown:
+`ValueAtAddress ⬅ MyIntPointer^`
+
+#### Pointer Exam Question
 
 | Variable    | Address | Contents |
 |-------------|---------|----------|
@@ -76,6 +78,12 @@ ValueAtAddress ⬅ MyIntPointer^
 | Var1        | 3202    | 66       |
 | Var2        | 3203    | 42       |
 
+State the values of the following expressions:
+i) IntVar		
+ii) IntPointer	
+iii) IntPointer^
+iv) @Var1			
+v) IntPointer^ = Var2 + 14
 
 ---
 
