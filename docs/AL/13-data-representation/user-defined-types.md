@@ -17,7 +17,7 @@ year = 2020
 … works, but it’s messy. What if we have 100 cars?  
 We need **user-defined types** to group related data and behaviors into one logical unit.
 
-✅ **Advantages:**
+### ✅ **Advantages:**
 
 - Organises related data together 📦
 - Makes code easier to read 📖
