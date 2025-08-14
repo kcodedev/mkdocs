@@ -15,6 +15,7 @@ For A-Level a binary floating-point number consists of **two parts** both typica
 ## Two’s Complement recap
 
 Example: With 4 bits in two's complement:
+
 - `0111` = +7  
 - `1000` = -8  
 - `1111` = -1  
@@ -38,7 +39,7 @@ This allows both positive and negative exponents (for representing very large an
 ## 🔄 Converting Binary Floating-Point → Decimal
 
 Example:  
-Suppose we have:
+Suppose we have `11010010` with 4 bits for the mantissa and 4 bits for the exponent:
 ```
 Mantissa: 1.101
 Exponent: 0010  
