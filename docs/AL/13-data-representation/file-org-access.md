@@ -1,4 +1,4 @@
-# 📂 File Organisation, Access Methods, and Hashing
+# 📂 File Organisation, Access Methods
 
 Understanding **how files are stored and accessed** is critical when designing efficient software systems. Let's explore different **file organisation methods**, **access methods**, and **hashing algorithms**.
 

@@ -82,11 +82,11 @@ You can **de-reference** (get the contents at the address being pointed at) a po
 
 State the values of the following expressions:
 
-- IntVar		
-- IntPointer	
-- IntPointer^
-- @Var1			
-- IntPointer^ = Var2 + 14
+- `IntVar`		
+- `IntPointer`	
+- `IntPointer^`
+- `@Var1`			
+- `IntPointer^ = Var2 + 14`
 
 ---
 
