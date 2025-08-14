@@ -35,10 +35,7 @@ An **enumerated type** is a user defined type where the programmer maps a set of
 
 ```
 // Define the new type first
-TYPE
-TMonths(Jan, Feb, Mar, Apr, May, Jun,
-		 Jul, Aug, Sep, Oct, Nov, Dec)
-ENDTYPE
+TYPE TMonths(Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec)
 
 // Declare a variable of that new type
 DECLARE BirthMonth : TMonths
