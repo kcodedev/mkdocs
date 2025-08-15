@@ -35,6 +35,10 @@ nav:
           - Overflow: IG/1-data-representation/overflow.md
           - Gandhi underflow: IG/1-data-representation/gandhi-underflow.md
           - Logical shifts: IG/1-data-representation/logical-shifts.md
+          - Two's complement: IG/1-data-representation/twos-complement.md
+          - ASCII and Unicode: IG/1-data-representation/ascii.md
+          - Sound: IG/1-data-representation/sound.md
+          - Images: IG/1-data-representation/images.md
       - 2 - Data Transmission:
           - readme: readme.md
       - 3 - Hardware:
@@ -73,7 +77,7 @@ nav:
       - 9 - Databases:
           - readme: readme.md
       - 10 - Boolean Logic:
-          - readme: readme.md
+          - Logic gates and circuits: IG/10-logic-gates-circuits/logic-gates.md
   - AS:
       - Overview: AS/AS-overview.md
       - 1 - Information Representation:
