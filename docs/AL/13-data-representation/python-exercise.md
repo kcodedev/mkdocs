@@ -26,12 +26,11 @@ Your program should:
 
 ### Step 2 — Position the binary point
 - Take the first 6 bits as the mantissa.
-- Interpret using two’s complement rules.
 - Place the binary point immediately after the sign bit.
 - Shift the point left or right depending on the exponent value.
 
 ### Step 3 — Calculate the decimal value
-- Combine the mantissa and exponent to get the final number in decimal form.
+- You need to calculate the place values and for each occurance of a `1` and then sum those to arrive at the final answer.
 
 ---
 
