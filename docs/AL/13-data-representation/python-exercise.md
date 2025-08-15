@@ -13,7 +13,7 @@ Your program should:
 1. Extract the mantissa and exponent from the binary input.
 2. Convert the exponent from binary (two’s complement) to an integer.
 3. Apply the exponent to shift the binary point left or right.
-4. Output the final denary value.
+4. Calculate and output the final denary value.
 
 
 ---
@@ -41,7 +41,6 @@ Binary input: `0110101110`
 - Mantissa bits: `011010`
 - Exponent bits: `1110`
 
-Denary output: 
 The exponent value of -2 tells us to shift the decimal point in the binary mantissa two places to the left.
 
 - Original binary mantissa: `0.11010`
