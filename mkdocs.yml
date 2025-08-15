@@ -28,7 +28,13 @@ nav:
   - IG:
       - Overview: IG/IG-overview.md
       - 1 - Data Representation:
-          - binary: IG/1-data-representation/binary.md
+          - Binary, why? how?: IG/1-data-representation/binary.md
+          - Number systems: IG/1-data-representation/number-systems.md
+          - Why hexadecimal?: IG/1-data-representation/why-hex.md
+          - Binary addition: IG/1-data-representation/binary-addition.md
+          - Overflow: IG/1-data-representation/overflow.md
+          - Gandhi underflow: IG/1-data-representation/gandhi-underflow.md
+          - Logical shifts: IG/1-data-representation/logical-shifts.md
       - 2 - Data Transmission:
           - readme: readme.md
       - 3 - Hardware:
