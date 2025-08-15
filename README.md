@@ -11,6 +11,7 @@ mkdocs serve
 
 ```powershell
 python -m venv venv
-
-
+.\.venv\Scripts\Activate
+pip install -r requirements.txt
+mkdocs serve
 ```
