@@ -47,7 +47,7 @@ File Size (bits) = Sample Rate × Bit Depth × Duration (seconds)
 ### Example
 
 > **Question:**  
-> A sound file is recorded at 1024 Hz, with 8 bits per sample, for 2 seconds. What is the file size in kilobytes (KB)?
+> A sound file is recorded at 1024 Hz, with 8 bits per sample, for 2 seconds. What is the file size in kibibytes (KiB)?
 
 **Step 1:** Calculate total samples  
 `1024 × 2 = 2048 samples`

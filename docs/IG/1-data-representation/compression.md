@@ -1,3 +1,5 @@
+![Run-Length Encoding Example](https://cdn.prod.website-files.com/6544bdfdf184393c08205ae6/67092df871db3a47522abe04_66f685de0eb9f9e353276eec_66f67c2d90b36c7925e55307_How%252520generative%252520AI%252520works-1.jpeg)
+
 ### Data Compression: The Basics 💾
 
 Data compression is the process of reducing the size of a data file. This is done to make the file more efficient for storage and transmission. The main impact of compressing a file is that it requires **less bandwidth** for transmission, **less storage space**, and a **shorter transmission time**. 🚀
