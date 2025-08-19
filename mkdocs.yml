@@ -31,6 +31,7 @@ nav:
           - Binary, why? how?: IG/1-data-representation/binary.md
           - Number systems: IG/1-data-representation/number-systems.md
           - Why hexadecimal?: IG/1-data-representation/why-hex.md
+          - Find your MAC address: IG/1-data-representation/mac-address.md
           - Binary addition: IG/1-data-representation/binary-addition.md
           - Overflow: IG/1-data-representation/overflow.md
           - Gandhi underflow: IG/1-data-representation/gandhi-underflow.md
@@ -39,6 +40,9 @@ nav:
           - ASCII and Unicode: IG/1-data-representation/ascii.md
           - Sound: IG/1-data-representation/sound.md
           - Images: IG/1-data-representation/images.md
+          - Data Storage Units: IG/1-data-representation/data-storage-units.md
+          - Calculating file size: IG/1-data-representation/calculating-file-size.md
+          - Compression: IG/1-data-representation/compression.md
       - 2 - Data Transmission:
           - readme: readme.md
       - 3 - Hardware:

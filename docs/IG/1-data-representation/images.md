@@ -1,3 +1,5 @@
+![Example of pixel art](https://64.media.tumblr.com/f33477f3948c42fc1bf7405cc0398698/tumblr_nwblrlACGT1uia223o1_1280.png)
+
 Hey there! 🖼️ Ever wondered how your screen displays amazing pictures and stunning photos? It's all thanks to a simple yet powerful system of tiny building blocks called **pixels**.
 
 A digital image is made up of a grid of these pixels, each one a single-colored dot. To represent an image, a computer converts each pixel's color into a unique binary code.

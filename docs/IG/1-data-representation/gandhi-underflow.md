@@ -1,5 +1,7 @@
 # ☢️ Nuclear Gandhi & Integer Underflow
 
+![Nuclear Gandhi Meme](https://www.kxnet.com/wp-content/uploads/sites/16/2023/02/5f9.jpg?resize=640,400)
+
 ## 🕹 The Story
 In the first **Civilization** game (1991), every leader had an **aggression rating** between **1** (very peaceful) and **12** (very aggressive).
 
