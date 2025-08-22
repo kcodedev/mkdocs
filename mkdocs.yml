@@ -44,7 +44,9 @@ nav:
           - Calculating file size: IG/1-data-representation/calculating-file-size.md
           - Compression: IG/1-data-representation/compression.md
       - 2 - Data Transmission:
-          - readme: readme.md
+          - Types & methods: IG/2-data-transmission/transmission-types-methods.md
+          - Error detection: IG/2-data-transmission/error-detection.md
+          - Encryption: IG/2-data-transmission/encryption.md
       - 3 - Hardware:
           - readme: readme.md
       - 4 - Software:
