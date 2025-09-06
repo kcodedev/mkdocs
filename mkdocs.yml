@@ -48,7 +48,10 @@ nav:
           - Error detection: IG/2-data-transmission/error-detection.md
           - Encryption: IG/2-data-transmission/encryption.md
       - 3 - Hardware:
-          - readme: readme.md
+          - Computer Architecture: IG/3-hardware/computer-architecture.md
+          - Input and Output Devices: IG/3-hardware/input-output-devices.md
+          - Data Storage: IG/3-hardware/data-storage.md
+          - Network Hardware: IG/3-hardware/network-hardware.md
       - 4 - Software:
           - System vs Application Software: IG/4-software/system-vs-application.md
           - Basic OS Functions: IG/4-software/os-functions.md
@@ -77,13 +80,30 @@ nav:
           - AI characteristics: IG/6-automated-and-emerging-tech/ai-characteristics.md
           - Expert Systems vs Machine Learning: IG/6-automated-and-emerging-tech/expert-systems-and-ml.md
       - 7 - Algorithm Design and Problem-Solving:
-          - readme: readme.md
+          - Program Development Life Cycle: IG/7-algorithm-design/program-development-life-cycle.md
+          - Systems and Decomposition: IG/7-algorithm-design/systems-decomposition.md
+          - Design Methods: IG/7-algorithm-design/design-methods.md
+          - Standard Methods: IG/7-algorithm-design/standard-methods.md
+          - Validation and Verification: IG/7-algorithm-design/validation-verification.md
+          - Test Data: IG/7-algorithm-design/test-data.md
+          - Trace Tables: IG/7-algorithm-design/trace-tables.md
+          - Debugging Algorithms: IG/7-algorithm-design/debugging-algorithms.md
+          - Writing Algorithms: IG/7-algorithm-design/writing-algorithms.md
       - 8 - Programming:
-          - readme: readme.md
+          - Programming Concepts: IG/8-programming/programming-concepts.md
+          - Arrays: IG/8-programming/arrays.md
+          - File Handling: IG/8-programming/file-handling.md
       - 9 - Databases:
-          - readme: readme.md
+          - Database Design: IG/9-databases/database-design.md
+          - Data Types: IG/9-databases/data-types.md
+          - Primary Keys: IG/9-databases/primary-keys.md
+          - SQL Queries: IG/9-databases/sql-queries.md
       - 10 - Boolean Logic:
-          - Logic gates and circuits: IG/10-logic-gates-circuits/logic-gates.md
+          - Logic Gates: IG/10-logic-gates-circuits/logic-gates.md
+          - Gate Functions: IG/10-logic-gates-circuits/gate-functions.md
+          - Creating Circuits: IG/10-logic-gates-circuits/creating-circuits.md
+          - Truth Tables: IG/10-logic-gates-circuits/truth-tables.md
+          - Logic Expressions: IG/10-logic-gates-circuits/logic-expressions.md
   - AS:
       - Overview: AS/AS-overview.md
       - 1 - Information Representation:
