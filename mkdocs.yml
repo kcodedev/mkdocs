@@ -44,8 +44,15 @@ nav:
           - Calculating file size: IG/1-data-representation/calculating-file-size.md
           - Compression: IG/1-data-representation/compression.md
       - 2 - Data Transmission:
-          - Types & methods: IG/2-data-transmission/transmission-types-methods.md
-          - Error detection: IG/2-data-transmission/error-detection.md
+          - Packet Switching: IG/2-data-transmission/packet-switching.md
+          - Transmission Methods: IG/2-data-transmission/transmission-methods.md
+          - Error detection:
+              - Overview: IG/2-data-transmission/error-detection.md
+              - Parity Check: IG/2-data-transmission/parity-check.md
+              - Checksum: IG/2-data-transmission/checksum.md
+              - Echo Check: IG/2-data-transmission/echo-check.md
+              - Check Digit: IG/2-data-transmission/check-digit.md
+              - Automatic Repeat Query: IG/2-data-transmission/arq.md
           - Encryption: IG/2-data-transmission/encryption.md
       - 3 - Hardware:
           - Computer Architecture: IG/3-hardware/computer-architecture.md
@@ -104,6 +111,8 @@ nav:
           - Creating Circuits: IG/10-logic-gates-circuits/creating-circuits.md
           - Truth Tables: IG/10-logic-gates-circuits/truth-tables.md
           - Logic Expressions: IG/10-logic-gates-circuits/logic-expressions.md
+      - Pseudocode Tasks: IG/pseudocode-tasks.md
+      - Python Tasks: IG/python-tasks.md
   - AS:
       - Overview: AS/AS-overview.md
       - 1 - Information Representation:
