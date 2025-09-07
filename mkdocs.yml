@@ -138,5 +138,6 @@ nav:
            - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
   - Other:
       - Git Basics: other/git-basics.md
-  - Blog: blog/index.md
-
+      - Linux Commands: other/linux-commands.md
+      - Local Servers: other/local-server-mgmt.md
+      - Docker Ports: other/docker-ports.md

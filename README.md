@@ -3,11 +3,24 @@
 ## Setup
 
 ```bash
+# first time set up
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --break-system-packages -r requirements.txt
 mkdocs serve
+```
+
+```bash
+# activate and deactivate venv
+source .venv/bin/activate
 deactivate
+```
+
+```bash
+# Solving "OSError: [Errno 98] Address already in use"
+sudo lsof -i :8000
+# Then kill the process using that port
+kill 1234
 ```
 
 ```powershell
