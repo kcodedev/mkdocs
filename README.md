@@ -18,7 +18,7 @@ deactivate
 
 ```bash
 # Solving "OSError: [Errno 98] Address already in use"
-sudo lsof -i :8000
+lsof -i :8000
 # Then kill the process using that port
 kill 1234
 ```
