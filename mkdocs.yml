@@ -53,7 +53,9 @@ nav:
               - Echo Check: IG/2-data-transmission/echo-check.md
               - Check Digit: IG/2-data-transmission/check-digit.md
               - Automatic Repeat Query: IG/2-data-transmission/arq.md
-          - Encryption: IG/2-data-transmission/encryption.md
+          - Encryption:
+              - Symmetric Encryption: IG/2-data-transmission/symmetric-encryption.md
+              - Asymmetric Encryption: IG/2-data-transmission/asymmetric-encryption.md    
       - 3 - Hardware:
           - Computer Architecture: IG/3-hardware/computer-architecture.md
           - Input and Output Devices: IG/3-hardware/input-output-devices.md
