@@ -29,6 +29,7 @@ nav:
       - Overview: AEP/aep-overview.md
       - Google Suite:
           - Gmail: AEP/google-suite/gmail.md
+          - Email Etiquette: AEP/email-etiquette.md
           - Drive: AEP/google-suite/drive.md
           - Docs: AEP/google-suite/docs.md
           - Slides: AEP/google-suite/slides.md
@@ -38,7 +39,6 @@ nav:
       - Software: AEP/what-is-software.md
       - Internet Basics: AEP/internet-basics.md
       - Digital Safety: AEP/digital-safety.md
-      - Email Etiquette: AEP/email-etiquette.md
   - IG:
       - Overview: IG/IG-overview.md
       - 1 - Data Representation:
