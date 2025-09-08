@@ -25,6 +25,20 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - AEP:
+      - Overview: AEP/aep-overview.md
+      - Google Suite:
+          - Gmail: AEP/google-suite/gmail.md
+          - Drive: AEP/google-suite/drive.md
+          - Docs: AEP/google-suite/docs.md
+          - Slides: AEP/google-suite/slides.md
+      - What is a Computer?: AEP/what-is-a-computer.md
+      - Computer Parts: AEP/computer-parts.md
+      - Mouse and Keyboard: AEP/how-to-use-mouse-and-keyboard.md
+      - Software: AEP/what-is-software.md
+      - Internet Basics: AEP/internet-basics.md
+      - Digital Safety: AEP/digital-safety.md
+      - Email Etiquette: AEP/email-etiquette.md
   - IG:
       - Overview: IG/IG-overview.md
       - 1 - Data Representation:
@@ -57,7 +71,7 @@ nav:
               - Automatic Repeat Query: IG/2-data-transmission/arq.md
           - Encryption:
               - Symmetric Encryption: IG/2-data-transmission/symmetric-encryption.md
-              - Asymmetric Encryption: IG/2-data-transmission/asymmetric-encryption.md    
+              - Asymmetric Encryption: IG/2-data-transmission/asymmetric-encryption.md
       - 3 - Hardware:
           - Computer Architecture: IG/3-hardware/computer-architecture.md
           - Input and Output Devices: IG/3-hardware/input-output-devices.md
@@ -149,20 +163,6 @@ nav:
       - 14 - Communication & The Internet:
            - Protocols: AL/14-communication/protocols.md
            - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
-  - AEP:
-      - Overview: AEP/aep-overview.md
-      - Google Suite:
-          - Gmail: AEP/google-suite/gmail.md
-          - Drive: AEP/google-suite/drive.md
-          - Docs: AEP/google-suite/docs.md
-          - Slides: AEP/google-suite/slides.md
-      - Email Etiquette: AEP/email-etiquette.md
-      - What is a Computer?: AEP/what-is-a-computer.md
-      - Computer Parts: AEP/computer-parts.md
-      - Mouse and Keyboard: AEP/how-to-use-mouse-and-keyboard.md
-      - Software: AEP/what-is-software.md
-      - Internet Basics: AEP/internet-basics.md
-      - Digital Safety: AEP/digital-safety.md
   - Other:
       - Git Basics: other/git-basics.md
       - Linux Commands: other/linux-commands.md
