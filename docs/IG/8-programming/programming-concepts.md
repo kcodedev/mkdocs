@@ -19,13 +19,12 @@ Fundamental building blocks of programming including variables, data types, cont
 
 Specifying variable types in programming is crucial for memory management, type safety, and performance.
 
-### Memory Allocation in RAM
 RAM is divided into bytes, and each data type requires a fixed or variable number of bytes.
 
 | Data Type | Bytes Allocated | Example Value |
 |-----------|----------------- |---------------|
 | INTEGER   | 4                | 25            |
-| STRING    | Variable (5+)    | "John"        |
+| STRING    | 4                | "John"        |
 | REAL      | 8                | 3.14          |
 | BOOLEAN   | 1 bit (in theory)| True          |
 | CHAR      | 1                | 'A'           |
@@ -135,7 +134,7 @@ Pre-written functions:
 
 ---
 
-## 📝 **Key Points:**
+## 📝 **Key Points**
 
 - Variables store data of specific types ✅
 - Control structures manage program flow ✅
