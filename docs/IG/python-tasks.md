@@ -88,7 +88,29 @@ for i in range(1, 51, 2):
     print(i)
 ```
 
-### 6: Using MOD
+### 6: CASE Equivalent (if-elif-else)
+CASE statements in pseudocode are equivalent to if-elif-else chains in Python for multi-way selection.
+```python
+# Ask user for a score (0-100)
+# Use if-elif-else to determine grade: 90+ A, 80-89 B, 70-79 C, 60-69 D, <60 Fail
+# Output the grade
+```
+```python
+score = int(input("Enter score (0-100): "))
+
+if 90 <= score <= 100:
+    print("Grade: A")
+elif 80 <= score <= 89:
+    print("Grade: B")
+elif 70 <= score <= 79:
+    print("Grade: C")
+elif 60 <= score <= 69:
+    print("Grade: D")
+else:
+    print("Grade: Fail")
+```
+
+### 7: Using MOD
 ```python
 # Write a FOR that loops 50 times 1 TO 50
 # Checks if a number is even or odd
@@ -104,7 +126,7 @@ for count in range(1, 51):
         print(count, "ODD")
 ```
 
-### 7: WHILE
+### 8: WHILE
 While loops are **pre-condition loops**.
 ```python
 # Ask the user repeatedly:
@@ -121,7 +143,7 @@ while guess != correct_answer:
 print("Correct! The capital of Thailand is Bangkok.")
 ```
 
-### 8: REPEAT UNTIL
+### 9: REPEAT UNTIL
 REPEAT UNTIL is a **post-condition-loop**.
 ```python
 # Ask the user repeatedly
@@ -139,7 +161,7 @@ while True:
 print("Correct! The capital of Thailand is Bangkok.")
 ```
 
-### 9: Array Processing
+### 10: Array Processing
 ```python
 # Loop through an array of 5 scores
 # numbers ← [5, 6, 11, 3, 5]
@@ -157,7 +179,7 @@ print("Total:", total)
 print("Average:", average)
 ```
 
-### 10: PROCEDURE 1
+### 11: PROCEDURE 1
 ```python
 # Define a cats meowing procedure (subroutine)
 # no parameters, no loops
@@ -171,7 +193,7 @@ def CatMeow():
 CatMeow()
 ```
 
-### 11: PROCEDURE 2
+### 12: PROCEDURE 2
 ```python
 # Define a custom cat meowing procedure (subroutine)
 # It receives num, an INT, as a parameter
@@ -186,7 +208,7 @@ def CatMeow(num):
 CatMeow(3)
 ```
 
-### 12: FUNCTION
+### 13: FUNCTION
 ```python
 # Write a function (subroutine) to
 # find the max number in a list
@@ -205,13 +227,39 @@ max_value = FindMax([3, 7, 2, 9, 5])
 print("The maximum value is:", max_value)
 ```
 
-### 13: Variable Swapping
+### 14: Linear Search
 ```python
-# Write code to swap two variables x and y.
-x = 2
-y = 5
+# Search for a target value in a list using linear search
+# Example list: numbers = [5, 3, 8, 1, 4]
+# Target: 8
+# Output if found (position) or not found
+# Linear search is sequential from start to end
 ```
 ```python
+numbers = [5, 3, 8, 1, 4]
+target = input("Enter a number to search for: ")
+found = False
+position = -1
+for i in range(len(numbers)):
+    if numbers[i] == target:
+        found = True
+        position = i
+        break  # Optional: stop once found
+if found:
+    print("Target", target, "found at position", position)
+else:
+    print("Target not found")
+```
+
+### 15: Variable Swapping
+```python
+# Write code to swap two variables x and y.
+# x = 2
+# y = 5
+```
+```python
+x = 2
+y = 5
 temp = x
 x = y
 y = temp
@@ -219,12 +267,13 @@ print("x:", x)
 print("y:", y)
 ```
 
-### 14: Efficient Bubble Sort
+### 16: Efficient Bubble Sort
 ```python
 # Write the code for bubble sort
 # The efficient version that uses a flag
 ```
 ```python
+# Assuming 'array' is defined earlier
 last = len(array)
 first = 0
 while True:
@@ -239,7 +288,8 @@ while True:
     if not swap or last == first:
         break
 ```
-### 15: 2D Array Processing
+
+### 17: 2D Array Processing
 ```python
 # A 2d array stores teams, wins, points. 
 # Currently all points are set to 0. 

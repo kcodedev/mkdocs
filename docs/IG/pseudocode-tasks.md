@@ -99,7 +99,32 @@ FOR i ← 1 TO 50 STEP 2 DO
 NEXT i
 ```
 
-### 6: Using MOD
+### 6: CASE
+CASE statements allow selection based on a value matching multiple options (Cambridge compliant: use CASE OF with OTHERWISE).
+```
+// Ask user for a score (0-100)
+// Use CASE to determine grade: 90+ A, 80-89 B, 70-79 C, 60-69 D, <60 Fail
+// Output the grade
+```
+```
+OUTPUT "Enter score (0-100): "
+INPUT score
+
+CASE OF score
+   90 TO 100
+      OUTPUT "Grade: A"
+   80 TO 89
+      OUTPUT "Grade: B"
+   70 TO 79
+      OUTPUT "Grade: C"
+   60 TO 69
+      OUTPUT "Grade: D"
+   OTHERWISE
+      OUTPUT "Grade: Fail"
+ENDCASE
+```
+
+### 7: Using MOD
 ```
 // Write a FOR that loops 50 times 1 TO 50
 // Checks if a number is even or odd
@@ -117,7 +142,7 @@ FOR count ← 1 TO 50 DO
 NEXT count
 ```
 
-### 7: WHILE 
+### 8: WHILE 
 While loops are **pre-condition loops**.
 ```
 // Ask the user repeatedly:
@@ -137,7 +162,7 @@ ENDWHILE
 OUTPUT "Correct! The capital of Thailand is Bangkok."
 ```
 
-### 8: REPEAT UNTIL 
+### 9: REPEAT UNTIL 
 REPEAT UNTIL is a **post-condition-loop**,.
 ```
 // Ask the user repeatedly 
@@ -156,7 +181,7 @@ UNTIL guess = correct_answer
 OUTPUT "Correct! The capital of Thailand is Bangkok."
 ```
 
-### 9: Array Processing
+### 10: Array Processing
 ```
 // Loop through an array of 5 scores
 // numbers ← [5, 6, 11, 3, 5]
@@ -176,7 +201,7 @@ OUTPUT "Total: ", total
 OUTPUT "Average: ", average
 ```
 
-### 10: PROCEDURE 1
+### 11: PROCEDURE 1
 ```
 // Define a cats meowing procedure (subroutine)
 // no parameters, no loops
@@ -191,7 +216,7 @@ ENDPROCEDURE
 CALL CatMeow()
 ```
 
-### 11: PROCEDURE 2
+### 12: PROCEDURE 2
 ```
 // Define a custom cat meowing procedure (subroutine)
 // It receives num, an INT, as a parameter 
@@ -208,7 +233,7 @@ ENDPROCEDURE
 CALL CatMeow(3)
 ```
 
-### 12: FUNCTION
+### 13: FUNCTION
 ```
 // Write a function (subroutine) to 
 // find the max number in a list
@@ -229,13 +254,43 @@ max_value ← FindMax([3, 7, 2, 9, 5])
 OUTPUT "The maximum value is: ", max_value
 ```
 
-### 13: Variable Swapping
+### 14: Linear Search
+```
+// Search for a target value in an array using linear search
+// Example array: numbers = [5, 3, 8, 1, 4]
+// Target: 8
+// Output if found (position) or not found
+// Linear search is sequential from start to end
+```
+```
+numbers ← [5, 3, 8, 1, 4]
+found ← FALSE
+position ← -1
+OUTPUT "Enter an item to search for: "
+INPUT target
+FOR i ← 0 TO LENGTH(numbers) - 1 DO
+   IF numbers[i] = target THEN
+      found ← TRUE
+      position ← i
+      EXIT  // Optional: stop once found
+   ENDIF
+NEXT i
+IF found THEN
+   OUTPUT "Target ", target, " found at position ", position
+ELSE
+   OUTPUT "Target not found"
+ENDIF
+```
+
+### 15: Variable Swapping
 ```
 // Write code to swap two variables x and y. 
+// x ← 2
+// y ← 5
+```
+```
 x ← 2
 y ← 5
-```
-```
 temp ← x
 x ← y
 y ← temp
@@ -244,7 +299,7 @@ OUTPUT "x: ", x
 OUTPUT "y: ", y
 ```
 
-### 14: Efficient Bubble Sort
+### 16: Efficient Bubble Sort
 ```
 // Write the code for bubble sort
 // The efficient version that uses a flag
@@ -266,7 +321,7 @@ REPEAT
 UNTIL NOT swap OR last = first  // Continue until no swaps or sorted
 ```
 
-### 15: 2D Array Processing
+### 17: 2D Array Processing
 ```plaintext
 // A 2d array stores teams, wins, points. 
 // Currently all points are set to 0. 
