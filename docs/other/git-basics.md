@@ -33,12 +33,18 @@ cd repo-name
 
 ## 🔄 Step 3: Git Workflow
 
-1. Edit files
-2. Stage changes → `git add`
-3. Commit changes → `git commit`
-4. Push changes → `git push`
+📝 Stage changes when you've edited files and want to prepare specific modifications for the next commit.
 
----
+💾 Commit when your staged changes represent a complete, logical unit of work with a clear purpose.
+
+🚀 Push when you want to share your committed changes with the remote repository for collaboration.
+
+```mermaid
+flowchart TD
+    A[Working Directory] -->|git add| B[Staging Area]
+    B -->|git commit| C[Local Repository]
+    C -->|git push| D[Remote Repository]
+```
 
 ## ✅ Step 4: Basic Commands
 

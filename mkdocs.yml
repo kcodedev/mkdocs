@@ -152,4 +152,6 @@ nav:
       - Linux Commands: other/linux-commands.md
       - Local Servers: other/local-server-mgmt.md
       - Docker Ports: other/docker-ports.md
+      - Python types: other/python-types.md
       - Software Licenses: other/software-licenses.md
+

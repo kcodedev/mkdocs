@@ -239,3 +239,23 @@ while True:
     if not swap or last == first:
         break
 ```
+### 15: 2D Array Processing
+```python
+# A 2d array stores teams, wins, points. 
+# Currently all points are set to 0. 
+# Write code to update points to be wins times 3.
+```
+```python
+League = [
+    ['Man U', 4, 0],
+    ['Man C', 3, 0],
+    ['Liverpool', 2, 0],
+    ['Gooners', 1, 0],
+    ['Chelsea', 0, 0]
+]
+for i in range(len(League)):
+    League[i][2] = League[i][1] * 3
+# Optionally print the updated league
+for team in League:
+    print(team[0], "has", team[2], "points")
+```

@@ -265,3 +265,20 @@ REPEAT
    last ← last - 1  // Decrease the range of comparison as elements are sorted
 UNTIL NOT swap OR last = first  // Continue until no swaps or sorted
 ```
+
+### 15: 2D Array Processing
+```plaintext
+// A 2d array stores teams, wins, points. 
+// Currently all points are set to 0. 
+// Write code to update points to be wins times 3.
+```
+```plaintext
+League ← [['Man U', 4, 0], ['Man C', 3, 0], ['Liverpool', 2, 0], ['Gooners', 1, 0], ['Chelsea', 0, 0]]
+FOR i ← 0 TO LENGTH(League) - 1 DO
+    League[i][2] ← League[i][1] * 3
+NEXT i
+// Optionally output the updated league
+FOR i ← 0 TO LENGTH(League) - 1 DO
+    OUTPUT League[i][0], " has ", League[i][2], " points"
+NEXT i
+```
