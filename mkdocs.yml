@@ -153,6 +153,14 @@ nav:
           - Subnetting: AS/2-communication/subnetting.md
           - Network Address Translation: AS/2-communication/nat.md
           - URLs and DNS: AS/2-communication/urls-dns.md
+      - 10 - Data Types and Structures:
+          - Data Types and Records: AS/10-data-types-and-structures/10.1-data-types-and-records.md
+          - Arrays: AS/10-data-types-and-structures/10.2-arrays.md
+          - Files: AS/10-data-types-and-structures/10.3-files.md
+          - ADTs:
+            - Stack: AS/10-data-types-and-structures/ADTs/stack.md
+            - Queue: AS/10-data-types-and-structures/ADTs/queue.md
+            - Linked List: AS/10-data-types-and-structures/ADTs/linked-list.md
   - AL:
       - Overview: AL/AL-overview.md
       - 13 - Data Representation:
