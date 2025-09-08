@@ -13,7 +13,7 @@ This method, also known as **public-key cryptography**, is more complex but more
 4. The sender uses the **public key** to encrypt the data.
 5. The sender transmits the ciphertext.
 6. The receiver uses their own **private key** to decrypt the ciphertext back into plaintext. 
-7. Only the pricate key can be used to decrypt the message.
+7. Only the private key can be used to decrypt the message.
 
 **Analogy**: You have an open mailbox (your public key) that anyone can drop a message into. Once a message is inside, only you, with your mailbox key (your private key), can open and read it.
 
@@ -30,9 +30,9 @@ sequenceDiagram
     participant Alice
     participant Bob
 
-    Alice->>Bob: Alice sends public key
-    Bob->>Bob: Encrypts msg with Alice's public key
+    Alice->>Bob: Sends public key
+    Bob->>Bob: Encrypts plaintext with Alice's public key
     Bob->>Alice: Sends ciphertext
-    Alice->>Alice: Alice's decrypyts with her private key
+    Alice->>Alice: Decrypyts with her private key
     Alice->>Alice: Gets original plaintext
 ```

@@ -10,7 +10,7 @@ In Python, everything is an object. Variables are references to objects stored i
 
 - **Dynamic Typing**: Types are determined at runtime. No compile-time checks.
 - **Objects**: Each value (int, str, list) is a PyObject with type info, reference count, and data.
-- **Memory Allocation**: Uses a private heap managed by the interpreter. sys.getsizeof() shows object size, but includes overhead.
+- **Memory Allocation**: Uses a private heap managed by the interpreter. Use of sys.getsizeof() shows object size, but includes overhead.
 - **Reference Counting**: Tracks object usage; deallocates when count reaches zero.
 - **Garbage Collection**: Handles cycles via cyclic GC, causing pauses.
 - **Example**: Assigning `x = 5` creates an integer object in heap; x points to it.

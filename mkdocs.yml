@@ -45,7 +45,9 @@ nav:
           - Compression: IG/1-data-representation/compression.md
       - 2 - Data Transmission:
           - Packet Switching: IG/2-data-transmission/packet-switching.md
-          - Transmission Methods: IG/2-data-transmission/transmission-methods.md
+          - Serial vs Parallel Transmission: IG/2-data-transmission/serial-parallel-transmission.md
+          - Directional Transmission: IG/2-data-transmission/directional-transmission.md
+          - USB: IG/2-data-transmission/usb-interface.md
           - Error detection:
               - Overview: IG/2-data-transmission/error-detection.md
               - Parity Check: IG/2-data-transmission/parity-check.md
@@ -137,7 +139,7 @@ nav:
           - Subnetting: AS/2-communication/subnetting.md
           - Network Address Translation: AS/2-communication/nat.md
           - URLs and DNS: AS/2-communication/urls-dns.md
-  - AL: 
+  - AL:
       - Overview: AL/AL-overview.md
       - 13 - Data Representation:
            - User defined types: AL/13-data-representation/user-defined-types.md
@@ -147,6 +149,15 @@ nav:
       - 14 - Communication & The Internet:
            - Protocols: AL/14-communication/protocols.md
            - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
+  - AEP:
+      - Overview: AEP/aep-overview.md
+      - What is a Computer?: AEP/what-is-a-computer.md
+      - Computer Parts: AEP/computer-parts.md
+      - Mouse and Keyboard: AEP/how-to-use-mouse-and-keyboard.md
+      - Software: AEP/what-is-software.md
+      - Internet Basics: AEP/internet-basics.md
+      - Digital Safety: AEP/digital-safety.md
+      - Email Etiquette: AEP/email-etiquette.md
   - Other:
       - Git Basics: other/git-basics.md
       - Linux Commands: other/linux-commands.md
