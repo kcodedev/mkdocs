@@ -93,7 +93,7 @@ Average ← Total / 10
 - **Aggregate**: Sum, average, count
 
 
-## 📝 **Key Points:**
+## 📝 **Key Points**
 
 - Arrays store multiple values of same type ✅
 - Use indices to access elements ✅

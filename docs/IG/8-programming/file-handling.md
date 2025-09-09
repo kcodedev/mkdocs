@@ -123,7 +123,7 @@ OUTPUT "Student:", Name, "Score:", Score
 
 ---
 
-## 📝 **Key Points:**
+## 📝 **Key Points**
 
 - Files provide persistent data storage ✅
 - Open files before use, close when done ✅
