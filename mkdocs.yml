@@ -171,7 +171,15 @@ nav:
            - Protocols: AL/14-communication/protocols.md
            - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
   - Linux:
-      - Linux Commands: Linux/linux-commands.md
+      - Commands:
+          - File Management: Linux/commands/file-management.md
+          - Process Management: Linux/commands/process-management.md
+          - Network: Linux/commands/network.md
+          - System Information: Linux/commands/system-information.md
+          - Text Processing: Linux/commands/text-processing.md
+          - Permissions: Linux/commands/permissions.md
+          - User Management: Linux/commands/user-management.md
+          - Package Management: Linux/commands/package-management.md
   - Python:
       - Python types: other/python-types.md
   - Other:
