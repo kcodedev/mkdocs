@@ -39,8 +39,7 @@ nav:
       - Software: AEP/what-is-software.md
       - Internet Basics: AEP/internet-basics.md
       - Digital Safety: AEP/digital-safety.md
-  - IG:
-      - Overview: IG/IG-overview.md
+  - IGCSE:
       - 1 - Data Representation:
           - Binary, why? how?: IG/1-data-representation/binary.md
           - Number systems: IG/1-data-representation/number-systems.md
@@ -171,11 +170,29 @@ nav:
       - 14 - Communication & The Internet:
            - Protocols: AL/14-communication/protocols.md
            - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
+  - Linux:
+      - Commands:
+          - File Management: Linux/commands/file-management.md
+          - Process Management: Linux/commands/process-management.md
+          - Network: Linux/commands/network.md
+          - System Information: Linux/commands/system-information.md
+          - Text Processing: Linux/commands/text-processing.md
+          - Permissions: Linux/commands/permissions.md
+          - User Management: Linux/commands/user-management.md
+          - Package Management: Linux/commands/package-management.md
+  - Python:
+      - Django:
+          - Introduction: Python/django/introduction.md
+          - Setup & Project Structure: Python/django/setup-project.md
+          - Models & Database: Python/django/models.md
+          - Views & Templates: Python/django/views-templates.md
+          - URLs & Forms: Python/django/urls-forms.md
+          - Authentication & Admin: Python/django/authentication-admin.md
+          - Deployment: Python/django/deployment.md
+      - Python types: other/python-types.md
   - Other:
       - Git Basics: other/git-basics.md
-      - Linux Commands: other/linux-commands.md
       - Local Servers: other/local-server-mgmt.md
       - Docker Ports: other/docker-ports.md
-      - Python types: other/python-types.md
       - Software Licenses: other/software-licenses.md
 
