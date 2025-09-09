@@ -39,8 +39,7 @@ nav:
       - Software: AEP/what-is-software.md
       - Internet Basics: AEP/internet-basics.md
       - Digital Safety: AEP/digital-safety.md
-  - IG:
-      - Overview: IG/IG-overview.md
+  - IGCSE:
       - 1 - Data Representation:
           - Binary, why? how?: IG/1-data-representation/binary.md
           - Number systems: IG/1-data-representation/number-systems.md
@@ -171,11 +170,13 @@ nav:
       - 14 - Communication & The Internet:
            - Protocols: AL/14-communication/protocols.md
            - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
+  - Linux:
+      - Linux Commands: Linux/linux-commands.md
+  - Python:
+      - Python types: other/python-types.md
   - Other:
       - Git Basics: other/git-basics.md
-      - Linux Commands: other/linux-commands.md
       - Local Servers: other/local-server-mgmt.md
       - Docker Ports: other/docker-ports.md
-      - Python types: other/python-types.md
       - Software Licenses: other/software-licenses.md
 
