@@ -39,12 +39,7 @@ Before you begin, ensure you have the following installed:
 
 ### Pushing and Pulling
 
-1. To push changes to a remote repository:
-   - Click the "..." menu in the Source Control view.
-   - Select "Push".
-2. To pull changes from a remote repository:
-   - Click the "..." menu.
-   - Select "Pull".
+... to add
 
 ## Branching and Merging
 
