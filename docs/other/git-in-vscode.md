@@ -31,10 +31,11 @@ Before you begin, ensure you have the following installed:
 2. In the Source Control view, you'll see a list of changed files.
 3. Click the "+" icon next to a file to stage it, or "+" next to "Changes" to stage all.
 
-### Committing Changes
+### Committing and Pushing Changes
 
 1. After staging, enter a commit message in the text box at the top.
-2. Click the checkmark icon to commit.
+2. Click the commit button.
+3. Click sync button to push remote.
 
 ### Pushing and Pulling
 
