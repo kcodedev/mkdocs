@@ -63,3 +63,11 @@ When working with others, you need to get their updates and merge them with your
 - **"Do I need to remember commands?"** In VS Code, most things are buttons - no commands needed! 🎛️
 
 This process keeps everyone on the same page, prevents lost work, and lets you experiment safely. Start with small changes to get comfortable! 😊
+
+## More commands
+
+To fix the divergent branches by merging, run this single command in your terminal:
+
+`git pull --no-rebase --tags origin master`
+
+This fetches the remote changes and merges them into your local branch, creating a merge commit to combine the histories.
