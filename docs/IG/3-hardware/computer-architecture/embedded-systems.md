@@ -33,7 +33,7 @@ mindmap
         Smartwatches
         Fitness Trackers
     Automotive Systems
-      🛡️ ABS (Anti-lock Braking)
+      🛡️ ABS
         Crash Prevention
         Vehicle Stability
       🗺️ GPS Navigation
