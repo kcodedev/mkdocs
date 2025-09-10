@@ -4,6 +4,7 @@ This is not intended as your sole learning resource. This is like the quick guid
 
 ## Courses
 
+* AEP
 * 0478 IGCSE Computer Science (Y10 & 11)
 * 9618 AS Computer Science (Y12)
 * 9618 AL Computer Science (Y13)
