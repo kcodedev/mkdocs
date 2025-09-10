@@ -25,18 +25,34 @@ Embedded systems are ubiquitous in modern technology. Common applications includ
 ```mermaid
 mindmap
   root((Embedded Systems Applications))
-    Consumer
-      Smartphones
-      Wearables
-    Automotive
-      ABS
-      GPS
-    Medical
-      Monitors
-      Implants
-    Industrial
-      Robotics
-      Sensors
+    Consumer Electronics
+      📱 Smartphones
+        Mobile OS Integration
+        Sensor Fusion
+      🕶️ Wearables
+        Smartwatches
+        Fitness Trackers
+    Automotive Systems
+      🛡️ ABS (Anti-lock Braking)
+        Crash Prevention
+        Vehicle Stability
+      🗺️ GPS Navigation
+        Real-time Routing
+        Telematics
+    Medical Devices
+      🏥 Patient Monitors
+        Vital Signs Tracking
+        Remote Monitoring
+      💉 Implants
+        Pacemakers
+        Neural Interfaces
+    Industrial Automation
+      🤖 Robotics
+        Motion Control
+        AI Integration
+      📡 Sensors
+        IoT Connectivity
+        Predictive Maintenance
 ```
 
 ## Design Considerations
