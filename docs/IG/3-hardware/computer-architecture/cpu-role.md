@@ -36,7 +36,6 @@ timeline
     title CPU Evolution Timeline
     1971 : Intel 4004 - First Microprocessor
     1978 : Intel 8086 - 16-bit Processor
-    1985 : Intel 80386 - 32-bit Processor
     1993 : Intel Pentium - Consumer Market
     2006 : Intel Core 2 Duo - Multi-core Era
     2010 : Intel Core i7 - High Performance

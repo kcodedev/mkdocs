@@ -9,7 +9,7 @@ flowchart TD
 ```
 
 
-## Detailed Explanation of Each Step
+## Stages
 
 ### 1. Fetch
 In the fetch stage, the CPU retrieves the next instruction from memory. This involves:
