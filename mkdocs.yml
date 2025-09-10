@@ -72,7 +72,13 @@ nav:
               - Symmetric Encryption: IG/2-data-transmission/symmetric-encryption.md
               - Asymmetric Encryption: IG/2-data-transmission/asymmetric-encryption.md
       - 3 - Hardware:
-          - Computer Architecture: IG/3-hardware/computer-architecture.md
+          - Computer Architecture:
+            - The Role of the CPU: IG/3-hardware/computer-architecture/cpu-role.md
+            - Embedded Systems: IG/3-hardware/computer-architecture/embedded-systems.md
+            - Von Neumann Architecture: IG/3-hardware/computer-architecture/von-neumann.md
+            - The Fetch-Decode-Execute Cycle: IG/3-hardware/computer-architecture/fde-cycle.md
+            - Performance Factors: IG/3-hardware/computer-architecture/performance-factors.md
+            - Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
           - Input and Output Devices: IG/3-hardware/input-output-devices.md
           - Data Storage: IG/3-hardware/data-storage.md
           - Network Hardware: IG/3-hardware/network-hardware.md
@@ -180,6 +186,10 @@ nav:
           - Permissions: Linux/commands/permissions.md
           - User Management: Linux/commands/user-management.md
           - Package Management: Linux/commands/package-management.md
+  - Docker:
+      - Introduction: Docker/docker-intro.md
+      - Networks: Docker/docker-networks.md
+      - Ports: Docker/docker-ports.md
   - Python:
       - Django:
           - Introduction: Python/django/introduction.md
@@ -193,6 +203,5 @@ nav:
   - Other:
       - Git Basics: other/git-basics.md
       - Local Servers: other/local-server-mgmt.md
-      - Docker Ports: other/docker-ports.md
       - Software Licenses: other/software-licenses.md
 

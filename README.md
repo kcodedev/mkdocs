@@ -27,7 +27,7 @@ kill 1234
 # create a virtual environment
 python -m venv venv
 # activate a virtual environment
-.\.venv\Scripts\Activate
+.\venv\Scripts\Activate
 # install requirements if not installed
 pip install -r requirements.txt
 # start the mkdocs server
