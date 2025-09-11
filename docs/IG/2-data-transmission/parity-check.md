@@ -21,8 +21,8 @@ This method can also be extended to a **parity block check**, where a parity bit
 sequenceDiagram
     participant Sender
     participant Receiver
-    Sender->>Receiver: Send 8-bit word with parity bit
-    Receiver->>Receiver: Count 1s in received word
+    Sender->>Receiver: Send 8-bits one reserved as parity bit
+    Receiver->>Receiver: Count 1s in received byte
     Receiver->>Receiver: Check parity rule
     alt Count matches rule
         Receiver->>Sender: No error
