@@ -22,6 +22,12 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+plugins:
+  - glightbox
 
 nav:
   - Home: index.md
@@ -166,6 +172,14 @@ nav:
             - Stack: AS/10-data-types-and-structures/ADTs/stack.md
             - Queue: AS/10-data-types-and-structures/ADTs/queue.md
             - Linked List: AS/10-data-types-and-structures/ADTs/linked-list.md
+      - 12 - Software Development:
+          - Program Development Life cycle: AS/12-software-development/program-development-life-cycle.md
+          - Program Design:
+              - Structure Charts: AS/12-software-development/structure-charts.md
+              - State Transition Diagrams: AS/12-software-development/state-transition-diagrams.md
+          - Testing and Maintenance:
+              - Testing: AS/12-software-development/testing.md
+              - Maintenance: AS/12-software-development/maintenance.md
   - AL:
       - Overview: AL/AL-overview.md
       - 13 - Data Representation:
