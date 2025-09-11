@@ -1,7 +1,5 @@
 # Structure Charts 📊
 
-## Example
-
 ![Example Structure Chart](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/CPT-Structured_Chart_Example.svg/1280px-CPT-Structured_Chart_Example.svg.png)
 
 ---
@@ -21,7 +19,7 @@ To construct a structure chart:
 
 Structure charts use standard symbols to represent program logic:
 
-- Module (Process): shown as a **rectangle**.  
+- Module: shown as a **rectangle**.  
 - Data Flow: **arrows** showing data passed between modules.  
 - Control Flow: **lines** showing hierarchy (calling relationships).  
 - Selection: shown as a **diamond** on the connecting line.  

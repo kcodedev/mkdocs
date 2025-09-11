@@ -161,14 +161,24 @@ nav:
           - Subnetting: AS/2-communication/subnetting.md
           - Network Address Translation: AS/2-communication/nat.md
           - URLs and DNS: AS/2-communication/urls-dns.md
+      - 9 - Algorithms and Problem Solving:
+          - Computational Thinking:
+            - Abstraction: AS/9-algorithms-and-problem-solving/abstraction.md
+            - Decomposition: AS/9-algorithms-and-problem-solving/decomposition.md
+          - Algorithms:
+            - Stepwise refinement: AS/9-algorithms-and-problem-solving/stepwise-refinement.md
       - 10 - Data Types and Structures:
-          - Data Types and Records: AS/10-data-types-and-structures/10.1-data-types-and-records.md
+          - Data Types and Records: AS/10-data-types-and-structures/data-types-and-records.md
           - Arrays: AS/10-data-types-and-structures/10.2-arrays.md
           - Files: AS/10-data-types-and-structures/10.3-files.md
           - ADTs:
             - Stack: AS/10-data-types-and-structures/ADTs/stack.md
             - Queue: AS/10-data-types-and-structures/ADTs/queue.md
             - Linked List: AS/10-data-types-and-structures/ADTs/linked-list.md
+      - 11 - Programming:
+            - Programming Basics: AS/11-programming/programming-basics.md
+            - Constructs: AS/11-programming/constructs.md
+            - Structured Programming: AS/11-programming/structured-programming.md
       - 12 - Software Development:
           - Program Development Life Cycle: AS/12-software-development/program-development-life-cycle.md
           - Life Cycle Models:
