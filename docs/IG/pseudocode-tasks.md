@@ -324,6 +324,7 @@ UNTIL NOT swap OR last = first  // Continue until no swaps or sorted
 ### 17: 2D Array Processing
 ```plaintext
 // A 2d array stores teams, wins, points. 
+// Example element: ['Man U', 4, 0]
 // Currently all points are set to 0. 
 // Write code to update points to be wins times 3.
 ```
