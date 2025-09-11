@@ -173,7 +173,11 @@ nav:
             - Queue: AS/10-data-types-and-structures/ADTs/queue.md
             - Linked List: AS/10-data-types-and-structures/ADTs/linked-list.md
       - 12 - Software Development:
-          - Program Development Life cycle: AS/12-software-development/program-development-life-cycle.md
+          - Program Development Life Cycle: AS/12-software-development/program-development-life-cycle.md
+          - Life Cycle Models:
+              - Waterfall Model: AS/12-software-development/waterfall-model.md
+              - Iterative Model: AS/12-software-development/iterative-model.md
+              - Rapid Application Development: AS/12-software-development/rapid-application-development.md
           - Program Design:
               - Structure Charts: AS/12-software-development/structure-charts.md
               - State Transition Diagrams: AS/12-software-development/state-transition-diagrams.md
