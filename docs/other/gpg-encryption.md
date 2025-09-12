@@ -6,15 +6,15 @@ GPG (GNU Privacy Guard) is a tool that lets you **encrypt** (lock) and **decrypt
 
 ## 1. What is GPG?
 
-* GPG is like a digital **lockbox** for your data.
 * It uses **encryption** to make your messages unreadable to anyone without the right key.
 * There are **two main types of encryption**:
+
 
 1. **Symmetric encryption** – same password to lock and unlock.
 2. **Asymmetric encryption** – uses a **key pair**:
 
-   * **Public key**: anyone can use it to encrypt messages to you.
-   * **Private key**: only you can use it to decrypt messages.
+      * **Public key**: anyone can use it to encrypt messages to you.
+      * **Private key**: only you can use it to decrypt messages.
 
 ---
 
