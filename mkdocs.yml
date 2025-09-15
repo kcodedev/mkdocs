@@ -211,6 +211,7 @@ nav:
           - Permissions: Linux/commands/permissions.md
           - User Management: Linux/commands/user-management.md
           - Package Management: Linux/commands/package-management.md
+      - CLI Programs: Linux/cli-programs.md
   - Docker:
       - Introduction: Docker/docker-intro.md
       - Networks: Docker/docker-networks.md
