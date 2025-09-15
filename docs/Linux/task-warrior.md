@@ -13,142 +13,62 @@ Taskwarrior is a command-line task management tool that helps you organize and t
 ## Adding Tasks
 
 ### Simple Task
-```bash
-task add "Buy groceries"
-```
 
-### Task with Project
 ```bash
-task add project:work "Complete quarterly report"
-```
-
-### Task with Due Date
-```bash
-task add due:today "Call dentist"
-task add due:2024-01-15 "Submit tax return"
-```
-
-### Task with Priority
-```bash
-task add priority:H "Fix critical bug"
-```
-
-### Task with Tags
-```bash
-task add +urgent +personal "Renew passport"
+task add "Buy groceries"`
+task add project:work "Complete quarterly report"`
+task add due:today "Call dentist"`
+task add due:2024-01-15 "Submit tax return"`
+task add priority:H "Fix critical bug"`
+task add +urgent +personal "Renew passport"`
 ```
 
 ## Listing Tasks
 
-### View All Tasks
 ```bash
 task list
-```
-
-### View Pending Tasks (default)
-```bash
 task
-```
-
-### Filter by Project
-```bash
 task project:work list
-```
-
-### Filter by Tags
-```bash
 task +urgent list
-```
-
-### Filter by Due Date
-```bash
 task due.before:today list
 task due.after:today list
-```
-
-### View Completed Tasks
-```bash
 task completed
 ```
 
 ## Marking Tasks as Done
 
-### Mark by Task ID
-First, find the task ID using `task list`, then:
 ```bash
 task 1 done
-```
-
-### Mark Multiple Tasks
-```bash
 task 1,2,3 done
-```
-
-### Mark by Description Pattern
-```bash
 task "Buy groceries" done
 ```
 
 ## Deleting Tasks
 
-### Delete a Task Completely
-```bash
-task 1 delete
-```
-
 **Note**: This permanently removes the task. Use with caution.
 
-### Delete Multiple Tasks
 ```bash
+task 1 delete
 task 1,2,3 delete
 ```
 
 ## Modifying Tasks
 
-### Change Description
 ```bash
 task 1 modify "Updated task description"
-```
-
-### Add Due Date to Existing Task
-```bash
 task 1 modify due:tomorrow
-```
-
-### Change Priority
-```bash
 task 1 modify priority:M
-```
-
-### Add Tags
-```bash
+task 1 modify project:work
 task 1 modify +important
-```
-
-### Remove Tags
-```bash
 task 1 modify -urgent
 ```
 
 ## Recurring Tasks
 
-### Create a Daily Recurring Task
 ```bash
 task add recur:daily "Check email"
-```
-
-### Create a Weekly Recurring Task
-```bash
 task add recur:weekly "Team meeting"
-```
-
-### Create a Monthly Recurring Task
-```bash
 task add recur:monthly due:1st "Pay rent"
-```
-
-### Recurring Task with Until Date
-```bash
 task add recur:weekly until:2024-12-31 "Weekly report"
 ```
 
@@ -199,22 +119,9 @@ task import tasks.json
 
 7. **Sync**: For multi-device use, set up synchronization with a service like Taskserver.
 
-## Common Workflows
 
-### Daily Routine
-```bash
-# Add morning tasks
-task add "Review calendar"
-task add "Check emails"
+## Project Management Workflow
 
-# Mark completed tasks
-task "Review calendar" done
-
-# List remaining tasks
-task
-```
-
-### Project Management
 ```bash
 # Create project tasks
 task add project:website "Design homepage"
