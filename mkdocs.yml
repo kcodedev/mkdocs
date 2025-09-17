@@ -201,6 +201,11 @@ nav:
       - 14 - Communication & The Internet:
            - Protocols: AL/14-communication/protocols.md
            - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
+      - 15 - Hardware:
+           - RISC vs CISC: AL/15-hardware/risc-cisc.md
+           - Computer Architectures: AL/15-hardware/computer-architectures.md
+           - Massively Parallel Computers: AL/15-hardware/massivel-parallel-computers.md
+           - Virtual Machines: AL/15-hardware/virtual-machines.md
   - Linux:
       - Commands:
           - File Management: Linux/commands/file-management.md
