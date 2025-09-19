@@ -210,6 +210,10 @@ nav:
            - SR and JK Flip Flops: AL/15-hardware/sr-jk-flip-flops.md
            - Boolean Algebra: AL/15-hardware/boolean-algebra.md
            - Karnaugh Maps: AL/15-hardware/karnaugh-maps.md
+      - 16 - System Software:
+           - Purpose of OS: AL/16-system-software/purpose-of-os.md
+           - Process Management: AL/16-system-software/process-management.md
+           - Memory Management: AL/16-system-software/memory-management.md
   - Linux:
       - Commands:
           - File Management: Linux/commands/file-management.md
