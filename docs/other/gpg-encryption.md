@@ -4,7 +4,7 @@ GPG (GNU Privacy Guard) is a tool that lets you **encrypt** (lock) and **decrypt
 
 ---
 
-## 1. What is GPG?
+## What is GPG?
 
 * It uses **encryption** to make your messages unreadable to anyone without the right key.
 * There are **two main types of encryption**:
@@ -18,7 +18,7 @@ GPG (GNU Privacy Guard) is a tool that lets you **encrypt** (lock) and **decrypt
 
 ---
 
-## 2. Symmetric Encryption (Password-Based)
+## Symmetric Encryption (Password-Based)
 
 Encrypt a file or message using a password:
 
@@ -41,7 +41,7 @@ gpg -d secret.txt.gpg > secret.txt
 
 ---
 
-## 3. Asymmetric Encryption (Public/Private Keys)
+## Asymmetric Encryption (Public/Private Keys)
 
 1. **Generate your key pair**:
 
@@ -60,7 +60,20 @@ gpg --export -a YourName > mypublickey.asc
 
 * Send `mypublickey.asc` to someone who wants to send you encrypted messages.
 
-3. **Encrypt a message for someone else** using their public key:
+3. **Import someone else's public key**:
+
+```bash
+gpg --import friendspublickey.asc
+```
+* This adds their public key to your keyring so you can encrypt messages for them.
+
+* List your keys to see what's available:
+
+```bash
+gpg --list-keys          # List all public keys
+```
+
+4. **Encrypt a message for someone else** using their public key:
 
 ```bash
 gpg --encrypt --recipient FriendName message.txt
@@ -68,7 +81,7 @@ gpg --encrypt --recipient FriendName message.txt
 
 * Output: `message.txt.gpg` – only your friend can decrypt it.
 
-4. **Decrypt a message sent to you** using your private key:
+5. **Decrypt a message sent to you** using your private key:
 
 ```bash
 gpg --decrypt message.txt.gpg > message.txt
@@ -79,7 +92,7 @@ gpg --decrypt message.txt.gpg > message.txt
 
 ---
 
-## 4. Why Asymmetric Encryption is Powerful
+## Why Asymmetric Encryption is Powerful
 
 * Anyone can send you a secure message using your public key.
 * Only your private key can decrypt it.
@@ -88,7 +101,7 @@ gpg --decrypt message.txt.gpg > message.txt
 
 ---
 
-## 5. Tips for Safe Use
+## Tips for Safe Use
 
 * **Keep your private key secret** – don’t email it or store it in public places.
 * Use a **strong passphrase** for your private key.
