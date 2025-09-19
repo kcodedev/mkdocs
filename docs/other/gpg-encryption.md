@@ -18,7 +18,7 @@ GPG (GNU Privacy Guard) is a tool that lets you **encrypt** (lock) and **decrypt
 
 ---
 
-## Symmetric Encryption (Password-Based)
+## Symmetric Encryption
 
 Encrypt a file or message using a password:
 
@@ -41,7 +41,7 @@ gpg -d secret.txt.gpg > secret.txt
 
 ---
 
-## Asymmetric Encryption (Public/Private Keys)
+## Asymmetric Encryption
 
 1. **Generate your key pair**:
 
@@ -92,7 +92,7 @@ gpg --decrypt message.txt.gpg > message.txt
 
 ---
 
-## Why Asymmetric Encryption is Powerful
+## Why Asymmetric Encryption
 
 * Anyone can send you a secure message using your public key.
 * Only your private key can decrypt it.
