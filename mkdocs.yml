@@ -215,6 +215,8 @@ nav:
            - Process Management: AL/16-system-software/process-management.md
            - Memory Management: AL/16-system-software/memory-management.md
            - Translation Software: AL/16-system-software/translation-software.md
+           - BNF & Syntax Diagrams: AL/16-system-software/bnf-syntax-diagrams.md
+           - Reverse Polish Notation: AL/16-system-software/reverse-polish-notation.md
   - Linux:
       - Commands:
           - File Management: Linux/commands/file-management.md

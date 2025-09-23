@@ -76,7 +76,7 @@ Syntax analysis, or parsing, follows lexical analysis. In this stage, the compil
 
 ### Code Generation
 
-Code generation is the stage where the compiler produces executable code from the parse tree or AST. This involves translating the high-level constructs into lower-level instructions, such as assembly language or machine code. The generated code is tailored to the target platform's architecture and may include intermediate representations that can be further processed.
+Code generation is the stage where the compiler produces executable code from the parse tree or AST. This involves translating the high-level constructs into lower-level instructions, such as assembly language or machine code. The generated code is tailored to the target platform's architecture (e.g. x86 for desktop and laptop computers) and may include intermediate representations that can be further processed.
 
 ### Optimisation
 
