@@ -197,7 +197,7 @@ nav:
            - User defined types: AL/13-data-representation/user-defined-types.md
            - File organisation & access: AL/13-data-representation/file-org-access.md
            - Floating point: AL/13-data-representation/floating-point.md
-           - Python exercise: AL/13-data-representation/python-exercise.md
+           - Python task 🐍: AL/13-data-representation/python-exercise.md
       - 14 - Communication & The Internet:
            - Protocols: AL/14-communication/protocols.md
            - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
@@ -217,6 +217,40 @@ nav:
            - Translation Software: AL/16-system-software/translation-software.md
            - BNF & Syntax Diagrams: AL/16-system-software/bnf-syntax-diagrams.md
            - Reverse Polish Notation: AL/16-system-software/reverse-polish-notation.md
+      - 17 - Security:
+           - Encryption: AL/17-security/encryption.md
+           - Quantum Cryptography: AL/17-security/quantum-cryptography.md
+           - SSL/TLS: AL/17-security/ssl-tls.md
+           - Digital Certificates: AL/17-security/digital-certificates.md
+      - 18 - Artificial Intelligence:
+           - Dijsktra's Algorithm: AL/18-artificial-intelligence/dijkstras-algorithm.md
+           - A* Algorithm: AL/18-artificial-intelligence/a-star-algorithm.md
+           - Artificial Neural Networks: AL/18-artificial-intelligence/artificial-neural-networks.md
+           - Machine Learning Categories: AL/18-artificial-intelligence/machine-learning-categories.md
+           - Back Propagation: AL/18-artificial-intelligence/back-propagation.md
+           - Regression vs Classification: AL/18-artificial-intelligence/regression-vs-classification.md
+      - 19 - Computational Thinking:
+           - Linear Search: AL/19-computational-thinking/linear-search.md
+           - Binary Search: AL/19-computational-thinking/binary-search.md
+           - Bubble Sort: AL/19-computational-thinking/bubble-sort.md
+           - Insertion Sort: AL/19-computational-thinking/insertion-sort.md
+           - ADTs:
+             - Stack: AL/19-computational-thinking/adts/stack.md
+             - Queue: AL/19-computational-thinking/adts/queue.md
+             - Linked List: AL/19-computational-thinking/adts/linked-list.md
+             - Binary Tree: AL/19-computational-thinking/adts/binary-tree.md
+           - Big O Notation: AL/19-computational-thinking/big-o-notation.md
+           - Recursion: AL/19-computational-thinking/recursion.md
+           - Stack unwinding: AL/19-computational-thinking/stack-unwinding.md
+      - 20 - Further Programming:
+           - Programming Paradigms:
+             - Low-level programming: AL/20-further-programming/low-level-programming.md
+             - Procedural programming: AL/20-further-programming/procedural-programming.md
+             - Object-oriented programming: AL/20-further-programming/object-oriented-programming.md
+             - Declarative programming: AL/20-further-programming/declarative-programming.md
+             - Comparison of paradigms: AL/20-further-programming/comparison-of-paradigms.md
+           - File Processiong: AL/20-further-programming/file-processing.md
+           - Exception Handling: AL/20-further-programming/exception-handling.md
   - Linux:
       - Commands:
           - File Management: Linux/commands/file-management.md

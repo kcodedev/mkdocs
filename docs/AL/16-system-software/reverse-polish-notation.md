@@ -15,31 +15,27 @@ RPN expressions are evaluated using a stack data structure. The process involves
 3. **When an operator is encountered**, popping the required number of operands from the stack, performing the operation, and pushing the result back onto the stack.
 4. **At the end**, the stack should contain a single value, which is the result.
 
-### Example: Simple Addition
+### Simple Addition
 
 Evaluate `3 4 +`:
 
-- Push 3 onto the stack: [3]
-- Push 4 onto the stack: [3, 4]
-- Encounter `+`: Pop 4 and 3, compute 3 + 4 = 7, push 7: [7]
+- Push 3 onto the stack:
 
-Result: 7
+|     |     |     |
+|     |     |     |
+|     |  4  |     |
+|  3  |  3  |  7  |
 
-### Example: More Complex Expression
+### More Complex Expression
 
 Evaluate `5 1 2 + 4 * + 3 -` (equivalent to infix `5 + ((1 + 2) * 4) - 3`):
 
-1. Push 5: [5]
-2. Push 1: [5, 1]
-3. Push 2: [5, 1, 2]
-4. `+`: Pop 2 and 1, 1 + 2 = 3, push 3: [5, 3]
-5. Push 4: [5, 3, 4]
-6. `*`: Pop 4 and 3, 3 * 4 = 12, push 12: [5, 12]
-7. `+`: Pop 12 and 5, 5 + 12 = 17, push 17: [17]
-8. Push 3: [17, 3]
-9. `-`: Pop 3 and 17, 17 - 3 = 14, push 14: [14]
+|     |     |     |     |     |     |     |     |     |
+|     |     |     |     |     |     |     |     |     |
+|     |     |  2  |     |  4  |     |     |     |     |
+|     |  1  |  1  |  3  |  3  | 12  |     |  3  |     |
+|  5  |  5  |  5  |  5  |  5  |  5  | 17  | 17  | 14  |
 
-Result: 14
 
 ### Algorithm for Evaluation
 
