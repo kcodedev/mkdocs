@@ -214,6 +214,7 @@ nav:
            - Purpose of OS: AL/16-system-software/purpose-of-os.md
            - Process Management: AL/16-system-software/process-management.md
            - Memory Management: AL/16-system-software/memory-management.md
+           - Translation Software: AL/16-system-software/translation-software.md
   - Linux:
       - Commands:
           - File Management: Linux/commands/file-management.md

@@ -1,7 +1,5 @@
 # Purpose of Operating Systems
 
-This document explores the fundamental purposes of operating systems, focusing on resource maximization and the abstraction of hardware complexities through user interfaces.
-
 ## Introduction to Operating Systems
 
 An operating system (OS) is a software layer that manages computer hardware and software resources, providing a stable environment for application programs to run. The primary purposes of an OS include:
@@ -12,77 +10,21 @@ An operating system (OS) is a software layer that manages computer hardware and 
 - **Security**: Protecting system resources and user data
 - **Process Management**: Coordinating multiple programs running simultaneously
 
-## Providing a User Interface
+## Hiding complexity
 
-### Graphical User Interfaces (GUIs)
+One role of the OS is to hide complexities from the user. For instance:
 
-**Desktop Metaphors**:
+- A **GUI** hides complexity more than a CLI
+- **Device drivers** hide the complexity of interfacing with hardware
+- **Virus scanning** utilities and **update managers** auto run to free the user
 
-- **Icons**: Represent files, folders, and applications
-- **Windows**: Provide isolated work areas
-- **Menus**: Offer organized command options
-- **Pointers**: Enable intuitive interaction
+## GUIs vs CLIs
 
-**Hardware Abstraction**:
-
-- Users don't need to know disk sector addresses
-- File operations hide storage device complexities
-- Network connections are managed transparently
-- Device drivers handle hardware-specific details
-
-### Command Line Interfaces (CLIs)
-
-**Shell Commands**:
-
-- Provide direct access to system functions
-- Allow scripting and automation
-- Offer precise control over system resources
-
-**Abstraction Benefits**:
-
-- Users work with logical file paths instead of physical addresses
-- Commands handle device-specific protocols automatically
-- System calls manage hardware interrupts and signals
-
-## Maximizing Resource Use
-
-Operating systems employ various techniques to ensure optimal utilization of computer resources, preventing waste and improving overall system performance.
-
-### CPU Resource Management
-
-**Process Scheduling**: The OS uses scheduling algorithms to maximize CPU utilization:
-
-- **First-Come, First-Served (FCFS)**: Simple but can cause long waiting times
-- **Shortest Job First (SJF)**: Minimizes average waiting time
-- **Round Robin**: Provides fair CPU time allocation through time slicing
-- **Priority Scheduling**: Assigns CPU time based on process importance
-
-**Benefits**:
-
-- Prevents CPU idle time
-- Ensures fair resource distribution
-- Optimizes response times for interactive applications
-- Maximizes throughput for batch processing
-
-### Memory Management
-
-**Memory Allocation Strategies**:
-
-- **Fixed Partitioning**: Divides memory into fixed-size blocks
-- **Dynamic Partitioning**: Allocates memory as needed
-- **Paged Memory**: Divides memory into fixed-size pages
-- **Segmented Memory**: Divides programs into logical segments
-
-**Virtual Memory**: Extends physical memory using disk space:
-
-- Allows running programs larger than physical RAM
-- Provides memory protection between processes
-- Enables efficient memory sharing
-
-**Benefits**:
-
-- Maximizes available memory utilization
-- Prevents memory fragmentation
-- Enables multitasking with limited RAM
-- Provides memory protection and isolation
-
+| Feature | GUI (Graphical User Interface) | CLI (Command Line Interface) |
+|---------|-------------------------------|------------------------------|
+| Ease of Use | Intuitive, visual, easier for beginners | Requires memorizing commands, steeper learning curve |
+| Speed | Can be slower due to mouse clicks | Faster for experienced users, scripting |
+| Flexibility | Limited to available options | Highly flexible, powerful scripting |
+| Resource Usage | Higher (graphics, memory) | Lower |
+| Error Handling | Visual feedback | Text-based, precise |
+| Suitability | Everyday users, simple tasks | Developers, system admins, automation |
