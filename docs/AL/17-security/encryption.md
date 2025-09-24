@@ -4,17 +4,6 @@
 
 Encryption is the process of converting readable data (plaintext) into an unreadable format (ciphertext) to protect sensitive information from unauthorized access. This fundamental security technique ensures that even if data is intercepted, it cannot be understood without the proper decryption key. Encryption plays a crucial role in modern digital communications, protecting everything from personal emails to financial transactions and government communications.
 
-## Basic Encryption Concepts
-
-### Plain Text and Cipher Text
-- **Plain text**: The original, readable message or data before encryption
-- **Cipher text**: The encrypted, unreadable version of the data after encryption has been applied
-
-### Encryption Keys
-- **Public Key**: A cryptographic key that can be freely distributed and used by anyone to encrypt data
-- **Private Key**: A secret cryptographic key known only to its owner, used for decryption
-- **Encryption**: The process of converting plain text into cipher text using a cryptographic algorithm and key
-
 ## Symmetric Key Cryptography
 
 Symmetric key cryptography, also known as secret key cryptography, uses the same key for both encryption and decryption. This method is fast and efficient for encrypting large amounts of data.
