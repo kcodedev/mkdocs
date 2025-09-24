@@ -82,7 +82,18 @@ nav:
             - The Fetch-Decode-Execute Cycle: IG/3-hardware/computer-architecture/fde-cycle.md
             - Performance Factors: IG/3-hardware/computer-architecture/performance-factors.md
             - Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
-          - Input and Output Devices: IG/3-hardware/input-output-devices.md
+          - Input Devices:
+            - Keyboard: IG/3-hardware/input-devices/keyboard.md
+            - Mouse: IG/3-hardware/input-devices/mouse.md
+            - Microphone: IG/3-hardware/input-devices/microphone.md
+            - Scanners: IG/3-hardware/input-devices/scanner.md
+            - Digital Camera: IG/3-hardware/input-devices/digital-camera.md
+          - Output Devices:
+            - Monitors: IG/3-hardware/output-devices/monitor.md
+            - Projector: IG/3-hardware/output-devices/projector.md
+            - Printer: IG/3-hardware/output-devices/printer.md
+            - Speakers: IG/3-hardware/output-devices/speakers.md
+          - Sensors: IG/3-hardware/sensors.md
           - Data Storage: IG/3-hardware/data-storage.md
           - Network Hardware: IG/3-hardware/network-hardware.md
       - 4 - Software:
@@ -103,7 +114,7 @@ nav:
           - Cookies: IG/5-the-internet/cookies.md
           - Digital Currency: IG/5-the-internet/digital-currency.md
           - Cyber Security: IG/5-the-internet/cyber-security.md
-      - 6 - Automated and Emerging Technologies:
+      - 6 - Automated & Emerging Technologies:
           - Automated Systems: IG/6-automated-and-emerging-tech/automated-systems.md
           - Scenarios: IG/6-automated-and-emerging-tech/scenarios.md
           - What is Robotics?: IG/6-automated-and-emerging-tech/robotics.md
@@ -140,7 +151,6 @@ nav:
       - Pseudocode Tasks: IG/pseudocode-tasks.md
       - Python Tasks: IG/python-tasks.md
   - AS:
-      - Overview: AS/AS-overview.md
       - 1 - Information Representation:
           - kibi vs kilo: AS/1-information-representation/kibi-vs-kilo.md
       - 2 - Communication:
@@ -160,15 +170,15 @@ nav:
           - IP Addresses: AS/2-communication/ip-addresses.md
           - Subnetting: AS/2-communication/subnetting.md
           - Network Address Translation: AS/2-communication/nat.md
-          - URLs and DNS: AS/2-communication/urls-dns.md
-      - 9 - Algorithms and Problem Solving:
+          - URLs & DNS: AS/2-communication/urls-dns.md
+      - 9 - Algorithms & Problem Solving:
           - Computational Thinking:
             - Abstraction: AS/9-algorithms-and-problem-solving/abstraction.md
             - Decomposition: AS/9-algorithms-and-problem-solving/decomposition.md
           - Algorithms:
             - Stepwise refinement: AS/9-algorithms-and-problem-solving/stepwise-refinement.md
-      - 10 - Data Types and Structures:
-          - Data Types and Records: AS/10-data-types-and-structures/data-types-and-records.md
+      - 10 - Data Types & Structures:
+          - Data Types & Records: AS/10-data-types-and-structures/data-types-and-records.md
           - Arrays: AS/10-data-types-and-structures/10.2-arrays.md
           - Files: AS/10-data-types-and-structures/10.3-files.md
           - ADTs:
@@ -192,7 +202,6 @@ nav:
               - Testing: AS/12-software-development/testing.md
               - Maintenance: AS/12-software-development/maintenance.md
   - AL:
-      - Overview: AL/AL-overview.md
       - 13 - Data Representation:
            - User defined types: AL/13-data-representation/user-defined-types.md
            - File organisation & access: AL/13-data-representation/file-org-access.md
@@ -252,21 +261,6 @@ nav:
              - Comparison of paradigms: AL/20-further-programming/comparison-of-paradigms.md
            - File Processiong: AL/20-further-programming/file-processing.md
            - Exception Handling: AL/20-further-programming/exception-handling.md
-  - Linux:
-      - Commands:
-          - File Management: Linux/commands/file-management.md
-          - Process Management: Linux/commands/process-management.md
-          - Network: Linux/commands/network.md
-          - System Information: Linux/commands/system-information.md
-          - Text Processing: Linux/commands/text-processing.md
-          - Permissions: Linux/commands/permissions.md
-          - User Management: Linux/commands/user-management.md
-          - Package Management: Linux/commands/package-management.md
-      - CLI Programs: Linux/cli-programs.md
-  - Docker:
-      - Introduction: Docker/docker-intro.md
-      - Networks: Docker/docker-networks.md
-      - Ports: Docker/docker-ports.md
   - Python:
       - Django:
           - Introduction: Python/django/introduction.md
@@ -282,4 +276,8 @@ nav:
       - Local Servers: other/local-server-mgmt.md
       - Software Licenses: other/software-licenses.md
       - GPG Encryption: other/gpg-encryption.md
+      - Docker:
+          - Introduction: Docker/docker-intro.md
+          - Networks: Docker/docker-networks.md
+          - Ports: Docker/docker-ports.md
 
