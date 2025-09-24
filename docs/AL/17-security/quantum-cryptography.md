@@ -4,10 +4,6 @@
 
 Quantum cryptography represents a revolutionary approach to secure communications, leveraging the fundamental principles of quantum mechanics to provide theoretically unbreakable encryption. Unlike classical cryptography which relies on computational complexity, quantum cryptography is based on the laws of physics, making it immune to advances in computing power.
 
-## Purpose
-
-Quantum cryptography uses principles of quantum mechanics to provide theoretically unbreakable encryption through quantum key distribution (QKD). It ensures secure communication by detecting any eavesdropping attempts.
-
 ## How Quantum Key Distribution Works
 
 1. **Photon transmission**: Sender (Alice) sends photons in quantum states
@@ -16,14 +12,7 @@ Quantum cryptography uses principles of quantum mechanics to provide theoretical
 4. **Eavesdropping detection**: Any interception changes quantum states, alerting users
 
 ### Quantum Key Distribution Process
-```mermaid
-graph TD
-    A[Alice prepares photons] --> B[Photons sent through quantum channel]
-    B --> C[Bob measures photons]
-    C --> D[Alice and Bob compare bases]
-    D --> E[Generate shared secret key]
-    E --> F[Use key for encryption]
-```
+![Quantum Cryptography Infographic](https://quantumxc.com/wp-content/uploads/2018/11/Quantum-Cryptography-Explained-Infographic-OL-11.28.jpg)
 
 ## Benefits of Quantum Cryptography
 
