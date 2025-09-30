@@ -1,6 +1,6 @@
 # Python Speed Optimization with NumPy
 
-Using a standard Python for loop to iterate over a NumPy array is slower than looping over a standard Python list. NumPy achieves its speed by replacing Python loops with vectorized operations, where a single function or operator works on the entire array at once.
+Contrary to popular belief, iterating over a NumPy array with a standard Python for loop is actually slower than iterating over a regular Python list. NumPy's performance gains come from vectorized operations, which apply a single function or operator to the entire array simultaneously, eliminating the need for explicit loops.
 
 ## Why Vectorized Operations are Faster
 
