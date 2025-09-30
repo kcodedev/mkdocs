@@ -108,11 +108,12 @@ Assign the suggested 5 categories. Each category focuses on a key aspect of cryp
 
 The debate follows a clear sequence with time allocations to ensure fairness and engagement. Total estimated time: 60-75 minutes.
 
-1. **Preparation (10 minutes)**: Teams assign members to categories and prepare notes. Opposition team members sit opposite and may take notes but not interrupt.
+1. **Preparation (5 minutes)** 
 2. **Opening Statements (15 minutes per team)**: Each team member delivers a 3-minute uninterrupted speech on their assigned category, presenting arguments for their team's position. Order alternates between teams (e.g., Pro team member 1, Con team member 1, Pro team member 2, etc.).
-3. **Rebuttals (10 minutes per team)**: Each team member gives a 2-minute rebuttal addressing the opposing team's points on their category. Same alternating order.
-4. **Cross-Examination (5 minutes per team)**: Teams alternate asking questions to the opposing team (5 minutes per team). Questions must relate to categories and be respectful.
-5. **Closing Statements (10 minutes)**: Each team delivers a 3-minute summary of their strongest arguments (5 minutes per team).
+3. **Preparation (5 minutes)**
+4. **Rebuttals (10 minutes per team)**: Each team member gives a 2-minute rebuttal addressing the opposing team's points on their category. Same alternating order.
+5. **Cross-Examination (5 minutes per team)**: Teams alternate asking questions to the opposing team. Questions must relate to categories and be respectful.
+6. **Closing Statements (5 minutes per team)**: Each team delivers a 3-minute summary of their strongest arguments.
 
 ### Rules 📜
 
