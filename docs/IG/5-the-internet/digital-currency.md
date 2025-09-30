@@ -96,7 +96,7 @@ To deepen understanding of cryptocurrencies, a structured debate with two teams 
 
 ### Debate Categories 📋
 
-Assign the following 5 balanced categories to team members (one per student). Each category focuses on a key aspect of cryptocurrency:
+Assign the suggested 5 categories. Each category focuses on a key aspect of cryptocurrency:
 
 1. **Security and Fraud** 🔐: Discuss hacking risks, scams, and fraud prevention measures.
 2. **Market Volatility** 📈📉: Examine price fluctuations, investment risks, and stability concerns.
