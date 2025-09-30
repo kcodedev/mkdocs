@@ -92,7 +92,7 @@ Blockchain isn’t just for digital currencies — it’s also used in supply ch
 
 ## Class Activity: Cryptocurrency Debate 🗣️⚖️
 
-To deepen understanding of cryptocurrencies, conduct a structured debate with two teams of approximately 5 students each. One team argues **in favor** of widespread cryptocurrency adoption, while the other argues **against** it. This activity encourages critical thinking, research, and balanced discussion on the pros and cons of digital currencies.
+To deepen understanding of cryptocurrencies, a structured debate with two teams of approximately 5 students each. One team argues **in favor** of widespread cryptocurrency adoption, while the other argues **against** it. This activity encourages critical thinking, research, and balanced discussion on the pros and cons of digital currencies.
 
 ### Debate Categories 📋
 
