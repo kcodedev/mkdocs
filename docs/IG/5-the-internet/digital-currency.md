@@ -88,3 +88,46 @@ Blockchain isn’t just for digital currencies — it’s also used in supply ch
 - Blockchain is a tamper-proof ledger that secures cryptocurrencies 🔒
 - Hashing turns information into unique fingerprints and protects data integrity 🧬
 
+---
+
+## Class Activity: Cryptocurrency Debate 🗣️⚖️
+
+To deepen understanding of cryptocurrencies, conduct a structured debate with two teams of approximately 5 students each. One team argues **in favor** of widespread cryptocurrency adoption, while the other argues **against** it. This activity encourages critical thinking, research, and balanced discussion on the pros and cons of digital currencies.
+
+### Debate Categories 📋
+
+Assign the following 5 balanced categories to team members (one per student). Each category focuses on a key aspect of cryptocurrency:
+
+1. **Security and Fraud** 🔐: Discuss hacking risks, scams, and fraud prevention measures.
+2. **Market Volatility** 📈📉: Examine price fluctuations, investment risks, and stability concerns.
+3. **Environmental Sustainability** 🌍: Address energy consumption of mining and ecological impacts.
+4. **Regulatory Challenges** ⚖️: Explore legal frameworks, government oversight, and compliance issues.
+5. **Future Adoption and Innovation** 🚀: Consider technological advancements, mainstream use, and potential benefits.
+
+### Debate Structure ⏱️
+
+The debate follows a clear sequence with time allocations to ensure fairness and engagement. Total estimated time: 60-75 minutes.
+
+1. **Preparation (10 minutes)**: Teams assign members to categories and prepare notes. Opposition team members sit opposite and may take notes but not interrupt.
+2. **Opening Statements (15 minutes)**: Each team member delivers a 3-minute uninterrupted speech on their assigned category, presenting arguments for their team's position. Order alternates between teams (e.g., Pro team member 1, Con team member 1, Pro team member 2, etc.).
+3. **Rebuttals (10 minutes)**: Each team member gives a 2-minute rebuttal addressing the opposing team's points on their category. Same alternating order.
+4. **Cross-Examination (10 minutes)**: Teams alternate asking questions to the opposing team (5 minutes per team). Questions must relate to categories and be respectful.
+5. **Closing Statements (10 minutes)**: Each team delivers a 3-minute summary of their strongest arguments (5 minutes per team).
+
+### Rules 📜
+
+- **Conduct**: Maintain respect and professionalism. No personal attacks, interruptions, or disrespectful language. Focus on facts and arguments.
+- **Timekeeping**: The moderator enforces time limits strictly. Speakers receive warnings at 30 seconds remaining and are cut off if exceeded.
+- **Evidence Use**: Arguments must be supported by credible evidence (e.g., statistics, studies, real-world examples). Cite sources where possible.
+- **Judging Criteria**: Debates are evaluated based on:
+  - **Clarity** (40%): How clearly arguments are presented and understood.
+  - **Evidence** (30%): Quality and relevance of supporting facts.
+  - **Rebuttal Strength** (30%): Effectiveness in addressing opposing points.
+- **Preparation**: Teams may research in advance but must not share arguments with the opposition during the debate.
+
+### Additional Features 🎭
+
+- **Moderator's Role**: A neutral teacher or student acts as moderator to keep time, enforce rules, and facilitate smooth transitions. The moderator introduces phases and ensures equal speaking opportunities.
+- **Learning Outcomes**: This activity helps students evaluate cryptocurrency's benefits and risks, practice public speaking, and engage in evidence-based debate.
+
+This debate format promotes balanced exploration of digital currencies, building on the concepts of blockchain and security discussed above. 🏆
