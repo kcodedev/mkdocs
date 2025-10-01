@@ -65,7 +65,7 @@ Average waiting time: (4+4+2)/3 ≈ 3.33
 
 To enhance your Round Robin scheduling simulator, integrate Python libraries for a more interactive and visually appealing interface:
 
-- **Using Rich**: Add colorful output, progress bars, and formatted tables to display the timeline and results. For example, use `rich.table.Table` to show process details and `rich.progress` for simulation progress.
-- **Using Textual**: Create a terminal-based GUI with live updates, allowing users to input processes dynamically and view real-time scheduling. Build widgets for process lists, timeline visualization, and statistics.
+- **Using Rich** ([Documentation](https://rich.readthedocs.io/en/stable/)): Add colorful output, progress bars, and formatted tables to display the timeline and results. For example, use `rich.table.Table` to show process details and `rich.progress` for simulation progress.
+- **Using Textual** ([Documentation](https://textual.textualize.io/)): Create a terminal-based GUI with live updates, allowing users to input processes dynamically and view real-time scheduling. Build widgets for process lists, timeline visualization, and statistics.
 
 This extension encourages exploring advanced Python libraries for user interfaces and data presentation, while reinforcing scheduling concepts through interactive design.
