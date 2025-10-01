@@ -226,6 +226,7 @@ nav:
            - Translation Software: AL/16-system-software/translation-software.md
            - BNF & Syntax Diagrams: AL/16-system-software/bnf-syntax-diagrams.md
            - Reverse Polish Notation: AL/16-system-software/reverse-polish-notation.md
+           - Python task 🐍: AL/16-system-software/python-exercise.md
       - 17 - Security:
            - Encryption: AL/17-security/encryption.md
            - Quantum Cryptography: AL/17-security/quantum-cryptography.md
