@@ -274,6 +274,7 @@ nav:
           - Authentication & Admin: Python/django/authentication-admin.md
           - Deployment: Python/django/deployment.md
       - Python Types: Python/python-types.md
+      - Type Hinting: Python/type-hinting.md
       - Python Speed: Python/python-speed.md
   - Other:
       - Git Basics: other/git-basics.md

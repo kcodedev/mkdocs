@@ -16,33 +16,120 @@ This exercise demonstrates CPU architecture, the Von Neumann model, and instruct
 
 ## Step-by-Step Guidance
 
-### Step 1 — Define the instruction set
-- LOAD addr: Load value from memory[addr] into accumulator (ACC).
-- ADD addr: Add value from memory[addr] to ACC.
-- STORE addr: Store ACC value to memory[addr].
-- HALT: Stop execution.
+We'll build the simulator step by step. Start with an empty Python file and add code as we go.
+
+### Step 1 — Define the instruction set and constants
+First, define what each instruction does and assign numbers to them.
+
+```python
+# Instruction opcodes
+LOAD = 1   # LOAD addr: Load value from memory[addr] into ACC
+ADD = 2    # ADD addr: Add value from memory[addr] to ACC
+STORE = 3  # STORE addr: Store ACC value to memory[addr]
+HALT = 4   # HALT: Stop the program
+```
 
 ### Step 2 — Set up CPU components
-- Memory: A list of integers (e.g., 16 locations).
-- Registers: ACC = 0, PC = 0 (program counter).
-- Load a sample program into memory.
+Create variables for the CPU's memory and registers.
 
-### Step 3 — Implement the FDE cycle
-- While not halted:
-  - **Fetch**: Get instruction = memory[PC], PC += 1
-  - **Decode**: Extract opcode and operand (e.g., opcode = instruction // 10, operand = instruction % 10)
-  - **Execute**: Perform the operation based on opcode.
-  - Print current state (PC, ACC, memory snapshot).
+```python
+# Initialize CPU components
+memory = [0] * 16  # Memory with 16 locations, all starting at 0
+ACC = 0            # Accumulator register
+PC = 0             # Program Counter register
+halted = False     # Flag to stop the program
+```
 
-### Step 4 — Handle operations
-- For LOAD: ACC = memory[operand]
-- For ADD: ACC += memory[operand]
-- For STORE: memory[operand] = ACC
-- For HALT: Set halt flag.
+### Step 3 — Load the sample program
+Put the program instructions and data into memory.
 
-### Step 5 — Run and observe
-- Initialize memory with program and data.
-- Run the cycle and observe changes.
+```python
+# Load sample program: LOAD 4, ADD 5, STORE 6, HALT
+memory[0] = 14  # LOAD 4 (1*10 + 4)
+memory[1] = 25  # ADD 5 (2*10 + 5)
+memory[2] = 36  # STORE 6 (3*10 + 6)
+memory[3] = 40  # HALT (4*10 + 0)
+memory[4] = 5   # Data
+memory[5] = 10  # Data
+memory[6] = 0   # Result location
+```
+
+### Step 4 — Implement the FDE cycle loop
+Use a while loop to repeat the cycle until halted.
+
+```python
+while not halted:
+    # Fetch: Get the instruction from memory at PC
+    instruction = memory[PC]
+    
+    # Decode: Split into opcode and operand
+    opcode = instruction // 10  # First digit
+    operand = instruction % 10  # Second digit
+    
+    # Execute: Do what the instruction says
+    if opcode == LOAD:
+        ACC = memory[operand]
+    elif opcode == ADD:
+        ACC += memory[operand]
+    elif opcode == STORE:
+        memory[operand] = ACC
+    elif opcode == HALT:
+        halted = True
+    
+    # Increment PC for next instruction
+    PC += 1
+    
+    # Print current state
+    print(f"PC: {PC}, ACC: {ACC}, Memory[6]: {memory[6]}")
+```
+
+### Step 5 — Run the program
+Put all the code together and run it. You should see the state printed after each cycle.
+
+Full code example:
+
+```python
+# Instruction opcodes
+LOAD = 1
+ADD = 2
+STORE = 3
+HALT = 4
+
+# Initialize CPU
+memory = [0] * 16
+ACC = 0
+PC = 0
+halted = False
+
+# Load program
+memory[0] = 14  # LOAD 4
+memory[1] = 25  # ADD 5
+memory[2] = 36  # STORE 6
+memory[3] = 40  # HALT
+memory[4] = 5
+memory[5] = 10
+memory[6] = 0
+
+# Run FDE cycle
+while not halted:
+    instruction = memory[PC]
+    opcode = instruction // 10
+    operand = instruction % 10
+    
+    if opcode == LOAD:
+        ACC = memory[operand]
+    elif opcode == ADD:
+        ACC += memory[operand]
+    elif opcode == STORE:
+        memory[operand] = ACC
+    elif opcode == HALT:
+        halted = True
+    
+    PC += 1
+    print(f"After cycle: PC={PC}, ACC={ACC}, Memory[6]={memory[6]}")
+
+print("Program finished!")
+```
 
 ---
 
