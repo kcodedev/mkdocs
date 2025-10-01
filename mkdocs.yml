@@ -206,7 +206,7 @@ nav:
            - User defined types: AL/13-data-representation/user-defined-types.md
            - File organisation & access: AL/13-data-representation/file-org-access.md
            - Floating point: AL/13-data-representation/floating-point.md
-           - Python task 🐍: AL/13-data-representation/python-exercise.md
+           - Floating Point Converter 🐍: AL/13-data-representation/python-exercise.md
       - 14 - Communication & The Internet:
            - Protocols: AL/14-communication/protocols.md
            - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
@@ -226,7 +226,8 @@ nav:
            - Translation Software: AL/16-system-software/translation-software.md
            - BNF & Syntax Diagrams: AL/16-system-software/bnf-syntax-diagrams.md
            - Reverse Polish Notation: AL/16-system-software/reverse-polish-notation.md
-           - Python task 🐍: AL/16-system-software/python-exercise.md
+           - Python task RR 🐍: AL/16-system-software/python-exercise-rr.md
+           - Python task RPN 🐍: AL/16-system-software/python-exercise-rpn.md
       - 17 - Security:
            - Encryption: AL/17-security/encryption.md
            - Quantum Cryptography: AL/17-security/quantum-cryptography.md
