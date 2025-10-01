@@ -55,6 +55,17 @@ Quantum: 2
 
 Timeline: ['P1', 'P1', 'P2', 'P2', 'P3', 'P1', 'P1', 'P2', 'P1']  
 
-Completion times: P1=9, P2=8, P3=5  
-Waiting times: P1=9-0-5=4, P2=8-1-3=4, P3=5-2-1=2  
+Completion times: P1=9, P2=8, P3=5
+Waiting times: P1=9-0-5=4, P2=8-1-3=4, P3=5-2-1=2
 Average waiting time: (4+4+2)/3 ≈ 3.33
+
+---
+
+## Extension Activity: Beautify the Simulator with Rich and/or Textual
+
+To enhance your Round Robin scheduling simulator, integrate Python libraries for a more interactive and visually appealing interface:
+
+- **Using Rich**: Add colorful output, progress bars, and formatted tables to display the timeline and results. For example, use `rich.table.Table` to show process details and `rich.progress` for simulation progress.
+- **Using Textual**: Create a terminal-based GUI with live updates, allowing users to input processes dynamically and view real-time scheduling. Build widgets for process lists, timeline visualization, and statistics.
+
+This extension encourages exploring advanced Python libraries for user interfaces and data presentation, while reinforcing scheduling concepts through interactive design.
