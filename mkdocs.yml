@@ -82,6 +82,7 @@ nav:
             - The Fetch-Decode-Execute Cycle: IG/3-hardware/computer-architecture/fde-cycle.md
             - Performance Factors: IG/3-hardware/computer-architecture/performance-factors.md
             - Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
+            - FDE Simulator 🐍: IG/3-hardware/python-exercise.md
           - Input Devices:
             - Keyboard: IG/3-hardware/input-devices/keyboard.md
             - Mouse: IG/3-hardware/input-devices/mouse.md
