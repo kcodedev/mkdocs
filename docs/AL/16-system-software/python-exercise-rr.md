@@ -56,7 +56,9 @@ Quantum: 2
 Timeline: ['P1', 'P1', 'P2', 'P2', 'P3', 'P1', 'P1', 'P2', 'P1']  
 
 Completion times: P1=9, P2=8, P3=5
+
 Waiting times: P1=9-0-5=4, P2=8-1-3=4, P3=5-2-1=2
+
 Average waiting time: (4+4+2)/3 ≈ 3.33
 
 ---
