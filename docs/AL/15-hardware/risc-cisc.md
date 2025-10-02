@@ -21,24 +21,6 @@ Reduced Instruction Set Computers (RISC) and Complex Instruction Set Computers (
 | **Power Consumption** | Lower power consumption | Higher power consumption |
 | **Examples** | ARM, RISC-V, MIPS | x86, Intel 80386 |
 
-## Interrupt Handling
-
-### CISC Interrupt Handling
-CISC processors typically handle interrupts through hardware-assisted mechanisms:
-
-- Complex interrupt service routines can be implemented directly in hardware
-- Multiple interrupt levels and priorities are supported
-- Context switching is more involved due to the complex instruction state
-- Interrupt latency can be higher due to instruction complexity
-
-### RISC Interrupt Handling
-RISC processors emphasize software-based interrupt handling:
-
-- Interrupts are handled primarily through software routines
-- Simpler hardware state makes context switching faster
-- Lower interrupt latency due to streamlined architecture
-- More predictable timing for real-time applications
-
 ## Pipelining and Registers in RISC Processors
 
 ### Importance of Pipelining
@@ -59,35 +41,19 @@ A typical RISC pipeline includes:
 5. **Write-back**: Store results to registers
 
 
-## RISC Pipeline Diagram
+## RISC Pipeline Diagram (4-stage pipeline)
 
-| Clock Cycle | IF | ID | EX | MEM | WB |
-|-------------|----|----|----|-----|----|
-| 1 | I1 | - | - | - | - |
-| 2 | I2 | I1 | - | - | - |
-| 3 | I3 | I2 | I1 | - | - |
-| 4 | I4 | I3 | I2 | I1 | - |
-| 5 | I5 | I4 | I3 | I2 | I1 |
-| 6 | I6 | I5 | I4 | I3 | I2 |
-| 7 | I7 | I6 | I5 | I4 | I3 |
-| 8 | I8 | I7 | I6 | I5 | I4 |
-| 9 | I9 | I8 | I7 | I6 | I5 |
+![RISC Pipeline Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pipeline%2C_4_stage.svg/501px-Pipeline%2C_4_stage.svg.png)
 
-## Practical Considerations
+Pipelining introduces additional complexity to interrupt handling in RISC processors. When an interrupt occurs, there may be multiple instructions at various stages in the pipeline. Typically, all instructions currently in the pipeline are discarded except for the one at the write-back stage, which is allowed to complete. The interrupt handler routine is then applied to the remaining instruction (the one that was interrupted). After servicing the interrupt, the processor restarts execution with the next instruction in the sequence.
 
-### When to Use RISC
-- High-performance computing
-- Embedded systems
-- Mobile devices (power efficiency)
-- Real-time applications
+## Interrupt Handling
 
-### When to Use CISC
-- General-purpose computing
-- Legacy system compatibility
-- Applications requiring complex operations
-- Cost-sensitive designs
+![Interrupt Routine Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Interrupt_Routine_%28Diagramm%29.png/960px-Interrupt_Routine_%28Diagramm%29.png)
 
-### Modern Trends
+This diagram illustrates the flow of an interrupt routine in a processor, showing how interrupts are handled and processed.
+
+## Modern Trends
 Contemporary processors often blend RISC and CISC principles:
 
 - ARM processors (RISC-based) dominate mobile computing
