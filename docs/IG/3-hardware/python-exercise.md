@@ -155,7 +155,7 @@ Final: ACC=15, memory(RAM)[2]=15
 
 ## Extension Activity: Visualize the CPU with Rich and/or Textual
 
-Enhance your CPU simulator by integrating visualization libraries for a more engaging experience:
+Enhance your CPU simulator by using visualization libraries for a more engaging experience:
 
 - **Using Rich** ([Documentation](https://rich.readthedocs.io/en/stable/)): Display the CPU state (registers, memory(RAM)) in colorful tables after each cycle. Use progress bars to represent execution progress or highlight changes in memory(RAM).
 - **Using Textual** ([Documentation](https://textual.textualize.io/)): Build an interactive terminal app with live-updating widgets showing the FDE cycle in real-time, allowing step-by-step execution and dynamic memory(RAM) inspection.
