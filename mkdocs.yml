@@ -275,6 +275,7 @@ nav:
           - Deployment: Python/django/deployment.md
       - Python Types: Python/python-types.md
       - Type Hinting: Python/type-hinting.md
+      - Code Quality Tools: Python/code-quality-tools.md
       - Python Speed: Python/python-speed.md
   - Other:
       - Git Basics: other/git-basics.md
