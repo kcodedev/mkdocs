@@ -265,7 +265,6 @@ nav:
            - File Processiong: AL/20-further-programming/file-processing.md
            - Exception Handling: AL/20-further-programming/exception-handling.md
   - Python:
-      - Python Types: Python/python-types.md
       - Type Hinting: Python/type-hinting.md
       - Context Managers: Python/context-managers.md
       - Code Quality Tools: Python/code-quality-tools.md

@@ -108,8 +108,6 @@ result = add_numbers("hello", 123)  # mypy catches this before runtime
 ## Usage Commands
 
 ```bash
-cd backend
-
 # Format code
 uv run --group dev black .
 uv run --group dev isort .
