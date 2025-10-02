@@ -267,6 +267,7 @@ nav:
   - Python:
       - Python Types: Python/python-types.md
       - Type Hinting: Python/type-hinting.md
+      - Context Managers: Python/context-managers.md
       - Code Quality Tools: Python/code-quality-tools.md
       - Python Speed: Python/python-speed.md
   - Other:
