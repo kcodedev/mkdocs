@@ -17,14 +17,16 @@ theme:
         name: Switch to light mode
 
 markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - attr_list
-  - md_in_html
-  - pymdownx.blocks.caption
+   - admonition
+   - pymdownx.details
+   - pymdownx.superfences:
+       custom_fences:
+         - name: mermaid
+           class: mermaid
+           format: !!python/name:pymdownx.superfences.fence_code_format
+   - attr_list
+   - md_in_html
+   - pymdownx.blocks.caption
 
 nav:
   - Home: index.md
@@ -267,6 +269,9 @@ nav:
   - Python:
       - Type Hinting: Python/type-hinting.md
       - Context Managers: Python/context-managers.md
+      - List Comprehensions: Python/list-comprehensions.md
+      - Python Attribute Visibility: Python/python-attribute-visibility.md
+      - Python Properties: Python/python-properties.md
       - Code Quality Tools: Python/code-quality-tools.md
       - Python Speed: Python/python-speed.md
   - Other:
