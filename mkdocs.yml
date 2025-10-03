@@ -272,6 +272,9 @@ nav:
       - List Comprehensions: Python/list-comprehensions.md
       - Python Attribute Visibility: Python/python-attribute-visibility.md
       - Python Properties: Python/python-properties.md
+      - Python Dataclasses: Python/python-dataclasses.md
+      - Python Iterables vs Sequences: Python/python-iterables-sequences.md
+      - Python __contains__ Method: Python/python-contains-method.md
       - Code Quality Tools: Python/code-quality-tools.md
       - Python Speed: Python/python-speed.md
   - Other:
