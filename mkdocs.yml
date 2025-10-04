@@ -285,6 +285,7 @@ nav:
       - Networks: Docker/docker-networks.md
       - Ports: Docker/docker-ports.md
       - Container Interaction: Docker/docker-container-interaction.md
+      - Python Imports: Docker/docker-python-imports.md
   - Other:
       - Git Basics: other/git-basics.md
       - Local Servers: other/local-server-mgmt.md
