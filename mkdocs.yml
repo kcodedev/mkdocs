@@ -1,0 +1,290 @@
+site_name: K-CodeDev
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+   - admonition
+   - pymdownx.details
+   - pymdownx.superfences:
+       custom_fences:
+         - name: mermaid
+           class: mermaid
+           format: !!python/name:pymdownx.superfences.fence_code_format
+   - attr_list
+   - md_in_html
+   - pymdownx.blocks.caption
+
+nav:
+  - Home: index.md
+  - AEP:
+      - Overview: AEP/aep-overview.md
+      - Google Suite:
+          - Gmail: AEP/google-suite/gmail.md
+          - Email Etiquette: AEP/email-etiquette.md
+          - Drive: AEP/google-suite/drive.md
+          - Docs: AEP/google-suite/docs.md
+          - Slides: AEP/google-suite/slides.md
+      - What is a Computer?: AEP/what-is-a-computer.md
+      - Computer Parts: AEP/computer-parts.md
+      - Mouse and Keyboard: AEP/how-to-use-mouse-and-keyboard.md
+      - Software: AEP/what-is-software.md
+      - Internet Basics: AEP/internet-basics.md
+      - Digital Safety: AEP/digital-safety.md
+  - IGCSE:
+      - 1 - Data Representation:
+          - Binary, why? how?: IG/1-data-representation/binary.md
+          - Number systems: IG/1-data-representation/number-systems.md
+          - Why hexadecimal?: IG/1-data-representation/why-hex.md
+          - Find your MAC address: IG/1-data-representation/mac-address.md
+          - Binary addition: IG/1-data-representation/binary-addition.md
+          - Overflow: IG/1-data-representation/overflow.md
+          - Gandhi underflow: IG/1-data-representation/gandhi-underflow.md
+          - Logical shifts: IG/1-data-representation/logical-shifts.md
+          - Two's complement: IG/1-data-representation/twos-complement.md
+          - ASCII and Unicode: IG/1-data-representation/ascii.md
+          - Sound: IG/1-data-representation/sound.md
+          - Images: IG/1-data-representation/images.md
+          - Data Storage Units: IG/1-data-representation/data-storage-units.md
+          - Calculating file size: IG/1-data-representation/calculating-file-size.md
+          - Compression: IG/1-data-representation/compression.md
+      - 2 - Data Transmission:
+          - Packet Switching: IG/2-data-transmission/packet-switching.md
+          - Serial vs Parallel Transmission: IG/2-data-transmission/serial-parallel-transmission.md
+          - Directional Transmission: IG/2-data-transmission/directional-transmission.md
+          - USB: IG/2-data-transmission/usb-interface.md
+          - Error detection:
+              - Overview: IG/2-data-transmission/error-detection.md
+              - Parity Check: IG/2-data-transmission/parity-check.md
+              - Checksum: IG/2-data-transmission/checksum.md
+              - Echo Check: IG/2-data-transmission/echo-check.md
+              - Check Digit: IG/2-data-transmission/check-digit.md
+              - Automatic Repeat Query: IG/2-data-transmission/arq.md
+          - Encryption:
+              - Symmetric Encryption: IG/2-data-transmission/symmetric-encryption.md
+              - Asymmetric Encryption: IG/2-data-transmission/asymmetric-encryption.md
+      - 3 - Hardware:
+          - Computer Architecture:
+            - The Role of the CPU: IG/3-hardware/computer-architecture/cpu-role.md
+            - Embedded Systems: IG/3-hardware/computer-architecture/embedded-systems.md
+            - Von Neumann Architecture: IG/3-hardware/computer-architecture/von-neumann.md
+            - The Fetch-Decode-Execute Cycle: IG/3-hardware/computer-architecture/fde-cycle.md
+            - Performance Factors: IG/3-hardware/computer-architecture/performance-factors.md
+            - Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
+            - FDE Simulator 🐍: IG/3-hardware/python-exercise.md
+          - Input Devices:
+            - Keyboard: IG/3-hardware/input-devices/keyboard.md
+            - Mouse: IG/3-hardware/input-devices/mouse.md
+            - Microphone: IG/3-hardware/input-devices/microphone.md
+            - Scanners: IG/3-hardware/input-devices/scanner.md
+            - Digital Camera: IG/3-hardware/input-devices/digital-camera.md
+          - Output Devices:
+            - Monitors: IG/3-hardware/output-devices/monitor.md
+            - Projector: IG/3-hardware/output-devices/projector.md
+            - Printer: IG/3-hardware/output-devices/printer.md
+            - Speakers: IG/3-hardware/output-devices/speakers.md
+          - Sensors: IG/3-hardware/sensors.md
+          - Data Storage: IG/3-hardware/data-storage.md
+          - Network Hardware: IG/3-hardware/network-hardware.md
+      - 4 - Software:
+          - System vs Application Software: IG/4-software/system-vs-application.md
+          - Basic OS Functions: IG/4-software/os-functions.md
+          - Hardware, Firmware, and OS: IG/4-software/hardware-firmware-os.md
+          - Interrupts: IG/4-software/interrupts.md
+          - High vs Low Level Languages: IG/4-software/high-vs-low-level.md
+          - Assembly Language and Assembler: IG/4-software/assembly-language.md
+          - Compilers vs Interpreters: IG/4-software/compiler-vs-interpreter.md
+          - IDEs: IG/4-software/ide-functions.md
+      - 5 - The Internet:
+          - The internet vs www: IG/5-the-internet/internet-vs-www.md
+          - URLs: IG/5-the-internet/urls.md
+          - HTTP vs HTTPs: IG/5-the-internet/http-vs-https.md
+          - Web Browsers: IG/5-the-internet/web-browsers.md
+          - Loading Webpages: IG/5-the-internet/loading-webpages.md
+          - Cookies: IG/5-the-internet/cookies.md
+          - Digital Currency: IG/5-the-internet/digital-currency.md
+          - Cyber Security: IG/5-the-internet/cyber-security.md
+      - 6 - Automated & Emerging Technologies:
+          - Automated Systems: IG/6-automated-and-emerging-tech/automated-systems.md
+          - Scenarios: IG/6-automated-and-emerging-tech/scenarios.md
+          - What is Robotics?: IG/6-automated-and-emerging-tech/robotics.md
+          - Robot characteristics: IG/6-automated-and-emerging-tech/robot-characteristics.md
+          - Robot roles: IG/6-automated-and-emerging-tech/robot-roles.md
+          - Artificial Intelligence: IG/6-automated-and-emerging-tech/ai.md
+          - AI characteristics: IG/6-automated-and-emerging-tech/ai-characteristics.md
+          - Expert Systems vs Machine Learning: IG/6-automated-and-emerging-tech/expert-systems-and-ml.md
+      - 7 - Algorithm Design and Problem-Solving:
+          - Program Development Life Cycle: IG/7-algorithm-design/program-development-life-cycle.md
+          - Systems and Decomposition: IG/7-algorithm-design/systems-decomposition.md
+          - Design Methods: IG/7-algorithm-design/design-methods.md
+          - Standard Methods: IG/7-algorithm-design/standard-methods.md
+          - Validation and Verification: IG/7-algorithm-design/validation-verification.md
+          - Test Data: IG/7-algorithm-design/test-data.md
+          - Trace Tables: IG/7-algorithm-design/trace-tables.md
+          - Debugging Algorithms: IG/7-algorithm-design/debugging-algorithms.md
+          - Writing Algorithms: IG/7-algorithm-design/writing-algorithms.md
+      - 8 - Programming:
+          - Programming Concepts: IG/8-programming/programming-concepts.md
+          - Arrays: IG/8-programming/arrays.md
+          - File Handling: IG/8-programming/file-handling.md
+      - 9 - Databases:
+          - Database Design: IG/9-databases/database-design.md
+          - Data Types: IG/9-databases/data-types.md
+          - Primary Keys: IG/9-databases/primary-keys.md
+          - SQL Queries: IG/9-databases/sql-queries.md
+      - 10 - Boolean Logic:
+          - Logic Gates: IG/10-logic-gates-circuits/logic-gates.md
+          - Gate Functions: IG/10-logic-gates-circuits/gate-functions.md
+          - Creating Circuits: IG/10-logic-gates-circuits/creating-circuits.md
+          - Truth Tables: IG/10-logic-gates-circuits/truth-tables.md
+          - Logic Expressions: IG/10-logic-gates-circuits/logic-expressions.md
+      - Pseudocode Tasks: IG/pseudocode-tasks.md
+      - Python Tasks: IG/python-tasks.md
+  - AS:
+      - 1 - Information Representation:
+          - kibi vs kilo: AS/1-information-representation/kibi-vs-kilo.md
+      - 2 - Communication:
+          - Networking devices: AS/2-communication/networks.md
+          - LANs and WANs: AS/2-communication/lans-wans.md
+          - Client Server vs P2P: AS/2-communication/client-server-p2p.md
+          - Thin vs Thick clients: AS/2-communication/thin-thick-clients.md
+          - Network topologies: AS/2-communication/network-topologies.md
+          - Cloud Computing: AS/2-communication/cloud-computing.md
+          - Wired vs Wireless: AS/2-communication/wired-vs-wireless.md
+          - LAN Hardware: AS/2-communication/lan-hardware.md
+          - Routers: AS/2-communication/routers.md
+          - Ethernet and Collisions: AS/2-communication/ethernet-collision.md
+          - Bit Streaming: AS/2-communication/bit-streaming.md 
+          - The internet and the www: AS/2-communication/internet-www.md
+          - Internet Hardware: AS/2-communication/internet-hardware.md
+          - IP Addresses: AS/2-communication/ip-addresses.md
+          - Subnetting: AS/2-communication/subnetting.md
+          - Network Address Translation: AS/2-communication/nat.md
+          - URLs & DNS: AS/2-communication/urls-dns.md
+      - 9 - Algorithms & Problem Solving:
+          - Computational Thinking:
+            - Abstraction: AS/9-algorithms-and-problem-solving/abstraction.md
+            - Decomposition: AS/9-algorithms-and-problem-solving/decomposition.md
+          - Algorithms:
+            - Stepwise refinement: AS/9-algorithms-and-problem-solving/stepwise-refinement.md
+      - 10 - Data Types & Structures:
+          - Data Types & Records: AS/10-data-types-and-structures/data-types-and-records.md
+          - Arrays: AS/10-data-types-and-structures/10.2-arrays.md
+          - Files: AS/10-data-types-and-structures/10.3-files.md
+          - ADTs:
+            - Stack: AS/10-data-types-and-structures/ADTs/stack.md
+            - Queue: AS/10-data-types-and-structures/ADTs/queue.md
+            - Linked List: AS/10-data-types-and-structures/ADTs/linked-list.md
+      - 11 - Programming:
+            - Programming Basics: AS/11-programming/programming-basics.md
+            - Constructs: AS/11-programming/constructs.md
+            - Structured Programming: AS/11-programming/structured-programming.md
+      - 12 - Software Development:
+          - Program Development Life Cycle: AS/12-software-development/program-development-life-cycle.md
+          - Life Cycle Models:
+              - Waterfall Model: AS/12-software-development/waterfall-model.md
+              - Iterative Model: AS/12-software-development/iterative-model.md
+              - Rapid Application Development: AS/12-software-development/rapid-application-development.md
+          - Program Design:
+              - Structure Charts: AS/12-software-development/structure-charts.md
+              - State Transition Diagrams: AS/12-software-development/state-transition-diagrams.md
+          - Testing and Maintenance:
+              - Testing: AS/12-software-development/testing.md
+              - Maintenance: AS/12-software-development/maintenance.md
+  - AL:
+      - 13 - Data Representation:
+           - User defined types: AL/13-data-representation/user-defined-types.md
+           - File organisation & access: AL/13-data-representation/file-org-access.md
+           - Floating point: AL/13-data-representation/floating-point.md
+           - Floating Point Converter 🐍: AL/13-data-representation/python-exercise.md
+      - 14 - Communication & The Internet:
+           - Protocols: AL/14-communication/protocols.md
+           - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
+      - 15 - Hardware:
+           - RISC vs CISC: AL/15-hardware/risc-cisc.md
+           - Computer Architectures: AL/15-hardware/computer-architectures.md
+           - Massively Parallel Computers: AL/15-hardware/massivel-parallel-computers.md
+           - Virtual Machines: AL/15-hardware/virtual-machines.md
+           - Half Adder and Full Adder: AL/15-hardware/half-full-adder.md
+           - SR and JK Flip Flops: AL/15-hardware/sr-jk-flip-flops.md
+           - Boolean Algebra: AL/15-hardware/boolean-algebra.md
+           - Karnaugh Maps: AL/15-hardware/karnaugh-maps.md
+      - 16 - System Software:
+           - Purpose of OS: AL/16-system-software/purpose-of-os.md
+           - Process Management: AL/16-system-software/process-management.md
+           - Memory Management: AL/16-system-software/memory-management.md
+           - Translation Software: AL/16-system-software/translation-software.md
+           - BNF & Syntax Diagrams: AL/16-system-software/bnf-syntax-diagrams.md
+           - Reverse Polish Notation: AL/16-system-software/reverse-polish-notation.md
+           - Round Robin Simulator 🐍: AL/16-system-software/python-exercise-rr.md
+           - RPN Calculator 🐍: AL/16-system-software/python-exercise-rpn.md
+      - 17 - Security:
+           - Encryption: AL/17-security/encryption.md
+           - Quantum Cryptography: AL/17-security/quantum-cryptography.md
+           - SSL/TLS: AL/17-security/ssl-tls.md
+           - Digital Certificates: AL/17-security/digital-certificates.md
+           - Digital Signatures: AL/17-security/digital-signatures.md
+      - 18 - Artificial Intelligence:
+           - Dijsktra's Algorithm: AL/18-artificial-intelligence/dijkstras-algorithm.md
+           - A* Algorithm: AL/18-artificial-intelligence/a-star-algorithm.md
+           - Artificial Neural Networks: AL/18-artificial-intelligence/artificial-neural-networks.md
+           - Machine Learning Categories: AL/18-artificial-intelligence/machine-learning-categories.md
+           - Back Propagation: AL/18-artificial-intelligence/back-propagation.md
+           - Regression vs Classification: AL/18-artificial-intelligence/regression-vs-classification.md
+      - 19 - Computational Thinking:
+           - Linear Search: AL/19-computational-thinking/linear-search.md
+           - Binary Search: AL/19-computational-thinking/binary-search.md
+           - Bubble Sort: AL/19-computational-thinking/bubble-sort.md
+           - Insertion Sort: AL/19-computational-thinking/insertion-sort.md
+           - ADTs:
+             - Stack: AL/19-computational-thinking/adts/stack.md
+             - Queue: AL/19-computational-thinking/adts/queue.md
+             - Linked List: AL/19-computational-thinking/adts/linked-list.md
+             - Binary Tree: AL/19-computational-thinking/adts/binary-tree.md
+           - Big O Notation: AL/19-computational-thinking/big-o-notation.md
+           - Recursion: AL/19-computational-thinking/recursion.md
+           - Stack unwinding: AL/19-computational-thinking/stack-unwinding.md
+      - 20 - Further Programming:
+           - Programming Paradigms:
+             - Low-level programming: AL/20-further-programming/low-level-programming.md
+             - Procedural programming: AL/20-further-programming/procedural-programming.md
+             - Object-oriented programming: AL/20-further-programming/object-oriented-programming.md
+             - Declarative programming: AL/20-further-programming/declarative-programming.md
+             - Comparison of paradigms: AL/20-further-programming/comparison-of-paradigms.md
+           - File Processiong: AL/20-further-programming/file-processing.md
+           - Exception Handling: AL/20-further-programming/exception-handling.md
+  - Python:
+      - Type Hinting: Python/type-hinting.md
+      - Context Managers: Python/context-managers.md
+      - List Comprehensions: Python/list-comprehensions.md
+      - Python Attribute Visibility: Python/python-attribute-visibility.md
+      - Python Properties: Python/python-properties.md
+      - Python Dataclasses: Python/python-dataclasses.md
+      - Python Iterables vs Sequences: Python/python-iterables-sequences.md
+      - Python __contains__ Method: Python/python-contains-method.md
+      - Code Quality Tools: Python/code-quality-tools.md
+      - Python Speed: Python/python-speed.md
+      - Relative Imports: Python/relative-imports.md
+  - Other:
+      - Git Basics: other/git-basics.md
+      - Local Servers: other/local-server-mgmt.md
+      - Software Licenses: other/software-licenses.md
+      - GPG Encryption: other/gpg-encryption.md
+      - Docker:
+          - Introduction: Docker/docker-intro.md
+          - Networks: Docker/docker-networks.md
+          - Ports: Docker/docker-ports.md
+
