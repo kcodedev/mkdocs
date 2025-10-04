@@ -278,6 +278,7 @@ nav:
       - Code Quality Tools: Python/code-quality-tools.md
       - Python Speed: Python/python-speed.md
       - Relative Imports: Python/relative-imports.md
+      - Typer: Python/typer.md
   - Other:
       - Git Basics: other/git-basics.md
       - Local Servers: other/local-server-mgmt.md
