@@ -278,6 +278,7 @@ nav:
       - Code Quality Tools: Python/code-quality-tools.md
       - Python Speed: Python/python-speed.md
       - Relative Imports: Python/relative-imports.md
+      - uv vs pip: Python/uv-vs-pip.md
       - Typer: Python/typer.md
   - Docker:
       - Introduction: Docker/docker-intro.md
