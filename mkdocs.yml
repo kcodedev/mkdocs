@@ -284,6 +284,7 @@ nav:
       - GPG Encryption: other/gpg-encryption.md
       - Docker:
           - Introduction: Docker/docker-intro.md
+          - Managing Override Files: Docker/docker-compose-override.md
           - Networks: Docker/docker-networks.md
-          - Ports: Docker/docker-ports.md
+          - Port Conflicts: Docker/docker-ports.md
 
