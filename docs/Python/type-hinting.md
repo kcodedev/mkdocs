@@ -108,6 +108,17 @@ int_stack.push(1)
 int_stack.push(2)
 print(int_stack.pop())  # 2
 ```
+Generic types in Python allow you to create reusable classes, functions, or data structures that can work with different types while maintaining type safety. They use placeholders (like `T` in the example) to represent types that are specified later when the generic is used.
+
+In the `Stack` example:
+
+- `TypeVar('T')` defines `T` as a type variable that can represent any type.
+- `class Stack(Generic[T])` makes `Stack` a generic class parameterized by `T`.
+- Inside the class, `T` is used in type hints: `self.items: List[T]`, `push(self, item: T)`, and `pop(self) -> T`. This ensures that whatever type `T` is set to, the stack operations maintain consistency (e.g., you can't push a string onto an `int` stack).
+- When instantiating `Stack[int]()`, `T` is bound to `int`, so the stack only accepts integers. This provides compile-time type checking without runtime overhead.
+
+Generics are powerful for creating flexible, type-safe abstractions like containers (stacks, queues), utilities (mappers, filters), or APIs that handle multiple data types uniformly. They prevent type-related bugs and improve code readability by making intentions explicit.
+
 
 ## Creating Meaningful Abstractions
 
