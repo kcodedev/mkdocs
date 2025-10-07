@@ -26,19 +26,31 @@ uv is developed by Astral (the creators of Ruff) to provide a faster and more re
 | Installation Command | `uv pip install` | `pip install` |
 | Global Installation | `uv tool install` | `pip install --user` or system-wide |
 
-## Installation
+## Lock Files and Reproducible Builds
 
-Install uv using the official installer:
+Lock files are a crucial feature in modern package management that uv provides but pip lacks. A lock file (`uv.lock`) is an automatically generated file that contains the exact versions of all dependencies (including transitive dependencies) required for your project.
 
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+### Why Lock Files Are Useful
 
-Or using pip (ironically):
+1. **Reproducible Installations**: Lock files ensure that everyone working on the project installs the exact same versions of dependencies, eliminating "works on my machine" issues.
 
-```bash
-pip install uv
-```
+2. **Deterministic Builds**: By pinning exact versions, lock files prevent unexpected breakage from automatic dependency updates that might introduce bugs or incompatibilities.
+
+3. **Security**: Lock files help avoid supply chain attacks by ensuring you're always using the same, tested versions of dependencies rather than potentially malicious newer versions.
+
+4. **Faster Resolution**: uv can install directly from the lock file without needing to resolve dependency versions again, making subsequent installations much faster.
+
+5. **Environment Consistency**: Lock files guarantee that your development, staging, and production environments all use identical dependency versions.
+
+### How uv Lock Files Work
+
+When you run `uv add` in a project, uv:
+- Updates your `pyproject.toml` with the new dependency
+- Resolves all dependencies and their versions
+- Creates or updates `uv.lock` with exact version pins
+- Ensures reproducible installations across different environments
+
+The lock file contains not just your direct dependencies, but all transitive dependencies as well, creating a complete snapshot of your project's dependency tree at a specific point in time.
 
 ## Basic Usage
 
