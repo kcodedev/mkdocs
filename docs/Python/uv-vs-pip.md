@@ -45,6 +45,7 @@ Lock files are a crucial feature in modern package management that uv provides b
 ### How uv Lock Files Work
 
 When you run `uv add` in a project, uv:
+
 - Updates your `pyproject.toml` with the new dependency
 - Resolves all dependencies and their versions
 - Creates or updates `uv.lock` with exact version pins
