@@ -277,14 +277,19 @@ nav:
       - Python __contains__ Method: Python/python-contains-method.md
       - Code Quality Tools: Python/code-quality-tools.md
       - Python Speed: Python/python-speed.md
+      - Relative Imports: Python/relative-imports.md
+      - uv vs pip: Python/uv-vs-pip.md
+      - Typer: Python/typer.md
+  - Docker:
+      - Introduction: Docker/docker-intro.md
+      - Networks: Docker/docker-networks.md
+      - Ports: Docker/docker-ports.md
+      - Container Interaction: Docker/docker-container-interaction.md
+      - Python Imports: Docker/docker-python-imports.md
   - Other:
       - Git Basics: other/git-basics.md
       - Local Servers: other/local-server-mgmt.md
       - Software Licenses: other/software-licenses.md
       - GPG Encryption: other/gpg-encryption.md
-      - Docker:
-          - Introduction: Docker/docker-intro.md
-          - Managing Override Files: Docker/docker-compose-override.md
-          - Networks: Docker/docker-networks.md
-          - Port Conflicts: Docker/docker-ports.md
+
 
