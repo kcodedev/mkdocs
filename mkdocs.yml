@@ -293,8 +293,9 @@ nav:
       - fuzzel: Linux/fuzzel.md
   - Other:
       - Git Basics: other/git-basics.md
-      - Local Servers: other/local-server-mgmt.md
-      - Software Licenses: other/software-licenses.md
       - GPG Encryption: other/gpg-encryption.md
+      - Local Server Management: other/local-server-mgmt.md
+      - Software Licenses: other/software-licenses.md
+      - HTML/CSS Fundamentals: other/html-css.md
 
 
