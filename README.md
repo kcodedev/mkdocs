@@ -1,28 +1,26 @@
 # MK Docs read me
 
-## Setup
+## Setup on Linux
 
 ```bash
-# first time set up
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --break-system-packages -r requirements.txt
-mkdocs serve
 ```
 
+## Start the server (defaults to port 8000)
+```
+mkdocs serve
+mkdocs serve -a 0.0.0.0:8001
+```
+
+## After first setup, remember to start the venv
 ```bash
-# activate and deactivate venv
 source .venv/bin/activate
 deactivate
 ```
 
-```bash
-# Solving "OSError: [Errno 98] Address already in use"
-lsof -i :8000
-# Then kill the process using that port
-kill 1234
-```
-
+## Windows
 ```powershell
 # create a virtual environment
 python -m venv venv

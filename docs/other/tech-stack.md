@@ -23,6 +23,7 @@
 - 🟢 Node.js — Runtime for JavaScript and build tooling.
 - ⚡ Vite — Super-fast build tool and dev server.
 - 💎 TypeScript — Typed superset of JavaScript for safer, cleaner code.
+- 🔍 ESLint — JavaScript/TypeScript linting for code quality.
 - ⚛️ React — Modern library for building interactive UIs.
 - 🧱 shadcn/ui — Elegant, reusable UI component library.
 - 🌈 Tailwind CSS — Utility-first CSS framework for fast styling.
@@ -89,6 +90,9 @@
 
 #### 💎 TypeScript
 **Typed superset of JavaScript** that compiles to plain JavaScript. Adds optional static type annotations, catching errors at compile time rather than runtime. Provides better IDE support, refactoring capabilities, and code maintainability.
+
+#### 🔍 ESLint
+**JavaScript/TypeScript linting tool** for identifying and fixing problems in code. Provides pluggable rules for code quality, style consistency, and bug prevention. Integrates with TypeScript, React, and modern build tools for automated code review and formatting.
 
 #### ⚛️ React
 **JavaScript library for building user interfaces** using a component-based architecture. Features virtual DOM for efficient updates, JSX syntax, and a vast ecosystem of tools and libraries. Declarative, efficient, and flexible for building interactive web applications.
