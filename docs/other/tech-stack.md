@@ -29,8 +29,8 @@
 - 🧪 Playwright — End-to-End testing.
 
 ### 🛠️ DevOps & Deployment
-- 🐋 Docker — Containerization for consistent environments.
-- 🧩 Docker Compose — Simplified multi-container orchestration.
+- 🦭 Podman — Daemonless containerization for consistent environments.
+- 🧩 Podman Compose — Simplified multi-container orchestration.
 - 🌐 nginx — Production-grade web server and reverse proxy.
 - ⚙️ GitHub Actions — CI/CD pipelines for automated testing, builds, and deployment.
 
@@ -104,11 +104,11 @@
 
 ### DevOps & Deployment Tools 🛠️
 
-#### 🐋 Docker
-**Platform for developing, shipping, and running applications** in containers. Provides consistent environments across development, testing, and production. Enables microservices architecture, simplifies dependency management, and improves resource utilization.
+#### 🦭 Podman
+**Daemonless container platform** for developing, shipping, and running applications in containers. Provides consistent environments across development, testing, and production without requiring a daemon. Enables microservices architecture, simplifies dependency management, and improves security through rootless operation.
 
-#### 🧩 Docker Compose
-**Tool for defining and running multi-container Docker applications**. Uses YAML files to configure application services, networks, and volumes. Simplifies local development environments and provides easy scaling for containerized applications.
+#### 🧩 Podman Compose
+**Tool for defining and running multi-container Podman applications**. Uses YAML files to configure application services, networks, and volumes. Simplifies local development environments and provides easy scaling for containerized applications with native compatibility with Docker Compose files.
 
 #### 🌐 nginx
 **High-performance HTTP server and reverse proxy** known for stability, rich feature set, and low resource consumption. Excellent for serving static content, load balancing, SSL termination, and acting as a reverse proxy for web applications.
