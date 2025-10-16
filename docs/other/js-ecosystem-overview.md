@@ -62,7 +62,7 @@ React is **frontend**. Node.js, npm, and Bun are **tooling/backend** for the dev
 
 - Runs a **fast dev server** with instant hot reload.
 - **Bundles** your app for production using [**esbuild**](esbuild-esm-explained.md) and **Rollup**.
-- Uses [**native ES modules**](esbuild-esm-explained.md), making startup extremely fast.
+- Uses **native ES modules**, making startup extremely fast.
 
 ### ⚙️ How It Uses Node.js
 
@@ -96,26 +96,7 @@ npm run dev
 
 ---
 
-## 🧠 Big Picture
-
-```
-        ┌────────────────────────────┐
-        │        Node.js Runtime     │
-        │   (runs JS outside browser)│
-        └────────────┬───────────────┘
-                     │
-     ┌───────────────┼────────────────┐
-     │               │                │
-┌─────────┐   ┌─────────────┐   ┌─────────────┐
-│ npm/bun │   │ Vite (build)│   │ React (UI)  │
-│(installs│   │(dev server, │   │(runs in     │
-│packages)│   │bundling)    │   │browser)     │
-└─────────┘   └─────────────┘   └─────────────┘
-```
-
----
-
-### ✅ TL;DR
+## ✅ TL;DR
 
 - **Node.js** lets you run JavaScript locally or on a server.
 - **npm / bun** install and manage your dependencies.
