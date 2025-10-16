@@ -51,7 +51,7 @@ my-app/
 │   └── index.html
 ├── package.json
 ├── tsconfig.json
-└── vite.config.ts  (or next.config.mjs / webpack.config.js)
+└── vite.config.ts
 ```
 
 ---
@@ -113,6 +113,7 @@ export function Button({ label, onClick }: ButtonProps) {
 React is the **UI library** — it’s what turns your logic into components that render in the browser.
 
 In a TypeScript React app:
+
 - React components are written in `.tsx`.
 - State management and hooks often go in `.ts`.
 - Components import each other freely.
