@@ -29,7 +29,7 @@
 - 🌈 Tailwind CSS — Utility-first CSS framework for fast styling.
 - 🧪 Playwright — End-to-End testing.
 
-Also see: [Javascript Ecosystem Overview](js-ecosystem-overview.md)
+Also see: [Javascript Ecosystem Overview](js-ecosystem-overview.md), [Typescript and React Overview](typescript-react-overview.md)
 
 ### 🛠️ DevOps & Deployment
 - 🦭 Podman — Daemonless containerization for consistent environments.
