@@ -268,6 +268,8 @@ nav:
            - Exception Handling: AL/20-further-programming/exception-handling.md
   - Python:
       - Type Hinting: Python/type-hinting.md
+      - FastAPI Overview: Python/fastapi-overview.md
+      - Mypy and Pydantic: Python/mypy-pydantic-overview.md
       - Context Managers: Python/context-managers.md
       - List Comprehensions: Python/list-comprehensions.md
       - Python Attribute Visibility: Python/python-attribute-visibility.md

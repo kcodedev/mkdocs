@@ -193,6 +193,15 @@ def CatMeow():
 CatMeow()
 ```
 
+```python
+# Alternative with type annotations
+def CatMeow() -> None:
+    print("Meow!")
+
+# Call the procedure
+CatMeow()
+```
+
 ### 12: PROCEDURE 2
 ```python
 # Define a custom cat meowing procedure (subroutine)
@@ -200,6 +209,7 @@ CatMeow()
 # Loop that many times and "meow"
 # Call the procedure and give it a number
 ```
+
 ```python
 def CatMeow(num):
     for i in range(num):
@@ -207,9 +217,17 @@ def CatMeow(num):
 
 CatMeow(3)
 ```
+```python
+# Alternative with type annotations
+def CatMeow(num: int) -> None:
+    for i in range(num):
+        print("Meow!")
+
+CatMeow(3)
+```
 
 ### 13: FUNCTION
-```python
+```
 # Write a function (subroutine) to
 # find the max number in a list
 # return the max number from the function
@@ -217,6 +235,18 @@ CatMeow(3)
 ```
 ```python
 def FindMax(my_list):
+    max_val = my_list[0]  # Assume first num is the max
+    for i in range(1, len(my_list)):
+        if my_list[i] > max_val:
+            max_val = my_list[i]
+    return max_val
+
+max_value = FindMax([3, 7, 2, 9, 5])
+print("The maximum value is:", max_value)
+```
+```python
+# Alternative with type annotations
+def FindMax(my_list: list[int]) -> int:
     max_val = my_list[0]  # Assume first num is the max
     for i in range(1, len(my_list)):
         if my_list[i] > max_val:
