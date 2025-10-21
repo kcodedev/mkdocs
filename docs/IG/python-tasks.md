@@ -9,11 +9,16 @@
 # output the answer with a message
 ```
 ```python
-print("Enter the first number: ")
-num1 = int(input())
-print("Enter the second number: ")
-num2 = int(input())
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
 sum_val = num1 + num2
+print("The sum is:", sum_val)
+```
+```python
+# Alternative with type hints
+num1: int = int(input("Enter the first number: "))
+num2: int = int(input("Enter the second number: "))
+sum_val: int = num1 + num2
 print("The sum is:", sum_val)
 ```
 
@@ -27,6 +32,12 @@ print("The sum is:", sum_val)
 print("Enter your name: ")
 name = input()
 name_length = len(name)
+print("Hello,", name + "! Your name has", name_length, "characters.")
+```
+```python
+print("Enter your name: ")
+name: str = input()
+name_length: int = len(name)
 print("Hello,", name + "! Your name has", name_length, "characters.")
 ```
 
@@ -48,6 +59,16 @@ elif weather == "rainy":
 else:
     print("Stay prepared for any weather!")
 ```
+```python
+print("What is today's weather? (sunny/rainy/other): ")
+weather: str = input()
+if weather == "sunny":
+    print("It's sunny! Wear shades.")
+elif weather == "rainy":
+    print("It's rainy! Take an umbrella.")
+else:
+    print("Stay prepared for any weather!")
+```
 
 ### 4: Nested IF
 ```python
@@ -59,6 +80,16 @@ else:
 ```python
 print("Enter your age: ")
 age = int(input())
+if age <= 12:
+    print("You are a child.")
+elif age <= 19:
+    print("You are a teenager.")
+else:
+    print("You are an adult.")
+```
+```python
+# Alternative with type hints
+age: int = int(input("Enter your age: "))
 if age <= 12:
     print("You are a child.")
 elif age <= 19:
