@@ -49,16 +49,6 @@ print("Hello,", name + "! Your name has", name_length, "characters.")
 ```
 ```python
 print("What is today's weather? (sunny/rainy/other): ")
-weather = input()
-if weather == "sunny":
-    print("It's sunny! Wear shades.")
-elif weather == "rainy":
-    print("It's rainy! Take an umbrella.")
-else:
-    print("Stay prepared for any weather!")
-```
-```python
-print("What is today's weather? (sunny/rainy/other): ")
 weather: str = input()
 if weather == "sunny":
     print("It's sunny! Wear shades.")
@@ -76,17 +66,6 @@ else:
 # >19 say adult
 ```
 ```python
-print("Enter your age: ")
-age = int(input())
-if age <= 12:
-    print("You are a child.")
-elif age <= 19:
-    print("You are a teenager.")
-else:
-    print("You are an adult.")
-```
-```python
-# Alternative with type hints
 age: int = int(input("Enter your age: "))
 if age <= 12:
     print("You are a child.")
@@ -125,7 +104,7 @@ CASE statements in pseudocode are equivalent to if-elif-else chains in Python fo
 # Output the grade
 ```
 ```python
-score = int(input("Enter score (0-100): "))
+score: int = int(input("Enter score (0-100): "))
 
 if 90 <= score <= 100:
     print("Grade: A")
@@ -164,11 +143,10 @@ While loops are **pre-condition loops**.
 # With an arrow label the type of loop
 ```
 ```python
-correct_answer = "Bangkok"
-guess = ""
+correct_answer: str = "Bangkok"
+guess: str = ""
 while guess != correct_answer:
-    print("What is the capital of Thailand?")
-    guess = input()
+    guess = input("What is the capital of Thailand?")
 print("Correct! The capital of Thailand is Bangkok.")
 ```
 
@@ -181,10 +159,10 @@ REPEAT UNTIL is a **post-condition-loop**.
 # With an arrow label the type of loop
 ```
 ```python
-correct_answer = "Bangkok"
+correct_answer: str = "Bangkok"
 while True:
     print("Capital of Thailand?")
-    guess = input()
+    guess: str = input()
     if guess == correct_answer:
         break
 print("Correct! The capital of Thailand is Bangkok.")
@@ -198,8 +176,8 @@ print("Correct! The capital of Thailand is Bangkok.")
 # Use a count controlled loop
 ```
 ```python
-total = 0
-num_items = 5
+total: int = 0
+num_items: int = 5
 numbers = [5, 6, 11, 3, 5]
 for i in range(num_items):
     total += numbers[i]
