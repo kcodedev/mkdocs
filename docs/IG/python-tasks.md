@@ -29,14 +29,12 @@ print("The sum is:", sum_val)
 # also tell them the length of their name
 ```
 ```python
-print("Enter your name: ")
-name = input()
+name = input("Enter your name: ")
 name_length = len(name)
 print("Hello,", name + "! Your name has", name_length, "characters.")
 ```
 ```python
-print("Enter your name: ")
-name: str = input()
+name: str = input("Enter your name: ")
 name_length: int = len(name)
 print("Hello,", name + "! Your name has", name_length, "characters.")
 ```
