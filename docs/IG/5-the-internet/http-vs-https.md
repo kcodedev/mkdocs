@@ -67,6 +67,3 @@ Nope! 🔐 **All modern websites** should use HTTPS — it’s a **standard for 
 
 - Use **HTTP** for basic, public communication.
 - Use **HTTPS** whenever security and privacy are important — ideally, always!
-
-Let me know if you want a diagram for the encryption steps! ✍️
-
