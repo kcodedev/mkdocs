@@ -1,5 +1,27 @@
 # FDE Cycle Simulator 🐍
 
+## Prerequisites
+
+Before attempting this FDE cycle simulator exercise, you should have a solid understanding of the following Python concepts:
+
+- **Lists** - Essential for implementing memory(RAM) as arrays and managing collections of instructions and data
+- **String slicing** - Required for parsing instructions by extracting opcodes and operands from binary strings
+- **Binary operations** - Critical for converting between binary and decimal representations used in the CPU simulation
+- **Variables and types** - Fundamental for managing CPU registers, memory locations, and different data types (strings, integers)
+- **Conditionals** - Used in the decode phase to determine which instruction operation to execute based on the opcode
+- **Loops** - The core mechanism for implementing the Fetch-Decode-Execute cycle that runs continuously until HALT
+
+**Tutorial Resources:**
+
+- [Lists tutorial](python-lists-tutorial.md) - Learn how to work with Python lists for memory management
+- [String slicing tutorial](python-slicing-tutorial.md) - Master string manipulation for instruction parsing
+- [Binary operations tutorial](python-binary-tutorial.md) - Understand binary/decimal conversions and bit operations
+- [Variables and types tutorial](python-variables-tutorial.md) - Review fundamental Python data types and variable usage
+- [Conditionals tutorial](python-conditionals-tutorial.md) - Learn if/elif/else statements for instruction decoding
+- [Loops tutorial](python-loops-tutorial.md) - Understand while and for loops for cycle implementation
+
+---
+
 **Task:**  
 Write a Python program to simulate a simple CPU executing a basic instruction set through the Fetch-Decode-Execute cycle.
 
