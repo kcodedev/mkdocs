@@ -4,8 +4,8 @@
 
 Before attempting this FDE cycle simulator exercise, you should have a solid understanding of the following Python concepts:
 
-- **Lists** - Essential for implementing memory(RAM) as arrays and managing collections of instructions and data
-- **String slicing** - Required for parsing instructions by extracting opcodes and operands from binary strings
+- **Lists** - Essential for implementing memory(RAM) as arrays
+- **String slicing** - Required for extracting opcodes and operands from binary strings
 - **Binary operations** - Critical for converting between binary and decimal representations used in the CPU simulation
 - **Variables and types** - Fundamental for managing CPU registers, memory locations, and different data types (strings, integers)
 - **Conditionals** - Used in the decode phase to determine which instruction operation to execute based on the opcode
