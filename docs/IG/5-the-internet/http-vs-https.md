@@ -39,6 +39,28 @@ Here’s a simplified look at how HTTPS keeps your data safe:
 6. 🔒 Now both your browser and the server share the same **secret key**.
 7. 🔁 All future data is encrypted using that **shared key**.
 
+```mermaid
+sequenceDiagram
+    participant U as 👤 User/Browser
+    participant S as 🌐 Server
+
+    U->>S: Visit https://example.com
+
+    U->>S: Send "Hello" + request certificate
+
+    S->>U: Send digital certificate (proves identity)
+
+    U->>U: Verify certificate & generate session key
+
+    U->>S: Encrypt session key with server's public key
+
+    S->>S: Decrypt to get session key
+    Note over U,S: Both now have shared secret key 🔐
+
+    U->>S: All data encrypted with shared key
+    S->>U: All responses encrypted with shared key
+```
+
 📬 This means:
 - Even if someone intercepts the data, all they see is unreadable gibberish!
 

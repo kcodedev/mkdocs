@@ -48,5 +48,33 @@ Sometimes URLs also include:
 - **🎯 Query strings**: `?q=chatgpt` (used for search and filtering)
 - **🔖 Anchors**: `#section1` (to jump to a section of the page)
 
-Let me know if you'd like an interactive diagram or example quiz! 🧠
+### 🔍 Query String Examples
 
+**Search Query:**
+```
+https://www.google.com/search?q=python+tutorial
+```
+- `q=python+tutorial` - What you're searching for
+
+**YouTube Video with Timestamp:**
+```
+https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=60s
+```
+- `v=dQw4w9WgXcQ` - Video ID
+- `t=60s` - Start playback at 60 seconds
+
+### 🔖 Anchor Examples
+
+**Wikipedia Section Link:**
+```
+https://en.wikipedia.org/wiki/Computer_science#History
+```
+- `#History` - Jumps directly to the "History" section
+
+**Documentation Navigation:**
+```
+https://docs.python.org/3/library/functions.html#built-in-functions
+```
+- `#built-in-functions` - Scrolls to the built-in functions section
+
+---
