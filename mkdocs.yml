@@ -156,6 +156,7 @@ nav:
   - AS:
       - 1 - Information Representation:
           - kibi vs kilo: AS/1-information-representation/kibi-vs-kilo.md
+          - binary and hexadecimal: AS/1-information-representation/binary-hexadecimal.md
       - 2 - Communication:
           - Networking devices: AS/2-communication/networks.md
           - LANs and WANs: AS/2-communication/lans-wans.md
