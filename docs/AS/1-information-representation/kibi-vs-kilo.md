@@ -1,5 +1,7 @@
 # Data Storage Units and Speed
 
+![Data Storage Units](https://media.brainly.com.br/image/rs:fill/w:1080/q:75/plain/https://pt-static.z-dn.net/files/df1/0d7fa0381f8291cb4cf6bd33f01dc371.png)
+
 When measuring **data storage** and **data transfer speed**, it's important to distinguish between two systems of measurement: **binary** (used in computing) and **decimal** (used in storage marketing).
 
 ---
