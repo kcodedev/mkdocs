@@ -103,6 +103,19 @@ colors.add("maroon")
 print(colors)
 ```
 
+Sets also support mathematical operations like union and intersection.
+
+```python
+europe = {"Ireland", "Italy", "Russia"}
+asia = {"China", "Russia"}
+print(europe)
+print("Ireland" in europe)
+print(europe.union(asia))
+print(europe | asia)
+print(europe.intersection(asia))
+print(europe & asia)
+```
+
 ---
 
 ### 2. Record
