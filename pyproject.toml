@@ -1,0 +1,10 @@
+[project]
+name = "mkdocs-project"
+version = "0.1.0"
+description = "MK Docs project"
+authors = []
+dependencies = [
+    "mkdocs-material",
+    "pymdown-extensions",
+]
+requires-python = ">=3.8"

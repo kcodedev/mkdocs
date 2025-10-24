@@ -1,35 +1,22 @@
 # MK Docs read me
 
-## Setup on Linux
+## Installation
+
+First, install `uv` if not already installed. You can install it via:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install --break-system-packages -r requirements.txt
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-## Start the server (defaults to port 8000)
-```
-mkdocs serve
-mkdocs serve -a 0.0.0.0:8001
-```
+Or follow the official installation guide at https://docs.astral.sh/uv/getting-started/installation/.
 
-## After first setup, remember to start the venv
+## Setup
+
+Run MkDocs using `uv`:
+
 ```bash
-source .venv/bin/activate
-deactivate
+uv run mkdocs serve
+uv run mkdocs serve -a 0.0.0.0:8001
 ```
 
-## Windows
-```powershell
-# create a virtual environment
-python -m venv venv
-# activate a virtual environment
-.\venv\Scripts\Activate
-# install requirements if not installed
-pip install -r requirements.txt
-# start the mkdocs server
-mkdocs serve
-# deactivate the virtual environment when done
-deactivate
-```
+`uv run` will automatically handle the virtual environment and dependencies.
