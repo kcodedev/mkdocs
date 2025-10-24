@@ -155,8 +155,15 @@ nav:
       - Python Tasks: IG/python-tasks.md
   - AS:
       - 1 - Information Representation:
-          - kibi vs kilo: AS/1-information-representation/kibi-vs-kilo.md
-          - binary and hexadecimal: AS/1-information-representation/binary-hexadecimal.md
+          - Kibi vs Kilo: AS/1-information-representation/kibi-vs-kilo.md
+          - Binary and Hexadecimal: AS/1-information-representation/binary-hexadecimal.md
+          - 🐍 Denary to Binary/Hex: AS/1-information-representation/den-to-binhex.md
+          - 🐍 RGB to Hex: AS/1-information-representation/rgb-hex-converter.md
+          - Negative Binary Numbers: AS/1-information-representation/negative-binary-numbers.md
+          - ASCII and Unicode: AS/1-information-representation/ascii-unicode.md
+          - Images: AS/1-information-representation/images.md
+          - Sound: AS/1-information-representation/sound.md
+          - Data Compression: AS/1-information-representation/data-compression.md
       - 2 - Communication:
           - Networking devices: AS/2-communication/networks.md
           - LANs and WANs: AS/2-communication/lans-wans.md

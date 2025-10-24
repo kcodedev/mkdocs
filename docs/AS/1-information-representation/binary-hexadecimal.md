@@ -10,18 +10,15 @@ Binary is the foundation of all computer operations because computers use electr
 
 In binary, each digit (bit) represents a power of 2. Starting from the right, the place values are powers of 2.
 
-| Position (from right) | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| Power of 2            | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 |-----------------------|---|---|---|---|---|---|---|---|
-| Power of 2            | 2^0 | 2^1 | 2^2 | 2^3 | 2^4 | 2^5 | 2^6 | 2^7 |
-| Decimal Value         | 1 | 2 | 4 | 8 | 16 | 32 | 64 | 128 |
+| Decimal Value         | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 
 For example, the binary number 1011₂ (where the subscript ₂ indicates base 2) can be converted to decimal as follows:
 
 | Binary Digit | 1 | 0 | 1 | 1 |
 |--------------|---|---|---|---|
-| Position     | 3 | 2 | 1 | 0 |
 | Power of 2   | 8 | 4 | 2 | 1 |
-| Calculation  | 1×8 | 0×4 | 1×2 | 1×1 |
 | Result       | 8 | 0 | 2 | 1 |
 
 Total: 8 + 0 + 2 + 1 = 11₁₀
@@ -51,9 +48,7 @@ Multiply each bit by its place value and sum them up.
 
 | Binary Digit | 1 | 0 | 1 | 0 |
 |--------------|---|---|---|---|
-| Position     | 3 | 2 | 1 | 0 |
 | Power of 2   | 8 | 4 | 2 | 1 |
-| Calculation  | 1×8 | 0×4 | 1×2 | 0×1 |
 | Result       | 8 | 0 | 2 | 0 |
 
 Total: 10₁₀
@@ -66,18 +61,15 @@ Hexadecimal is useful for representing large binary numbers in a more compact fo
 
 Each digit represents a power of 16.
 
-| Position (from right) | 0 | 1 | 2 | 3 | 4 |
+| Power of 16           | 16^4 | 16^3 | 16^2 | 16^1 | 16^0 |
 |-----------------------|---|---|---|---|---|
-| Power of 16           | 16^0 | 16^1 | 16^2 | 16^3 | 16^4 |
-| Decimal Value         | 1 | 16 | 256 | 4096 | 65536 |
+| Decimal Value         | 65536 | 4096 | 256 | 16 | 1 |
 
-For example, the hexadecimal number 2A₁₆:
+For example, the hexadecimal number 2A₁₆ :
 
 | Hex Digit | 2 | A |
 |-----------|---|---|
-| Position  | 1 | 0 |
 | Power of 16 | 16 | 1 |
-| Decimal Value | 10 | 10 |
 | Calculation | 2×16 | 10×1 |
 | Result    | 32 | 10 |
 
@@ -106,9 +98,7 @@ Multiply each digit by its place value.
 
 | Hex Digit | 1 | A | 3 |
 |-----------|---|---|---|
-| Position  | 2 | 1 | 0 |
 | Power of 16 | 256 | 16 | 1 |
-| Decimal Value | 10 | 10 | 3 |
 | Calculation | 1×256 | 10×16 | 3×1 |
 | Result    | 256 | 160 | 3 |
 
@@ -126,7 +116,6 @@ Group the binary digits into sets of 4 from the right, and convert each group to
 
 | Binary Group | 1101 | 0110 |
 |--------------|------|------|
-| Binary       | 1101 | 0110 |
 | Decimal      | 13   | 6    |
 | Hex          | D    | 6    |
 
