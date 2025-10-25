@@ -276,7 +276,6 @@ nav:
            - File Processiong: AL/20-further-programming/file-processing.md
            - Exception Handling: AL/20-further-programming/exception-handling.md
   - Python:
-      - Type Hinting: Python/type-hinting.md
       - FastAPI Overview: Python/fastapi-overview.md
       - Mypy and Pydantic: Python/mypy-pydantic-overview.md
       - Context Managers: Python/context-managers.md
@@ -298,8 +297,8 @@ nav:
       - Python Imports: Docker/docker-python-imports.md
   - Other:
       - Git Basics: other/git-basics.md
+      - Git SSH setup: other/git-ssh-setup.md
       - GPG Encryption: other/gpg-encryption.md
-      - Local Server Management: other/local-server-mgmt.md
       - Software Licenses: other/software-licenses.md
       - HTML/CSS Fundamentals: other/html-css.md
       - Tech Stack: other/tech-stack.md
