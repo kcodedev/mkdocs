@@ -3,76 +3,16 @@
 **FastAPI** is a modern, high-performance web framework for building APIs with Python, based on standard Python type hints.
 
 - **Documentation:** [https://fastapi.tiangolo.com](https://fastapi.tiangolo.com)  
-- **Source Code:** [https://github.com/fastapi/fastapi](https://github.com/fastapi/fastapi)
 
 ---
 
-## 🧱 Core Dependencies
-
-FastAPI is built on:
-
-- **Starlette** — Web framework toolkit.  
-- **Pydantic** — Data validation and settings management.
-
----
-
-## 🧩 Example Application
-
-**main.py**
-```python
-from typing import Union
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
-
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Union[str, None] = None):
-    return {"item_id": item_id, "q": q}
-```
-
-### Run the Server
-```bash
-fastapi dev main.py
-```
-
-**Local URLs**
+## **Local URLs**
 
 - API: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 - Docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 - ReDoc: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
----
-
-## Example Upgrade – Add a Request Body
-
-```python
-from typing import Union
-from fastapi import FastAPI
-from pydantic import BaseModel
-
-app = FastAPI()
-
-class Item(BaseModel):
-    name: str
-    price: float
-    is_offer: Union[bool, None] = None
-
-@app.put("/items/{item_id}")
-def update_item(item_id: int, item: Item):
-    return {"item_name": item.name, "item_id": item_id}
-```
-
 FastAPI automatically updates interactive documentation for new endpoints and models.
-
----
-
-## Interactive API Docs
-
-FastAPI provides two built-in documentation interfaces powered by OpenAPI:
 
 ### **Swagger UI**
 - **URL:** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
