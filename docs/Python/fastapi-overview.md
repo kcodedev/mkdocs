@@ -98,23 +98,25 @@ FastAPI provides two built-in documentation interfaces powered by OpenAPI:
 
 ---
 
-## 📦 Optional Dependencies
 
-### Installed with `"fastapi[standard]"`
+## HTTP Methods and Parameters: When to Use Each
 
-- **email-validator** — Email validation (Pydantic)  
-- **httpx** — Testing client (Starlette)  
-- **jinja2** — Templates (Starlette)  
-- **python-multipart** — Form parsing  
-- **uvicorn[standard]** — ASGI server  
-- **fastapi-cli[standard]** — Command-line tools and deployment support
+### Path, Query, and JSON Body Parameters
 
-### Additional Optional Packages
+- **Path Parameters**: Use these for identifying specific resources in the URL path. They are required and part of the endpoint structure, e.g., `/items/{item_id}` where `item_id` is a path parameter to specify which item to retrieve or modify.
 
-- **pydantic-settings** — Settings management  
-- **pydantic-extra-types** — Additional data types  
-- **orjson** — Fast JSON responses  
-- **ujson** — Ultra-fast JSON parsing
+- **Query Parameters**: Ideal for optional data, filtering, searching, or pagination. They appear after a `?` in the URL, e.g., `/items/?q=search&limit=10`. Use them when the data isn't essential for identifying the resource but helps customize the response.
 
----
+- **JSON Body Parameters**: Use for sending structured data in requests like POST, PUT, or PATCH. They are defined using Pydantic models and are perfect for creating or updating resources with multiple fields, e.g., sending a JSON object to update an item's details.
 
+### HTTP Methods: GET, PUT, PATCH, DELETE
+
+- **GET**: Retrieve data from the server. It's idempotent and safe (no side effects). Use for fetching resources, e.g., `GET /items/{item_id}` to get a specific item.
+
+- **PUT**: Update or create a resource entirely. It replaces the entire resource if it exists or creates a new one. Use when you need to update all fields of a resource, e.g., `PUT /items/{item_id}` with a full JSON body.
+
+- **PATCH**: Perform a partial update on a resource. Only the provided fields are updated. Use when you want to modify specific parts without affecting the rest, e.g., `PATCH /items/{item_id}` to change just the price.
+
+- **DELETE**: Remove a resource from the server. Use to delete items, e.g., `DELETE /items/{item_id}`. Be cautious as this action is irreversible.
+
+Choose the appropriate method and parameter type based on your API's needs for clarity, efficiency, and RESTful conventions.
