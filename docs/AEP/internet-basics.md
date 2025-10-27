@@ -1,5 +1,5 @@
 # Fundamentals of the Internet 🌐
-![Home LAN Diagram](https://en.wikipedia.org/wiki/Local_area_network#/media/File:Home_LAN_local_area_network_example_diagram.png)
+![Home LAN Diagram](https://upload.wikimedia.org/wikipedia/commons/a/ad/Home_LAN_local_area_network_example_diagram.png)
 
 Hello! The internet functions as a vast global network, comparable to an expansive playground where you can discover information, connect with others, and enjoy entertainment. However, caution is essential! 🛡️
 
@@ -16,6 +16,7 @@ Guidelines for safe internet usage:
 - **Be cautious with links**. Do not click on suspicious URLs, as they may damage your device. ❌
 
 Beneficial activities on the internet:
+
 - Viewing educational videos. 📹
 - Engaging in multiplayer games. 🎲
 - Communicating with distant relatives via video calls. 📞
