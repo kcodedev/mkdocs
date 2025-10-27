@@ -276,7 +276,6 @@ nav:
            - File Processiong: AL/20-further-programming/file-processing.md
            - Exception Handling: AL/20-further-programming/exception-handling.md
   - Python:
-      - FastAPI Overview: Python/fastapi-overview.md
       - Mypy and Pydantic: Python/mypy-pydantic-overview.md
       - Context Managers: Python/context-managers.md
       - List Comprehensions: Python/list-comprehensions.md
