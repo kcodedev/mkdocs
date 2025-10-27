@@ -12,7 +12,7 @@ Guidelines for safe internet usage:
 
 - **Consult(ask) an adult beforehand**. Always inform(tell) a parent or guardian prior to browsing(looking). 👨‍👩‍👧
 - **Select reputable(good) websites**. Focus on educational and fun platforms, avoiding suspicious or harmful sites.
-- **Avoid sharing personal details**. Refrain from (don't) disclosing your name, school, or address to unknown individuals. 🤐
+- **Avoid sharing personal details**. Don't disclose (share) your name, school, or address to unknown individuals. 🤐
 - **Be cautious with links**. Do not click on suspicious URLs(links), as they may damage your device. ❌
 
 Beneficial activities on the internet:
