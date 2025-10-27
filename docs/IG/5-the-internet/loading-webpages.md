@@ -1,5 +1,18 @@
 # 🌐 How Web Pages Are Loaded
 
+```mermaid
+sequenceDiagram
+    participant Browser
+    participant DNS as DNS Server
+    participant WebServer as Web Server
+
+    Browser->>DNS: Query domain name for IP address
+    DNS-->>Browser: Return IP address (e.g., 93.184.216.34)
+    Browser->>WebServer: Send HTTP/HTTPS request
+    WebServer-->>Browser: Send HTML, CSS, JS, and other assets
+    Note over Browser: Renders and displays the web page
+```
+
 When you enter a **URL** into your web browser and press Enter, a whole sequence of events takes place behind the scenes! Let’s explore how a web page is **located**, **retrieved**, and **displayed** on your device.
 
 ---

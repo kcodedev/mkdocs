@@ -1,4 +1,18 @@
-# Cookies: What Are They and How Are They Used? 🍪✨
+# Cookies: What Are They? 🍪✨
+
+```mermaid
+sequenceDiagram
+    participant Browser as 🌐 Browser
+    participant Website as 🌍 Website
+
+    Browser->>Website: GET /homepage
+    Website-->>Browser: Here's the page + Set-Cookie (favorite_cookie=choc_chip)
+    Note over Browser: Stores cookie 🍪
+
+    Note over Browser,Website: Later that day...
+    Browser->>Website: GET /homepage<br/>Cookie: favorite_cookie=choc_chip
+    Website-->>Browser: Welcome back!<br/>We remember you prefer<br/>chocolate chip cookies! 😊
+```
 
 Cookies are small pieces of data stored by your web browser when you visit websites. They help websites remember information about you to improve your browsing experience. 🌐💾
 
