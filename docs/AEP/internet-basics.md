@@ -7,8 +7,8 @@ Definition of the internet:
 - It links computers worldwide, forming a interconnected web. 🕸️
 - Access is achieved through wireless connections like Wi-Fi or wired cables. Connect and explore! 📡
 
-
 Guidelines for safe internet usage:
+
 - **Consult an adult beforehand**. Always inform a parent or guardian prior to browsing. 👨‍👩‍👧
 - **Select reputable websites**. Focus on educational and fun platforms, avoiding suspicious or harmful sites.
 - **Avoid sharing personal details**. Refrain from disclosing your name, school, or address to unknown individuals. 🤐
