@@ -62,7 +62,9 @@ We can protect data and systems using a variety of tools and practices:
 
 ### 🔐 Strong Passwords
 - **What it is**: A password that is hard for attackers to guess or crack using brute-force or dictionary attacks.
-- **Tips**:
+
+**Tips**:
+
   - Use at least 12 characters, combining uppercase and lowercase letters, numbers, and symbols.
   - Avoid common words, personal information (like birthdays or names), or simple patterns.
   - Use a unique password for each account to prevent breaches from affecting multiple services.
