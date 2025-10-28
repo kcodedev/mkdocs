@@ -60,6 +60,14 @@ We can protect data and systems using a variety of tools and practices:
 - **Biometrics**: Uses physical traits like fingerprints or facial recognition.
 - **Two-Step Verification (2FA)**: Adds a second layer, such as a code sent to your phone.
 
+### 🔐 Strong Passwords
+- **What it is**: A password that is hard for attackers to guess or crack using brute-force or dictionary attacks.
+- **Tips**:
+  - Use at least 12 characters, combining uppercase and lowercase letters, numbers, and symbols.
+  - Avoid common words, personal information (like birthdays or names), or simple patterns.
+  - Use a unique password for each account to prevent breaches from affecting multiple services.
+- **Video**: [Strong Passphrase example](https://www.youtube.com/watch?v=o9BLQso18hQ)
+
 ### 🔄 Automated Software Updates
 - Ensures known vulnerabilities are patched quickly without user effort.
 
