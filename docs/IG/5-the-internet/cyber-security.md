@@ -98,15 +98,3 @@ We can protect data and systems using a variety of tools and practices:
 
 ---
 
-## ✅ Stay Cyber-Safe!
-
-Here’s how you can stay safe every day:
-- Use strong, unique passwords 🔐
-- Enable 2FA 🔑
-- Keep your software updated 🛠️
-- Be cautious of links and attachments 📎
-- Don't overshare personal info online 🕵️
-
-> 🧠 **Remember**: You are the first line of defense against cyber threats!
-
-
