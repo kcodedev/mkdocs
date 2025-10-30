@@ -8,7 +8,7 @@ In this guide, we'll explore the **purpose** and **benefits** of some essential 
 
 ## 🧠 1. Router
 
-![Router](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Linksys-Wireless-G-Router.jpg/330px-Linksys-Wireless-G-Router.jpg)
+![Router](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Linksys-Wireless-G-Router.jpg/960px-Linksys-Wireless-G-Router.jpg)
 
 **Purpose:**  
 A router connects different networks together—most commonly your home network to the internet.
@@ -29,6 +29,7 @@ A router connects different networks together—most commonly your home network 
 A switch connects multiple devices (like computers, printers, or servers) within a local network.
 
 **Benefits:**
+
 - Efficient data delivery between devices 🚚
 - Reduces network congestion 🚦
 - Supports many wired connections 🧷
@@ -43,6 +44,7 @@ A switch connects multiple devices (like computers, printers, or servers) within
 An access point extends a wired network by providing wireless connectivity.
 
 **Benefits:**
+
 - Expands Wi-Fi coverage 📶
 - Connects wireless devices to the network 💻📱
 - Often used in schools or offices for full-building coverage 🏫
@@ -57,6 +59,7 @@ An access point extends a wired network by providing wireless connectivity.
 A modem converts signals between your ISP (Internet Service Provider) and your router.
 
 **Benefits:**
+
 - Enables internet access 🛜
 - Bridges digital and analog data 🧩
 - Supports various internet types (DSL, cable, fiber) ⚙️
@@ -65,35 +68,20 @@ A modem converts signals between your ISP (Internet Service Provider) and your r
 
 ---
 
-## 🔐 5. Firewall (Hardware)
+## 🔐 5. Firewall
 
-**Purpose:**  
-A firewall protects your network from unauthorized access.
+![Hardware Firewall](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Firewall-X400.png/960px-Firewall-X400.png)
+
+**Purpose:**
+A firewall protects your network from unauthorized access. Firewalls can be software (running on a computer or server) or hardware (dedicated devices).
 
 **Benefits:**
+
 - Blocks malicious traffic 🚫
 - Filters data packets 🔍
 - Improves security for home and school networks 🏰
+- Hardware firewalls provide dedicated protection without relying on host system resources, offer better performance for high-traffic networks, and are less susceptible to software-based attacks 🔒💪
 
 > Think of it like a security guard at the entrance to your network. 🧍‍♂️🛡️
 
 ---
-
-## 💡 Why Should You Care?
-
-Networking devices:
-- Keep you **connected** 🌍
-- Let you **communicate** 💬
-- Help you **collaborate and learn** 👩‍🏫👨‍💻
-- Protect your **data and privacy** 🕵️‍♀️🔐
-
-Understanding them gives you the **power to build, manage, and troubleshoot** networks like a pro. 🧠💪
-
----
-
-## 🚀 Final Thought
-
-Networking isn’t just for engineers—it’s for **anyone** who uses the internet. By understanding these devices, you become a smarter, safer, and more skilled digital citizen. 🌟
-
-Stay connected! 👋
-
