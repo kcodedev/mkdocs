@@ -10,15 +10,15 @@ Definition of the internet:
 
 Guidelines for safe internet usage:
 
-- **Consult an adult beforehand**. Always inform a parent or guardian prior to browsing. 👨‍👩‍👧
-- **Select reputable websites**. Focus on educational and fun platforms, avoiding suspicious or harmful sites.
-- **Avoid sharing personal details**. Refrain from disclosing your name, school, or address to unknown individuals. 🤐
-- **Be cautious with links**. Do not click on suspicious URLs, as they may damage your device. ❌
+- **Consult(ask) an adult beforehand**. Always inform(tell) a parent or guardian prior to browsing(looking). 👨‍👩‍👧
+- **Select reputable(good) websites**. Focus on educational and fun platforms, avoiding suspicious or harmful sites.
+- **Avoid sharing personal details**. Don't disclose (share) your name, school, or address to unknown individuals. 🤐
+- **Be cautious with links**. Do not click on suspicious URLs(links), as they may damage your device. ❌
 
 Beneficial activities on the internet:
 
 - Viewing educational videos. 📹
 - Engaging in multiplayer games. 🎲
-- Communicating with distant relatives via video calls. 📞
+- Communicating with distant relatives(family) via video calls. 📞
 
-Key reminder: The internet provides enjoyment when used responsibly, much like following traffic rules while crossing a street. 🚦 Remain vigilant and enjoy your online experiences! 😊
+Key reminder: The internet provides enjoyment when used responsibly, much like following traffic rules while crossing a street. 🚦 Remain vigilant(careful) and enjoy your online experiences! 😊
