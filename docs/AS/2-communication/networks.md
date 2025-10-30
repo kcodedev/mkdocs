@@ -8,10 +8,13 @@ In this guide, we'll explore the **purpose** and **benefits** of some essential 
 
 ## 🧠 1. Router
 
+![Router](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Linksys-Wireless-G-Router.jpg/330px-Linksys-Wireless-G-Router.jpg)
+
 **Purpose:**  
 A router connects different networks together—most commonly your home network to the internet.
 
 **Benefits:**
+
 - Shares one internet connection with multiple devices 📶
 - Provides Wi-Fi access 📡
 - Adds basic security (like firewalls) 🔒
