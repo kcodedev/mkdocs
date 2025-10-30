@@ -1,5 +1,7 @@
 # 🌐 Understanding LANs and WANs
 
+![Home LAN Diagram](https://upload.wikimedia.org/wikipedia/commons/a/ad/Home_LAN_local_area_network_example_diagram.png)
+
 In the world of computer networks, two of the most common types are **LANs** (Local Area Networks) and **WANs** (Wide Area Networks). Let's explore what they are and how they differ! 🧠💻
 
 ---
