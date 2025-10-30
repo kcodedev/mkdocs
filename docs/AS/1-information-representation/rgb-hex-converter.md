@@ -26,22 +26,11 @@ Convert each RGB component to two-digit hex:
 ```python
 def rgb_to_hex(r, g, b):
     # your implementation goes here
+    # exampe rgb(51, 153, 255) should be converted to #3399ff
     pass
 ```
 
-### 3. Color Mixing Function
-
-Mix two colors by averaging their RGB values:
-
-```python
-def mix_colors(color1, color2):
-    r = (color1[0] + color2[0]) // 2
-    g = (color1[1] + color2[1]) // 2
-    b = (color1[2] + color2[2]) // 2
-    return (r, g, b)
-```
-
-### 4. Complete Program with Colorama
+### 3. Complete Program with Colorama
 
 ```python
 from colorama import init, Fore, Back, Style
@@ -51,25 +40,5 @@ def rgb_to_hex(r, g, b):
     """Convert RGB to hex color code."""
     pass
 
-def mix_colors(color1, color2):
-    """Mix two RGB colors by averaging."""
-    r = (color1[0] + color2[0]) // 2
-    g = (color1[1] + color2[1]) // 2
-    b = (color1[2] + color2[2]) // 2
-    return (r, g, b)
 
-# Example usage
-color1 = (1, 10, 255)  # Blue-ish
-color2 = (255, 0, 0)   # Red
 
-print(f"Color 1: rgb{color1} = {rgb_to_hex(*color1)}")
-print(f"Color 2: rgb{color2} = {rgb_to_hex(*color2)}")
-
-mixed = mix_colors(color1, color2)
-print(f"Mixed Color: rgb{mixed} = {rgb_to_hex(*mixed)}")
-
-# Display colors using colorama (approximate)
-print(f"{Back.BLUE}   {Style.RESET_ALL} Color 1 sample")
-print(f"{Back.RED}   {Style.RESET_ALL} Color 2 sample")
-print(f"{Back.MAGENTA}   {Style.RESET_ALL} Mixed color sample")
-```
