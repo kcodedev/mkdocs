@@ -35,6 +35,12 @@ def rgb_to_hex(r, g, b):
 from colorama import init, Fore, Back, Style
 init(autoreset=True)
 
+def rgb_to_hex(r, g, b):
+    # your implementation goes here
+    # exampe rgb(51, 153, 255) should be converted to #3399ff
+    pass
+
+hex_colour = rgb_to_hex(51, 153, 255)
 # use coloroama to print the colour
 ```
 
