@@ -9,7 +9,6 @@ Before starting, ensure you're familiar with:
 - Importing modules (e.g., `colorama` for terminal colors)
 - String formatting using f-strings or `.format()`
 - Working with lists and tuples for RGB values
-- Basic arithmetic operations for color mixing
 - Installing and using third-party modules like `colorama`
 
 ## Step-by-Step Guide
@@ -30,15 +29,12 @@ def rgb_to_hex(r, g, b):
     pass
 ```
 
-### 3. Complete Program with Colorama
+### 3. Complete Program with Colorama for printing the colour
 
 ```python
 from colorama import init, Fore, Back, Style
 init(autoreset=True)
 
-def rgb_to_hex(r, g, b):
-    """Convert RGB to hex color code."""
-    pass
-
-
+# use coloroama to print the colour
+```
 
