@@ -41,6 +41,6 @@ def rgb_to_hex(r, g, b):
     pass
 
 hex_colour = rgb_to_hex(51, 153, 255)
-# use coloroama to print the colour
+# use colorama to print the colour
 ```
 
