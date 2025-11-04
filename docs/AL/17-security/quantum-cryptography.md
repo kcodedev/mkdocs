@@ -1,5 +1,7 @@
 # Quantum Cryptography
 
+![Quantum Cryptography Infographic](https://quantumxc.com/wp-content/uploads/2018/11/Quantum-Cryptography-Explained-Infographic-OL-11.28.jpg)
+
 ## Introduction
 
 Quantum cryptography represents a revolutionary approach to secure communications, leveraging the fundamental principles of quantum mechanics to provide theoretically unbreakable encryption. Unlike classical cryptography which relies on computational complexity, quantum cryptography is based on the laws of physics, making it immune to advances in computing power.
@@ -10,9 +12,6 @@ Quantum cryptography represents a revolutionary approach to secure communication
 2. **Measurement**: Receiver (Bob) measures photons in random bases
 3. **Key generation**: Alice and Bob compare bases to generate shared key
 4. **Eavesdropping detection**: Any interception changes quantum states, alerting users
-
-### Quantum Key Distribution Process
-![Quantum Cryptography Infographic](https://quantumxc.com/wp-content/uploads/2018/11/Quantum-Cryptography-Explained-Infographic-OL-11.28.jpg)
 
 ## Benefits of Quantum Cryptography
 
@@ -29,11 +28,3 @@ Quantum cryptography represents a revolutionary approach to secure communication
 - **Point-to-point only**: Difficult to implement in complex network topologies
 - **Vulnerable to side-channel attacks**: Physical security of equipment is critical
 - **Not widely deployed**: Still emerging technology with limited real-world applications
-
-## Current Status
-
-While quantum cryptography offers unprecedented security guarantees, it remains a niche technology primarily used for high-security applications like government communications and financial transactions. Most internet communications still rely on classical encryption methods, with quantum-resistant algorithms being developed for future quantum computing threats.
-
-## Future Implications
-
-As quantum computing technology advances, quantum cryptography will become increasingly important for protecting sensitive data against quantum attacks. Research continues into satellite-based quantum networks and improved quantum repeaters to extend the range and practicality of quantum key distribution.

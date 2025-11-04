@@ -259,11 +259,12 @@ nav:
            - Round Robin Simulator 🐍: AL/16-system-software/python-exercise-rr.md
            - RPN Calculator 🐍: AL/16-system-software/python-exercise-rpn.md
       - 17 - Security:
-           - Encryption: AL/17-security/encryption.md
-           - Quantum Cryptography: AL/17-security/quantum-cryptography.md
+           - Symmetric Encryption: AL/17-security/symmetric-encryption.md
+           - Asymmetric Encryption: AL/17-security/asymmetric-encryption.md
            - SSL/TLS: AL/17-security/ssl-tls.md
            - Digital Certificates: AL/17-security/digital-certificates.md
            - Digital Signatures: AL/17-security/digital-signatures.md
+           - Quantum Cryptography: AL/17-security/quantum-cryptography.md
       - 18 - Artificial Intelligence:
            - Dijsktra's Algorithm: AL/18-artificial-intelligence/dijkstras-algorithm.md
            - A* Algorithm: AL/18-artificial-intelligence/a-star-algorithm.md
