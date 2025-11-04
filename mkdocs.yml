@@ -266,10 +266,18 @@ nav:
            - Digital Signatures: AL/17-security/digital-signatures.md
            - Quantum Cryptography: AL/17-security/quantum-cryptography.md
       - 18 - Artificial Intelligence:
+           - Introduction: AL/18-artificial-intelligence/introduction.md
            - Dijsktra's Algorithm: AL/18-artificial-intelligence/dijkstras-algorithm.md
+           - 🐍 Dijkstra Exercise: AL/18-artificial-intelligence/🐍 Dijkstra Exercise.md
            - A* Algorithm: AL/18-artificial-intelligence/a-star-algorithm.md
            - Artificial Neural Networks: AL/18-artificial-intelligence/artificial-neural-networks.md
-           - Machine Learning Categories: AL/18-artificial-intelligence/machine-learning-categories.md
+           - Machine Learning Categories:
+               - Overview: AL/18-artificial-intelligence/machine-learning-categories-overview.md
+               - Supervised Learning: AL/18-artificial-intelligence/supervised-learning.md
+               - Unsupervised Learning: AL/18-artificial-intelligence/unsupervised-learning.md
+               - Reinforcement Learning: AL/18-artificial-intelligence/reinforcement-learning.md
+               - Semi-Supervised Learning: AL/18-artificial-intelligence/semi-supervised-learning.md
+               - Self-Supervised Learning: AL/18-artificial-intelligence/self-supervised-learning.md
            - Back Propagation: AL/18-artificial-intelligence/back-propagation.md
            - Regression vs Classification: AL/18-artificial-intelligence/regression-vs-classification.md
       - 19 - Computational Thinking:
