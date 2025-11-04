@@ -5,9 +5,10 @@ Scanner is a type of input devices that converts a physical document or image in
 ##   <span style="color: orange;">Different Types of Scanners
   
  There are mainly 3 types of scanners:
+
 - **Barcode Scanners**
 - **Two Dimensional Scanners**
- - **Three Dimensional Scanners**
+- **Three Dimensional Scanners**
 
 ###   <span style="color: orange;">Barcode Scanners 𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃
  
