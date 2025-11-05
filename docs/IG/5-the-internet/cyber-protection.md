@@ -15,6 +15,16 @@ We can protect data and systems using a variety of tools and practices:
 - **Biometrics**: Uses physical traits like fingerprints or facial recognition.
 - **Two-Step Verification (2FA)**: Adds a second layer, such as a code sent to your phone.
 
+| Method | Pros | Cons | Security Level | Ease of Use |
+|--------|------|------|----------------|-------------|
+| Username & Password | Simple to implement; No special hardware required | Can be guessed or cracked; Vulnerable to phishing; Forgotten easily | Medium | High |
+| Biometrics | Unique to individual; Convenient (no remembering needed) | Can be spoofed; Privacy concerns; Hardware dependent | High | High |
+| Two-Step Verification (2FA) | Adds extra security layer; Protects against stolen passwords | Can be inconvenient; Requires second device; Vulnerable to SIM swapping | High | Medium |
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q7R_FF5O1d4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
 ### 🔐 Strong Passwords
 - **What it is**: A password that is hard for attackers to guess or crack using brute-force or dictionary attacks.
 - Use at least 12 characters, combining uppercase and lowercase letters, numbers, and symbols.
