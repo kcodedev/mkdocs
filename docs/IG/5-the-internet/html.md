@@ -1,6 +1,6 @@
-# Introduction to HTML
+# HTML and CSS
 
-HTML (HyperText Markup Language) is the standard language used to create web pages. It provides the structure and presentation of content on the internet. This guide offers a basic introduction to HTML, focusing on its key concepts for beginners.
+HTML (HyperText Markup Language) is the standard language used to create web pages. It provides the structure and content of web pages, while CSS (Cascading Style Sheets) controls the visual presentation and styling.
 
 ## Structure
 
@@ -64,7 +64,7 @@ Groups text into blocks, allowing for better readability and separation of ideas
 
 ## Presentation
 
-Presentation in HTML controls how content looks visually. This is often enhanced with CSS (Cascading Style Sheets), but basic HTML tags can also influence appearance:
+CSS controls the visual appearance and styling.
 
 ### Colour
 
