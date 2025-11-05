@@ -5,9 +5,9 @@
 ![Firewall](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Firewall-X400.png/960px-Firewall-X400.png)
 
 - Firewalls can be software or hardware.
-- They monitor and controls network traffic based on predefined security rules.
+- Firewalls compare incoming and outgoing traffic to predefined criteria, rules, whitelists, and blacklists to determine whether to allow or block it.
 - Firewalls examine packets based on source/destination IP addresses, ports, and protocols.
-- Firewalls can block traffic to specific ports associated with applications (e.g., block port 80/443 for web browsing, port 25 for email, or custom ports for games/apps).
+- Firewalls can block traffic to specific ports associated with applications (e.g., block port 80/443 for web browsing, port 25 for email).
 
 ## 🌐 Proxy Servers
 
