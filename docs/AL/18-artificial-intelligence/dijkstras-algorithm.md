@@ -1,6 +1,6 @@
 # Dijkstra's Algorithm
 
-![Dijkstra's Algorithm Animation](https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bZkzH5x0SKU" title="Dijkstra by FelixTechTips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Introduction
 
@@ -15,6 +15,5 @@ The algorithm is widely used in:
 
 ## Dijkstra's Algorithm Videos
 
-- [Dijkstra by FelixTechTips](https://www.youtube.com/watch?v=bZkzH5x0SKU)
 - [Dijkstra by Spanning Tree](https://www.youtube.com/watch?v=EFg3u_E6eHU)
 
