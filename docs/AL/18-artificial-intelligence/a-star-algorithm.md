@@ -1,14 +1,12 @@
 # A* Algorithm
 
-## A* vs Dijkstra Visualiasations
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9REexHx0hDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BR4_SrTWbMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introduction
 
-The A* (A-star) algorithm is a popular pathfinding and graph traversal algorithm used in artificial intelligence and computer science. It is an extension of Dijkstra's algorithm that incorporates heuristics to improve efficiency. A* finds the shortest path between a start node and a goal node in a weighted graph, making it ideal for applications like route planning, game AI, and robotics.
+The A* (A-star) algorithm is an extension of Dijkstra's algorithm that incorporates heuristics to improve efficiency. A* finds the shortest path between a start node and a goal node in a weighted graph, making it ideal for applications like route planning, game AI, and robotics.
 
 ## How A* Works
 
@@ -19,6 +17,7 @@ A* uses a best-first search strategy that evaluates nodes based on two cost func
 - **f(n)**: The total estimated cost, calculated as f(n) = g(n) + h(n)
 
 The algorithm maintains two sets:
+
 - **Open set**: Nodes to be evaluated
 - **Closed set**: Nodes already evaluated
 
