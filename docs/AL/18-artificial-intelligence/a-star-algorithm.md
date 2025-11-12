@@ -1,5 +1,13 @@
 # A* Algorithm
 
+## A* vs Dijkstra Visualiasation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9REexHx0hDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## A* On a Real Map
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=BR4_SrTWbMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Introduction
 
 The A* (A-star) algorithm is a popular pathfinding and graph traversal algorithm used in artificial intelligence and computer science. It is an extension of Dijkstra's algorithm that incorporates heuristics to improve efficiency. A* finds the shortest path between a start node and a goal node in a weighted graph, making it ideal for applications like route planning, game AI, and robotics.
@@ -18,6 +26,7 @@ The algorithm maintains two sets:
 
 ### Algorithm Steps
 
+```
 1. Initialize the open set with the start node
 2. While the open set is not empty:
    - Select the node with the lowest f(n) value
@@ -29,6 +38,7 @@ The algorithm maintains two sets:
      - If the neighbor is not in the open set or the new g score is better:
        - Update the neighbor's parent and scores
        - Add to open set if not already there
+```
 
 ## Pseudocode
 
@@ -69,9 +79,6 @@ function A*(start, goal):
 
 The choice of heuristic function h(n) is crucial for A*'s performance:
 
-- **Admissible heuristic**: Never overestimates the true cost (h(n) ≤ actual cost)
-- **Consistent heuristic**: Satisfies the triangle inequality (h(n) ≤ h(m) + distance(n,m) for any nodes n,m)
-
 Common heuristics:
 - Manhattan distance (grid-based movement)
 - Euclidean distance (straight-line distance)
@@ -111,7 +118,3 @@ Path found: S → (1,0) → (2,0) → (2,1) → (2,2) → (3,2) → (3,3)
 - Route planning in GPS systems
 - Robot motion planning
 - Puzzle solving (e.g., 8-puzzle, sliding puzzles)
-
-## Comparison with Dijkstra's Algorithm
-
-While Dijkstra's algorithm guarantees the shortest path with g(n) only, A* incorporates heuristics to guide the search towards the goal, potentially exploring fewer nodes. However, if h(n) = 0, A* reduces to Dijkstra's algorithm.
