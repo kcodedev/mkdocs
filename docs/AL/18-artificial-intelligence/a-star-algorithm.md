@@ -1,12 +1,10 @@
 # A* Algorithm
 
-## A* vs Dijkstra Visualiasation
+## A* vs Dijkstra Visualiasations
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9REexHx0hDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## A* On a Real Map
-
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=BR4_SrTWbMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BR4_SrTWbMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introduction
 
