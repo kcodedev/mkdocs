@@ -1,5 +1,7 @@
 # Supervised Learning
 
+![supervised learning](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Supervised_machine_learning_in_a_nutshell.svg/640px-Supervised_machine_learning_in_a_nutshell.svg.png)
+
 Supervised learning algorithms learn from labeled training data, where each input example is paired with the correct output. The goal is to learn a mapping function that can predict outputs for new, unseen inputs.
 
 ### Characteristics

@@ -1,8 +1,14 @@
 # Machine Learning Categories Overview
 
+![Machine Learning Categories](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/The_relationship_and_main_types_of_artificial_intelligence%2C_machine_learning_and_deep_learning.webp/960px-The_relationship_and_main_types_of_artificial_intelligence%2C_machine_learning_and_deep_learning.webp.png)
+
 ## Introduction
 
 Machine learning algorithms can be broadly categorized based on the type of learning they perform and the nature of the training data available. These categories help in understanding which algorithms are suitable for different types of problems and data characteristics. The main categories are supervised learning, unsupervised learning, and reinforcement learning, with additional subcategories and hybrid approaches.
+
+## Supervised vs Unsupervised
+
+![supervised vs unsupervised](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Machin_learning.png/960px-Machin_learning.png)
 
 ## Comparison of Categories
 
@@ -15,42 +21,8 @@ Machine learning algorithms can be broadly categorized based on the type of lear
 | Data Requirements | High (labeled) | Low | Medium (environment interaction) |
 | Interpretability | Often interpretable | Subjective | Policy-based |
 
-## Choosing the Right Category
+## Hybrid Approaches
 
-### Factors to Consider
-
-1. **Available Data**:
-   - Labeled data → Supervised learning
-   - Unlabeled data → Unsupervised learning
-   - Mix → Semi-supervised learning
-
-2. **Problem Type**:
-   - Prediction with known outputs → Supervised
-   - Pattern discovery → Unsupervised
-   - Sequential decision-making → Reinforcement
-
-3. **Data Quantity**:
-   - Large labeled datasets → Supervised
-   - Limited labels → Semi-supervised or transfer learning
-   - No labels → Unsupervised or self-supervised
-
-4. **Learning Scenario**:
-   - Static prediction → Supervised/Unsupervised
-   - Dynamic interaction → Reinforcement
-
-### Hybrid Approaches
-
-Many real-world applications combine multiple learning categories:
 - **Supervised + Unsupervised**: Use clustering for feature engineering before supervised learning
 - **Reinforcement + Supervised**: Imitation learning combines expert demonstrations with reinforcement
 - **Transfer Learning**: Apply knowledge across categories
-
-## Future Directions
-
-- **Multi-Task Learning**: Learning multiple related tasks simultaneously
-- **Meta-Learning**: Learning to learn, adapting quickly to new tasks
-- **Federated Learning**: Distributed learning across multiple devices
-- **Explainable AI**: Making all categories more interpretable
-- **Continual Learning**: Learning from streaming data without forgetting
-
-Understanding these categories helps in selecting appropriate algorithms and designing effective machine learning solutions for various problem domains.
