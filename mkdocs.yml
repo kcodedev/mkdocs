@@ -99,9 +99,7 @@ nav:
           - Output Devices:
             - Monitors: IG/3-hardware/output-devices/monitor.md
             - Projector: IG/3-hardware/output-devices/projectorcs (1).md
-            - Printer:
-              - Printer: IG/3-hardware/output-devices/printer.md
-              - Julian Printer Webpage: IG/3-hardware/output-devices/Julian Printer Webpage.md
+            - Printers: IG/3-hardware/output-devices/printers.md
             - Speakers: IG/3-hardware/output-devices/speakers.md
           - Python Tutorials:
             - Python Binary Tutorial: IG/3-hardware/python-binary-tutorial.md
