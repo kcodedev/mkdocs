@@ -21,6 +21,7 @@ Cloud computing lets people and organizations use computing resources (like stor
 - Shared infrastructure among many users
 
 **Examples:**
+
 - Google Drive
 - Dropbox
 - Netflix streaming
@@ -31,8 +32,28 @@ Cloud computing lets people and organizations use computing resources (like stor
 - More control over security and data privacy
 
 **Examples:**
+
 - A company’s internal cloud for confidential data
 - Government clouds for sensitive information
+
+---
+
+## 🆚 Public vs Private Cloud Comparison
+
+| Aspect                | Public Cloud 🌐                          | Private Cloud 🔒                          |
+|-----------------------|------------------------------------------|------------------------------------------|
+| **Ownership**         | Third-party provider                     | Organization-owned                       |
+| **Accessibility**     | Available to general public              | Restricted to organization                |
+| **Cost Model**        | Pay-as-you-go                            | Capital investment + operational costs    |
+| **Security**          | Provider security + shared responsibility| Full organizational control               |
+| **Scalability**       | Virtually unlimited                      | Limited by organizational resources       |
+| **Customization**     | Limited to provider offerings            | Highly customizable                       |
+| **Maintenance**       | Provider handles everything              | Organization manages infrastructure       |
+| **Compliance**        | Provider compliance certifications       | Organization controls compliance          |
+| **Performance**       | Shared resources may vary                | Dedicated resources, consistent performance|
+| **Staffing**          | Minimal IT staff required                | Requires dedicated IT staff               |
+| **Setup Time**        | Quick deployment                         | Longer setup and configuration time       |
+| **Best For**          | Cost-effective, scalable applications    | Sensitive data, regulatory compliance     |
 
 ---
 
@@ -58,6 +79,7 @@ Cloud computing lets people and organizations use computing resources (like stor
 | Limited Control     | Less control over infrastructure and software    | 🕹️              |
 | Possible Downtime   | Service outages affect access                     | ⚠️              |
 | Data Transfer Costs | Moving large amounts of data can be expensive    | 💰              |
+| Staffing Requirements | Private clouds require dedicated IT staff for management | 👥              |
 
 ---
 

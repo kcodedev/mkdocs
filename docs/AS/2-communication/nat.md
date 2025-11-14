@@ -1,5 +1,7 @@
 # 🌐 Network Address Translation (NAT) 🔄
 
+![Network Address Translation](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/CPT-NAT-1.svg/960px-CPT-NAT-1.svg.png)
+
 ## What is NAT?
 
 Network Address Translation (NAT) is a router technique that translates private (local) IP addresses within your home or office into a single public IP address for internet communication. 🤝
