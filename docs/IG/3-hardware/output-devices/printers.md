@@ -1,6 +1,6 @@
 # 🖨Printers
 
-> Printers are output devices that create hard copies
+> Printers are output devices that create **hard copies**
 
 <img src="https://i2.pickpik.com/photos/758/52/946/printer-print-printing-paperwork-preview.jpg" alt="Alt Text" width="300">
 <img src="https://images.pexels.com/photos/19149826/pexels-photo-19149826/free-photo-of-a-modern-3d-printing-station-setup.jpeg" alt="Alt Text" width="300">
@@ -21,14 +21,12 @@ Inkjet printers are the most common type of printer due to its affordability, hi
 
 Steps:
 
-1. The data from the document is sent to a printer driver.
-2. A check is then made by the printer driver to make sure that the printer is available to print the data. For instance, it might check if the printer is busy, offline, out of ink, and so on and so on.
-3. The data is then sent to the printer and it is stored temporarily in memory known as a printer buffer.
+1. The data from the document is sent to a **printer driver**.
+2. The printer driver makes sure that the printer is available to print the data. For instance, it might check if the printer is busy, offline, out of ink, and so on and so on.
+3. The data is then sent to the printer and it is stored temporarily in memory known as a **printer buffer**.
 4. A sheet of paper is then given into the main body of the printer where a sensor then detects whether paper is available or not in the paper feed tray. If it is out of paper or the paper is jammed or if there is an error, then an error message is sent back to the computer with the problem the printer recieved.
-5. As the sheet of paper is going through the printer, the print head moves from side to side across the paper, printing the text or image. The four ink colours provided are sprayed exact amounts to produce the required colour. 
-6. At the end of each full pass of the print head, the paper is moved very slightly to allow the next line to be printed. This continues repeatedly until the whole page has been printed.
-7. If there is more data in the printer buffer, the temporary data in the printer, then the whole process continues from Step 5 until the buffer is finally empty.
-8. Once the printer buffer is has been emptied, the printer sends an interrupt, a signal from the printer, to the CPU in the computer, requesting for more data to be sent to the printer. This whole process then continues until the whole of the document has been fully printed.
+5. As the sheet of paper moves hrough the printer, the **print head** moves from side to side across the paper, printing the text or image. The four ink colours provided are sprayed exact amounts to produce the required colour. 
+6. At the end of each full pass of the print head, the paper is moved very slightly by the **stepper motor** to allow the next line to be printed. This continues repeatedly until the whole page has been printed.
 
 <br>
 
