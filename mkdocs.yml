@@ -210,6 +210,70 @@ nav:
               - SRAM and DRAM: AS/3-hardware/sram-dram.md
               - PROM Types: AS/3-hardware/prom-types.md
           - Monitoring and Control Systems: AS/3-hardware/monitoring-control-systems.md
+      - 4 - Processor Fundamentals:
+          - 4.1 CPU Architecture:
+              - Von Neumann Model: AS/4-processor-fundamentals/von-neumann-model.md
+              - Registers: AS/4-processor-fundamentals/registers.md
+              - CPU Components: AS/4-processor-fundamentals/cpu-components.md
+              - Buses: AS/4-processor-fundamentals/buses.md
+              - Performance Factors: AS/4-processor-fundamentals/performance-factors.md
+              - Ports and Peripherals: AS/4-processor-fundamentals/ports-peripherals.md
+              - Fetch-Execute Cycle: AS/4-processor-fundamentals/fetch-execute-cycle.md
+              - Interrupts: AS/4-processor-fundamentals/interrupts.md
+          - 4.2 Assembly Language:
+              - Assembly Language Basics: AS/4-processor-fundamentals/assembly-basics.md
+              - Two-Pass Assembler: AS/4-processor-fundamentals/two-pass-assembler.md
+              - Instruction Groups: AS/4-processor-fundamentals/instruction-groups.md
+              - Addressing Modes: AS/4-processor-fundamentals/addressing-modes.md
+          - 4.3 Bit Manipulation:
+              - Binary Shifts: AS/4-processor-fundamentals/binary-shifts.md
+              - Logical Operations: AS/4-processor-fundamentals/logical-operations.md
+              - Bit Masking: AS/4-processor-fundamentals/bit-masking.md
+              - Device Control: AS/4-processor-fundamentals/device-control-bit-manipulation.md
+      - 5 - System Software:
+          - 5.1 Operating Systems:
+              - Why OS needed: AS/5-system-software/why-os-needed.md
+              - Key management tasks: AS/5-system-software/key-management-tasks.md
+              - Utility software: AS/5-system-software/utility-software.md
+              - Program libraries: AS/5-system-software/program-libraries.md
+          - 5.2 Language Translators:
+              - Need for translators: AS/5-system-software/need-for-translators.md
+              - Compiler vs Interpreter: AS/5-system-software/compiler-vs-interpreter.md
+              - IDE features: AS/5-system-software/ide-features.md
+      - 6 - Security, privacy and data integrity:
+          - 6.1 Data Security:
+              - Security, privacy and integrity: AS/6-security-privacy-data-integrity/security-privacy-integrity.md
+              - Need for security: AS/6-security-privacy-data-integrity/need-for-security.md
+              - Security measures: AS/6-security-privacy-data-integrity/security-measures.md
+              - Threats to security: AS/6-security-privacy-data-integrity/threats-to-security.md
+              - Restricting risks: AS/6-security-privacy-data-integrity/restricting-risks.md
+              - Data security methods: AS/6-security-privacy-data-integrity/data-security-methods.md
+          - 6.2 Data Integrity:
+              - Validation and verification overview: AS/6-security-privacy-data-integrity/validation-verification-overview.md
+              - Data validation methods: AS/6-security-privacy-data-integrity/data-validation-methods.md
+              - Data verification methods: AS/6-security-privacy-data-integrity/data-verification-methods.md
+      - 7 - Ethics and Ownership:
+          - Ethics as computing professional: AS/7-ethics-and-ownership/ethics-as-computing-professional.md
+          - Professional ethical bodies: AS/7-ethics-and-ownership/professional-ethical-bodies.md
+          - Acting ethically: AS/7-ethics-and-ownership/acting-ethically.md
+          - Copyright legislation: AS/7-ethics-and-ownership/copyright-legislation.md
+          - Software licensing: AS/7-ethics-and-ownership/software-licensing.md
+          - Artificial Intelligence: AS/7-ethics-and-ownership/artificial-intelligence.md
+      - 8 - Databases:
+          - 8.1 Database Concepts:
+              - Limitations of file-based approach: AS/8-databases/limitations-file-based-approach.md
+              - Relational database features: AS/8-databases/relational-database-features.md
+              - Relational database terminology: AS/8-databases/relational-database-terminology.md
+              - Entity-relationship diagrams: AS/8-databases/entity-relationship-diagrams.md
+              - Database normalisation: AS/8-databases/database-normalisation.md
+          - 8.2 Database Management Systems:
+              - DBMS features: AS/8-databases/dbms-features.md
+              - DBMS tools: AS/8-databases/dbms-tools.md
+          - 8.3 DDL and DML:
+              - DDL overview: AS/8-databases/ddl-overview.md
+              - SQL DDL statements: AS/8-databases/sql-ddl-statements.md
+              - DML overview: AS/8-databases/dml-overview.md
+              - SQL DML statements: AS/8-databases/sql-dml-statements.md
       - 9 - Algorithms & Problem Solving:
           - Computational Thinking:
             - Abstraction: AS/9-algorithms-and-problem-solving/abstraction.md
