@@ -9,6 +9,9 @@
 ## How do printers "Understand" data?
 Although different types of printer have different "printing methods", they all have to covert electronic data into a form that the printer can understand and follow. For example Inkjet and laser printers translate documents into ***dot patterns*** while 3D printers change electronic data to ***G-code.***
 
+### Dot Pattern
+![Microscope ink](https://upload.wikimedia.org/wikipedia/commons/8/86/Microscope_ink_05.jpg)
+
 ## 💧 Inkjet printers
 
 Inkjet printers are the most common type of printer due to its affordability, high-quality color printing, and versatility. They use liquid ink catridges using colours CMYK (Cyan, Magneta, Yellow and Black). Below is more on how they work. The printer turns the electronic data it recieved using its printer driver, which turns the file into a dot pattern (bitmap) that the printer can understand.
@@ -20,13 +23,9 @@ Steps:
 3. The data is then sent to the printer and it is stored temporarily in memory known as a printer buffer.
 4. A sheet of paper is then given into the main body of the printer where a sensor then detects whether paper is available or not in the paper feed tray. If it is out of paper or the paper is jammed or if there is an error, then an error message is sent back to the computer with the problem the printer recieved.
 5. As the sheet of paper is going through the printer, the print head moves from side to side across the paper, printing the text or image. The four ink colours provided are sprayed exact amounts to produce the required colour. 
-![Microscope ink](https://upload.wikimedia.org/wikipedia/commons/8/86/Microscope_ink_05.jpg)
 6. At the end of each full pass of the print head, the paper is moved very slightly to allow the next line to be printed. This continues repeatedly until the whole page has been printed.
 7. If there is more data in the printer buffer, the temporary data in the printer, then the whole process continues from Step 5 until the buffer is finally empty.
 8. Once the printer buffer is has been emptied, the printer sends an interrupt, a signal from the printer, to the CPU in the computer, requesting for more data to be sent to the printer. This whole process then continues until the whole of the document has been fully printed.
-
-
-
 
 <br>
 
@@ -53,7 +52,7 @@ Steps:
 <br>
 
 
-## ⚙️3D printers
+## ⚙️ 3D printers
 
 ![alt text](https://html.scirp.org/file/3-7702864x3.png?20230309164023106)
 
