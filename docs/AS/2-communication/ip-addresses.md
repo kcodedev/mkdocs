@@ -26,7 +26,8 @@ An **IP address** (Internet Protocol address) is a unique label assigned to ever
 - Uses a **subnet mask** (IPv4) or **prefix length** (IPv6) to define which bits are network vs host:  
 - IPv4 example: `192.168.1.0/24` means the first 24 bits (`192.168.1`) are the network, last 8 bits are hosts (1–254).  
 - IPv6 example: `2001:db8::/64` reserves the first 64 bits for network, last 64 for hosts.
-- **Benefits:**  
+
+**Benefits:**  
 - Reduces broadcast traffic  
 - Improves security and management  
 - Enables logical grouping of devices  

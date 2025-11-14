@@ -200,6 +200,16 @@ nav:
           - Subnetting: AS/2-communication/subnetting.md
           - Network Address Translation: AS/2-communication/nat.md
           - URLs & DNS: AS/2-communication/urls-dns.md
+      - 3 - Hardware:
+          - Input, Output, and Storage: AS/3-hardware/input-output-storage.md
+          - Embedded Systems: AS/3-hardware/embedded-systems.md
+          - Hardware Devices Operations: AS/3-hardware/hardware-devices-operations.md
+          - Buffers: AS/3-hardware/buffers.md
+          - Memory Types:
+              - RAM and ROM: AS/3-hardware/ram-rom.md
+              - SRAM and DRAM: AS/3-hardware/sram-dram.md
+              - PROM Types: AS/3-hardware/prom-types.md
+          - Monitoring and Control Systems: AS/3-hardware/monitoring-control-systems.md
       - 9 - Algorithms & Problem Solving:
           - Computational Thinking:
             - Abstraction: AS/9-algorithms-and-problem-solving/abstraction.md
