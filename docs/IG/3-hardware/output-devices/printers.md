@@ -14,6 +14,9 @@ Software on the computer converts documents into **dot patterns** for inkjet and
 
 ## 💧 Inkjet printers
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0PKFQciUWBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 Inkjet printers are the most common type of printer due to its affordability, high-quality color printing, and versatility. They use liquid ink catridges using colours CMYK (Cyan, Magneta, Yellow and Black). Below is more on how they work. The printer turns the electronic data it recieved using its printer driver, which turns the file into a dot pattern (bitmap) that the printer can understand.
 
 Steps:
