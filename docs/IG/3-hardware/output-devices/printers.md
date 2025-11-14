@@ -24,8 +24,6 @@ Steps:
 7. If there is more data in the printer buffer, the temporary data in the printer, then the whole process continues from Step 5 until the buffer is finally empty.
 8. Once the printer buffer is has been emptied, the printer sends an interrupt, a signal from the printer, to the CPU in the computer, requesting for more data to be sent to the printer. This whole process then continues until the whole of the document has been fully printed.
 
-![alt text](https://smartink.pro/us/wp-content/uploads/sites/8/2019/12/inkjettech.jpg)
-
 ![Microscope ink](https://upload.wikimedia.org/wikipedia/commons/8/86/Microscope_ink_05.jpg)
 
 
