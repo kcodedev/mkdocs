@@ -1,16 +1,11 @@
 # 🖨Printers
 
-> Printers are output devices that create **hard copies**
-
-<img src="https://i2.pickpik.com/photos/758/52/946/printer-print-printing-paperwork-preview.jpg" alt="Alt Text" width="300">
-<img src="https://images.pexels.com/photos/19149826/pexels-photo-19149826/free-photo-of-a-modern-3d-printing-station-setup.jpeg" alt="Alt Text" width="300">
-
+> Printers are output devices that create **hard copies**.
 
 ## How do printers "Understand" data?
 Software on the computer converts documents into **dot patterns** for inkjet and laser printers, while slicing software transforms 3D models into **G-code** for 3D printers, before sending the data to the respective printers.
 
-**Dot Pattern**
-![Microscope ink](https://upload.wikimedia.org/wikipedia/commons/8/86/Microscope_ink_05.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Microscope_ink_05.jpg" alt="Microscope ink" width="300"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Supports_in_3D_printing.png" alt="Supports in 3D printing" width="300">
 
 <br>
 
