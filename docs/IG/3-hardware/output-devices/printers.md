@@ -12,6 +12,8 @@ Software on the computer converts documents into **dot patterns** for inkjet and
 **Dot Pattern**
 ![Microscope ink](https://upload.wikimedia.org/wikipedia/commons/8/86/Microscope_ink_05.jpg)
 
+<br>
+
 ## 💧 Inkjet printers
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0PKFQciUWBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
