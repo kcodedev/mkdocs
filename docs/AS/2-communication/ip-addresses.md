@@ -66,6 +66,27 @@ An **IP address** (Internet Protocol address) is a unique label assigned to ever
 
 ---
 
+## Quiz: IPv4 vs IPv6
+
+Test your knowledge! Are these IP addresses valid? (✅ = Valid, ❌ = Invalid)
+
+*Note: Some exam boards (like Cambridge) accept hexadecimal notation in IPv4 if values are in the valid range (0-255).*
+
+### IPv4 Examples
+| IP Address    | Valid? |
+|---------------|--------|
+| 100.2.256.3   | ❌     |
+| 1A.FF.1.4     | ✅*    |
+| 190.0.1.1.2   | ❌     |
+
+### IPv6 Examples
+| IP Address                          | Valid? |
+|-------------------------------------|--------|
+| 21DA:D3:0:2F3B:2AA:FF:FE28:9C5A     | ✅     |
+| 1200::AB00::2552:7777:1313          | ❌     |
+| 0:0:0:0:0:FFFF:192.1.56.10          | ✅     |
+| 1200:0000:AB00:1234:H000:2552:7777:1313 | ❌     |
+
 ## 🧠 Summary
 
 - **IP addresses** uniquely identify devices on networks.  
