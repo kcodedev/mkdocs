@@ -26,6 +26,8 @@ Steps:
 
 ![alt text](https://smartink.pro/us/wp-content/uploads/sites/8/2019/12/inkjettech.jpg)
 
+![Microscope ink](https://upload.wikimedia.org/wikipedia/commons/8/86/Microscope_ink_05.jpg)
+
 
 <br>
 
