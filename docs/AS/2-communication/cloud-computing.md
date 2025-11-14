@@ -1,5 +1,7 @@
 # ☁️ Understanding Cloud Computing
 
+![Cloud Computing](https://upload.wikimedia.org/wikipedia/commons/6/69/Cloud_computing.jpg)
+
 Cloud computing lets people and organizations use computing resources (like storage, servers, software) **over the Internet** instead of owning them locally. Think of it as renting computers and services on demand!
 
 ---

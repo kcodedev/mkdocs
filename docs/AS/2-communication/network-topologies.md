@@ -1,5 +1,7 @@
 # 📡 Network Topologies: Bus, Star, Mesh & Hybrid
 
+![Network Topologies](https://upload.wikimedia.org/wikipedia/commons/7/79/Network_topology.png)
+
 When setting up a network, how computers are physically or logically connected is called the **network topology**. Each topology has unique features, advantages, and ways of transmitting data (packets).
 
 Let’s explore the four common topologies! 🚀

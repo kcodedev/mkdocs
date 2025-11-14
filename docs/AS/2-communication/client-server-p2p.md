@@ -1,5 +1,7 @@
 # 🖧 Client-Server vs Peer-to-Peer Models
 
+![Client-Server vs Peer-to-Peer](https://upload.wikimedia.org/wikipedia/commons/5/5e/Client-server_Vs_peer-to-peer_-_en.png)
+
 When computers are networked together, they can be organized in different ways depending on how they share data and services. Two common models are:
 
 - **Client-Server**

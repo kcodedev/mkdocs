@@ -9,9 +9,12 @@ Let’s explore some hardware used to create LANS! 🚀
 - A **powerful computer** that provides services or resources to other devices (clients) on the network.
 
 **Examples of servers:**
+
 - File server (stores files)
 - Print server (manages printers)
 - Web server (hosts websites)
+
+![Server Hardware](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Wikimedia_Servers-0051_19.jpg/960px-Wikimedia_Servers-0051_19.jpg)
 
 🗂️ Think of a server as the network's brain — responding to requests and managing data!
 
@@ -30,6 +33,8 @@ Let’s explore some hardware used to create LANS! 🚀
 
 - A **hardware component** inside each computer that connects it to a wired network.
 - Each NIC has a unique **MAC address**.
+
+![Network Interface Card](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/ForeRunnerLE_25_ATM_Network_Interface_%281%29.jpg/960px-ForeRunnerLE_25_ATM_Network_Interface_%281%29.jpg)
 
 🧩 No NIC, no network! It’s essential for communication.
 

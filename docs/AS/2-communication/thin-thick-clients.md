@@ -1,5 +1,7 @@
 # 🖥️ Thin Client vs Thick Client
 
+![Thin Client vs Thick Client](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Thin_Client-Thick_Client.jpg/960px-Thin_Client-Thick_Client.jpg)
+
 When we access software or services on a network, the **type of client device** we use matters. Two key models are:
 
 - **Thin Clients** 🌫️

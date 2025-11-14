@@ -10,6 +10,7 @@ A **router** is one of the most important devices in any network — home, schoo
 A **router** connects **different networks** together and **routes data packets** between them.
 
 Most commonly:
+
 - Connects a **Local Area Network (LAN)** to the **Internet** 🌐
 - Chooses the **best path** for data to travel 📍➡️📍
 
