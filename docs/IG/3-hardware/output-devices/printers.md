@@ -7,9 +7,9 @@
 
 
 ## How do printers "Understand" data?
-Although different types of printer have different "printing methods", they all have to covert electronic data into a form that the printer can understand and follow. For example Inkjet and laser printers translate documents into ***dot patterns*** while 3D printers change electronic data to ***G-code.***
+Software on the computer converts documents into **dot patterns** for inkjet and laser printers, while slicing software transforms 3D models into **G-code** for 3D printers, before sending the data to the respective printers.
 
-### Dot Pattern
+**Dot Pattern**
 ![Microscope ink](https://upload.wikimedia.org/wikipedia/commons/8/86/Microscope_ink_05.jpg)
 
 ## 💧 Inkjet printers
