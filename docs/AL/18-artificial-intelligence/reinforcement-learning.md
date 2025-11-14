@@ -1,11 +1,17 @@
 # Reinforcement Learning
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lu56xVlZ40M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SX08NT55YhA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dw3BZ6O_8LY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Reinforcement learning algorithms learn through interaction with an environment, receiving rewards or penalties for actions. The goal is to learn an optimal policy that maximizes cumulative rewards over time.
 
 ### Characteristics
 
 - **Training Data**: Sequential decision-making with rewards
-- **Goal**: Learn a policy π(s) that maximizes expected rewards
+- **Goal**: Learn a policy that maximizes expected rewards
 - **Evaluation**: Based on cumulative rewards achieved
 
 ### Key Concepts

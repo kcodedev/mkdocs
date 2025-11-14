@@ -12,9 +12,7 @@ Unsupervised learning algorithms work with unlabeled data, discovering hidden pa
 
 - **K-Means Clustering**: Groups data into k clusters
 - **Hierarchical Clustering**: Builds nested clusters
-- **Principal Component Analysis (PCA)**: Dimensionality reduction
 - **Autoencoders**: Neural networks for feature learning
-- **Gaussian Mixture Models**: Probabilistic clustering
 - **Association Rule Mining**: Finds relationships between variables
 
 ### Applications
