@@ -6,7 +6,8 @@
 
 ## 🧠 What AI Does
 
-- Simulates **intelligent behaviours** such as:
+Simulates **intelligent behaviours** such as:
+
   - Learning 📚
   - Problem-solving 🧩
   - Understanding language 🗣️
