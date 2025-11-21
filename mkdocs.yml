@@ -84,7 +84,6 @@ nav:
             - The Fetch-Decode-Execute Cycle: IG/3-hardware/computer-architecture/fde-cycle.md
             - Performance Factors: IG/3-hardware/computer-architecture/performance-factors.md
             - Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
-            - FDE Simulator 🐍: IG/3-hardware/python-exercise.md
           - Input Devices:
             - Keyboard: IG/3-hardware/input-devices/Mitchell_Keyboards.md
             - Mouse: IG/3-hardware/input-devices/Mouse (1).md
@@ -98,16 +97,9 @@ nav:
               - Sensors (1): IG/3-hardware/input-devices/sensors (1).md
           - Output Devices:
             - Monitors: IG/3-hardware/output-devices/monitor.md
-            - Projector: IG/3-hardware/output-devices/projectorcs (1).md
-            - Printers: IG/3-hardware/output-devices/printers.md
+            - ✅Projectors: IG/3-hardware/output-devices/projectorcs.md
+            - ✅Printers: IG/3-hardware/output-devices/printers.md
             - Speakers: IG/3-hardware/output-devices/speakers.md
-          - Python Tutorials:
-            - Python Binary Tutorial: IG/3-hardware/python-binary-tutorial.md
-            - Python Conditionals Tutorial: IG/3-hardware/python-conditionals-tutorial.md
-            - Python Lists Tutorial: IG/3-hardware/python-lists-tutorial.md
-            - Python Loops Tutorial: IG/3-hardware/python-loops-tutorial.md
-            - Python Slicing Tutorial: IG/3-hardware/python-slicing-tutorial.md
-            - Python Variables Tutorial: IG/3-hardware/python-variables-tutorial.md
           - General Hardware:
             - Data Storage: IG/3-hardware/data-storage.md
             - Input Output Devices: IG/3-hardware/input-output-devices.md
