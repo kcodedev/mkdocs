@@ -55,3 +55,23 @@ xychart-beta
     y-axis "Instructions per Second" 0 --> 5500
     bar [5, 100, 3000, 4000, 5000]
 ```
+
+---
+
+## Example❓
+
+- Computer X has a 3.0GHz octa-core processor.  
+- Computer Y has a 4.0GHz quad-core processor.  
+- Computer Z has a 6.0GHz dual-core processor.  
+
+Identify which computer is most likely to execute more instructions simultaneously.  
+
+Justify your answer.  
+
+---
+
+### ✅ Answer
+
+Computer X
+
+Justification Computer X has an octa-core processor, meaning it has 8 cores that can execute instructions simultaneously. Computer Y has 4 cores, and Computer Z has 2 cores. Therefore, Computer X can handle more parallel tasks and execute more instructions at the same time compared to the others. Clock speed affects individual core performance, but the number of cores determines simultaneous execution capacity.
