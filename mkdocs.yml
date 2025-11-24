@@ -97,13 +97,13 @@ nav:
               - Sensors (1): IG/3-hardware/input-devices/sensors (1).md
           - Output Devices:
             - Monitors: IG/3-hardware/output-devices/monitor.md
-            - ✅Projectors: IG/3-hardware/output-devices/projectorcs.md
+            - ✅Projectors: IG/3-hardware/output-devices/projectors.md
             - ✅Printers: IG/3-hardware/output-devices/printers.md
-            - Speakers: IG/3-hardware/output-devices/speakers.md
-          - General Hardware:
-            - Data Storage: IG/3-hardware/data-storage.md
-            - Input Output Devices: IG/3-hardware/input-output-devices.md
-            - Network Hardware: IG/3-hardware/network-hardware.md
+            - ✅Speakers: IG/3-hardware/output-devices/speakers.md
+            - Actuators: IG/3-hardware/output-devices/actuators.md
+          - Data Storage: IG/3-hardware/data-storage.md
+          - Input Output Devices: IG/3-hardware/input-output-devices.md
+          - Network Hardware: IG/3-hardware/network-hardware.md
       - 4 - Software:
           - System vs Application Software: IG/4-software/system-vs-application.md
           - Basic OS Functions: IG/4-software/os-functions.md
