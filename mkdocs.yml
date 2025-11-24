@@ -92,13 +92,15 @@ nav:
               - Scanner: IG/3-hardware/input-devices/scanner.md
               - Scan: IG/3-hardware/input-devices/scan.md
             - Digital Camera: IG/3-hardware/input-devices/digitalcam2.md
-            - Sensors:
-              - 🧠 Sensors: IG/3-hardware/input-devices/🧠 Sensors.md
-              - Sensors (1): IG/3-hardware/input-devices/sensors (1).md
+            - 🧠 Sensors: IG/3-hardware/input-devices/🧠 Sensors.md
+            - Sensors (1): IG/3-hardware/input-devices/sensors (1).md
           - Output Devices:
             - Monitors: IG/3-hardware/output-devices/monitor.md
             - ✅Projectors: IG/3-hardware/output-devices/projectors.md
-            - ✅Printers: IG/3-hardware/output-devices/printers.md
+            - ✅Printers Overview: IG/3-hardware/output-devices/printers.md
+            - ✅Inkjet Printer: IG/3-hardware/output-devices/inkjet-printers.md
+            - ✅Laser Printer: IG/3-hardware/output-devices/laser-printers.md
+            - ✅3D Printer: IG/3-hardware/output-devices/3d-printers.md
             - ✅Speakers: IG/3-hardware/output-devices/speakers.md
             - Actuators: IG/3-hardware/output-devices/actuators.md
           - Data Storage: IG/3-hardware/data-storage.md
