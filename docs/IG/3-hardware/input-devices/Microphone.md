@@ -1,36 +1,25 @@
 # What is a Microphone?
-see [Microphone](https://www.lenovo.com/us/en/glossary/microphone/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOoqxt7zZe3UnoXoeHsDEExcpgbCpbpxo0QrMg11S-CEibhVRcBEN)
+```mermaid 
+graph LR;
+     A[Microphone🎤] --> B[⚡];
+     B --> C[ADC];
+     C --> D[🖥️0️⃣1️⃣];
+```
 
-> A microphone is a device that coverts sound waves (vibrations in air) into electrical signals.
 
----
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PE6Qn4ZiEyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## List of tips
-- **Sound waves hit a diaphragm** (thin membrane).*
-- **The diaphragm vibrates** according to the sound waves.
-- **Vibrations are converted into an electrical signal**, which can be analog or digital.
-- **The signal can then be amplified, recorded, or transmitted**.*
-
----
-
-## Types of Microphones
-1. **Dynamic Microphone**  
-   - Durable, good for live performances, uses electromagnetic induction.  
-2. **Condenser Microphone**  
-   - Sensitive, ideal for studios, requires external power (phantom power).  
-3. **Ribbon Microphone**  
-   - Captures smooth, vintage sound, fragile, mostly for studio use.  
-4. **Lavalier / Lapel Microphone**  
-   - Small, clip-on, used in presentations or filming.
+> A microphone is a device that converts sound waves (vibrations in air) into electrical energy.
 
 ---
 
-## Tips for Using a Microphone
-1. Keep the microphone **close to the sound source** for clarity.  
-2. Avoid **background noise** when recording.  
-3. Use a **pop filter** to reduce plosive sounds (like "p" and "b").  
-4. Handle **condenser microphones carefully**, as they are sensitive to impact.  
+## How a Microphone Works
 
+🎤 Microphones convert acoustical energy to electrical energy <br>
+🎤 Most mics use a **diaphragm**, a thin material that vibrates when hit by sound waves <br>
+🎤 The vibrating diaphragm  moves a coil past an electromagnet... <br>
+🎤 ... allowing the sound vibrations to be converted to electrical current <br>
+⚡ The electrical signal is then converted to digital (0️⃣1️⃣) using an ADC.
+ 
+ 
 ---
-
-![Dynamic Microphone](https://www.terralec.co.uk/Portals/54/images/guides/microphones/Dynamic%20Microphone.jpg)

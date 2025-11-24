@@ -1,5 +1,7 @@
 # Mouse
-  A **Mouse** is a pointing device. It is a manual input device used with Graphical User Interface (GUI) to control the position of the **cursor** on the screen by simply moving the mouse over a surface. Usually use in a Laptop or a Computer. It is used for precise control and navigation on a computer.
+  A **Mouse** is a pointing device. It is a manual input device used with Graphical User Interface (GUI) to control the position of the **cursor** on the screen by simply moving the mouse over a surface.
+
+
 
 <img src="1.jpg" alt="Alt Text" width="300" height="200"> <img src="2.jpg" alt="Alt Text" width="300" height="200">
 # Optical Mouse 

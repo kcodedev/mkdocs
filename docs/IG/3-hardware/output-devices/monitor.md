@@ -1,14 +1,14 @@
 # Monitors
 
-### There are many different types of monitors. We will cover 3 types: LED, LCD, and OLED monitors
+There are many different types of monitors. We will cover 3 types: LED, LCD, and OLED monitors
 
 
-## 💎 LCD Screens (Liquid-Crystal Display)
+## 💎 LCD Screens
 
-### LCD is a type of flat-panel display technology (lightweight, thin, electric display) used commonly in daily life.
+LCD (Liquid-Crystal Display) is a type of flat-panel display technology (lightweight, thin, electric display) used commonly in daily life.
 
 
-### 🤓 Structure, layers, and how they work:
+### 🤓 Structure, layers, and how they work
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/8/8d/LCD_Panal_%28Layer_model%29_E.PNG "LCD Screen Layers")
 
@@ -18,7 +18,7 @@
 * Second polarizer controls how much of the light gets to pass through 
 * The electrodes are switches that control the liquid crystal in each pixel.
 
-### 😀 Advantages:
+### 😀 Advantages
 
 * Lightweight, space-saving design
 
@@ -26,20 +26,20 @@
 
 * They can last 10-15 years!!!
 
-### 😣 Disadvantages:
+### 😣 Disadvantages
 
 * OLED screens are generally better than LCD screens because they emit less blue light. LCD hurts your eyes more than OLED screens.
 * (Monitor) needs to be plugged to computer
 
 * Looking at the screen at a different angle can make the screen’s display look disorted.
 
-## 💡 LED (Light-Emitting Diode)
+## 💡LED  Screens
 
-### An LED screen is a display technology that uses tiny light-emitting diodes to produce images, videos, and texts. Here's what an LED screen looks like very close up.
+An LED (Light-Emitting Diode) screen is a display technology that uses tiny light-emitting diodes to produce images, videos, and texts. Here's what an LED screen looks like very close up.
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/3/3f/Very_close_up_view_of_a_full_HD_LED_TV_screen.jpg "LED Screen Close Up")
 
-### How it works:
+### How it works
 
 * Each diode emits its own colour
 * The screen can be back-lit
@@ -58,9 +58,9 @@
 * Overheating can shorten the lifespans of LED screens
 
 
-## 🌈 OLED Screens (Organic Light Emitting Diode)
+## 🌈 OLED Screens
 
-### OLED screens use a self-emmisive display technology. Each pixel produces its own light, producing top-tier, high-resolution image and video quality. It is used in top-tier monitors and TVs.
+OLED (Organic Light Emitting Diode) screens use a self-emmisive display technology. Each pixel produces its own light, producing top-tier, high-resolution image and video quality. It is used in top-tier monitors and TVs.
 
 ### Layers:
 
@@ -76,13 +76,13 @@
 * Organic Emissive Layer: Where RGB light is generated
 * Cathode: puts negative charge into organic layer
 
-### 😍😍😍 Advantages:
+### 😍😍😍 Advantages
 
 * True black, great quality, great image depth
 * Thin, light, portable
 * Fast response time, great viewing angles
 
-### 😔💔🥀 Disadvantages:
+### 😔💔🥀 Disadvantages
 
 * Expensive 💵💲💳
 * Limited Lifespan

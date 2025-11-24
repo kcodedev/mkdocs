@@ -3,7 +3,7 @@
 ```mermaid 
 graph LR;
      A[🖥️0️⃣1️⃣] --> B[DAC];
-     B --> C[Electrical voltage ⚡];
+     B --> C[⚡];
      C --> D[Speaker🔊];
 ```
 

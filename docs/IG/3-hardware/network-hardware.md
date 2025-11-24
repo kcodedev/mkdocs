@@ -6,6 +6,8 @@ Network hardware enables communication between computers and devices. Key compon
 
 ## 🖥️ Network Interface Card (NIC)
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Eicon_Networks_E50409-002-8565.jpg/960px-Eicon_Networks_E50409-002-8565.jpg" alt="Network Interface Card">
+
 Every device needs a NIC to connect to a network:
 
 - **Purpose**: Enables communication between device and network

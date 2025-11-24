@@ -86,8 +86,8 @@ nav:
             - Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
           - Input Devices:
             - Keyboard: IG/3-hardware/input-devices/Mitchell_Keyboards.md
-            - Mouse: IG/3-hardware/input-devices/Mouse (1).md
-            - Microphone: IG/3-hardware/input-devices/Microphone.md
+            - Mouse: IG/3-hardware/input-devices/mouse.md
+            - ✅Microphone: IG/3-hardware/input-devices/microphone.md
             - Scanners:
               - Scanner: IG/3-hardware/input-devices/scanner.md
               - Scan: IG/3-hardware/input-devices/scan.md
