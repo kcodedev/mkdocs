@@ -1,4 +1,4 @@
-## Video
+# How a mic works?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PE6Qn4ZiEyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -11,7 +11,6 @@
 🎤 The vibrating diaphragm  moves a coil past an electromagnet... <br>
 🎤 ... allowing the sound vibrations to be converted to electrical current <br>
 ⚡ The electrical signal is then converted to digital (0️⃣1️⃣) using an ADC.
-
 
 
 ---
