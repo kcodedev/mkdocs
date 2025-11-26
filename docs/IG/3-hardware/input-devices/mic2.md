@@ -15,3 +15,10 @@
 
 
 ---
+
+```mermaid 
+graph LR;
+     A[Microphone🎤] --> B[⚡];
+     B --> C[ADC];
+     C --> D[🖥️0️⃣1️⃣];
+```
