@@ -50,9 +50,3 @@ Programmable Read-Only Memory (PROM) and its variants allow data to be written o
 | Erasure details | Cannot be erased | Needs to be removed to be erased | Can be erased in situ |
 | Speed and Cost | Fast, cheap | Moderate | Slower, more expensive |
 | Usage | Custom firmware or data that doesn't need changes | Development and prototyping where code needs updates | BIOS updates, configuration storage, and devices requiring frequent small changes |
-
-## Applications
-
-- PROM: Secure, one-time use in embedded systems.
-- EPROM: Historical use in early computing for firmware.
-- EEPROM: Modern devices like USB drives, smart cards, and microcontrollers for updatable storage.
