@@ -1,8 +1,16 @@
 # Input, Output, Primary Memory, and Secondary Storage
 
-## Introduction
+```mermaid
+graph LR;
+    A[Input Devices] --> B[CPU];
+    B --> C[Output Devices];
+    B --> D[Primary Memory<br/>RAM];
+    D --> B;
+    B --> E[Secondary Storage<br/>HDD/SSD];
+    E --> B;
+```
 
-Computer systems require various components to function effectively. This section covers the fundamental need for input devices, output devices, primary memory, and secondary storage, including removable storage options.
+
 
 ## Input Devices
 
