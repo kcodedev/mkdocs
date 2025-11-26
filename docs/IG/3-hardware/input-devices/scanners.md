@@ -1,4 +1,4 @@
-#    **<span style="color: orange;">**Scanners🕵️🔎: Scanning images for you** 👁️
+#    Scanners🕵️🔎: Scanning images for you 👁️
 
 Scanner is a type of input devices that converts a physical document or image in to a digital format.It can also be a software utility that reads and processes input from a source.
 
