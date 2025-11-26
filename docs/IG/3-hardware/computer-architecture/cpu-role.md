@@ -41,3 +41,16 @@ timeline
     2010 : Intel Core i7 - High Performance
     2020 : AMD Ryzen 9 - Multi-core Dominance
 ```
+
+## 🧑‍🌾 Farmer Buys Computer In 1995
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xuod0vytm9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+💾 Computer Specifications Summary: Macintosh 600 (1995)
+
+| Component      | Specification          | Notes                                      |
+|----------------|------------------------|--------------------------------------------|
+| Processor (CPU)| 68030 chip @ 32 MHz   | Considered a mid-range processor for the time. |
+| Hard Drive     | 160 MB (Megabytes)    | Used for storing the operating system and user data. |
+| Memory (RAM)   | 4 MB (Megabytes)      | The system's main working memory.         |
+| Optical Drive  | Built-in CD-ROM       | Available in the "Macintosh 600 CD" version. |
