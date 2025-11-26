@@ -196,7 +196,7 @@ nav:
       - 3 - Hardware:
           - Input, Output, and Storage: AS/3-hardware/input-output-storage.md
           - Embedded Systems: AS/3-hardware/embedded-systems.md
-          - Hardware Devices Operations:
+          - Hardware Devices:
               - Laser Printer: AS/3-hardware/laser-printer.md
               - 3D Printer: AS/3-hardware/3d-printer.md
               - Microphone: AS/3-hardware/microphone.md
