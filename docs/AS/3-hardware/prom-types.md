@@ -6,38 +6,50 @@ Programmable Read-Only Memory (PROM) and its variants allow data to be written o
 
 ## Programmable ROM (PROM)
 
-- **Definition**: Blank ROM chips that can be programmed once by the user using a special device.
-- **Characteristics**:
+**Definition**: Blank ROM chips that can be programmed once by the user using a special device.
+
+**Characteristics**:
+
   - One-time programmable.
   - Fuses or links are blown to set bits.
   - Non-volatile.
-- **Use**: Custom firmware or data that doesn't need changes.
+
+**Use**: Custom firmware or data that doesn't need changes.
 
 ## Erasable Programmable ROM (EPROM)
 
-- **Definition**: Can be erased and reprogrammed multiple times using ultraviolet (UV) light.
-- **Characteristics**:
+**Definition**: Can be erased and reprogrammed multiple times using ultraviolet (UV) light.
+
+**Characteristics**:
+
   - Erasure requires exposure to UV light through a quartz window.
   - Reprogrammable, but erasure is not selective (entire chip).
   - Non-volatile when programmed.
+
 - **Use**: Development and prototyping where code needs updates.
 
 ## Electrically Erasable Programmable ROM (EEPROM)
 
-- **Definition**: Can be erased and reprogrammed electrically, byte by byte.
-- **Characteristics**:
+**Definition**: Can be erased and reprogrammed electrically, byte by byte.
+
+**Characteristics**:
+
   - No need for UV light; uses electrical signals.
   - Selective erasure and writing.
   - Slower write times than RAM.
   - Non-volatile.
-- **Use**: BIOS updates, configuration storage, and devices requiring frequent small changes.
+
+**Use**: BIOS updates, configuration storage, and devices requiring frequent small changes.
 
 ## Key Differences
 
-- **Programmability**: PROM once; EPROM multiple with UV; EEPROM multiple electrically.
-- **Erasure Method**: PROM none; EPROM UV; EEPROM electrical.
-- **Flexibility**: EEPROM offers the most flexibility for updates.
-- **Speed and Cost**: EEPROM is slower and more expensive than EPROM.
+| Aspect | PROM | EPROM | EEPROM |
+|--------|------|-------|---------|
+| Programmability | Once | Multiple with UV | Multiple electrically |
+| Erasure Method | None | UV light | Electrical |
+| Erasure details | Cannot be erased | Needs to be removed to be erased | Can be erased in situ |
+| Speed and Cost | Fast, cheap | Moderate | Slower, more expensive |
+| Usage | Custom firmware or data that doesn't need changes | Development and prototyping where code needs updates | BIOS updates, configuration storage, and devices requiring frequent small changes |
 
 ## Applications
 
