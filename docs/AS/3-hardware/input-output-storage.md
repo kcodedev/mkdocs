@@ -1,16 +1,5 @@
-# Input, Output, Primary Memory, and Secondary Storage
 
-```mermaid
-graph LR;
-    A[Input Devices] --> B[CPU];
-    B --> C[Output Devices];
-    B --> D[Primary Memory<br/>RAM];
-    D --> B;
-    B --> E[Secondary Storage<br/>HDD/SSD];
-    E --> B;
-```
-
-
+![Von Neumann Architecture](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/CPT-Von_neumann_architecture.svg/960px-CPT-Von_neumann_architecture.svg.png)
 
 ## Input Devices
 
