@@ -1,4 +1,7 @@
 # What is a Microphone?
+
+Process:
+
 ```mermaid 
 graph LR;
      A[Microphone🎤] --> B[⚡];
