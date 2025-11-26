@@ -196,7 +196,16 @@ nav:
       - 3 - Hardware:
           - Input, Output, and Storage: AS/3-hardware/input-output-storage.md
           - Embedded Systems: AS/3-hardware/embedded-systems.md
-          - Hardware Devices Operations: AS/3-hardware/hardware-devices-operations.md
+          - Hardware Devices Operations:
+              - Laser Printer: AS/3-hardware/laser-printer.md
+              - 3D Printer: AS/3-hardware/3d-printer.md
+              - Microphone: AS/3-hardware/microphone.md
+              - Speakers: AS/3-hardware/speakers.md
+              - Magnetic Hard Disk: AS/3-hardware/magnetic-hard-disk.md
+              - Solid State (Flash) Memory: AS/3-hardware/solid-state-flash-memory.md
+              - Optical Disc Reader/Writer: AS/3-hardware/optical-disc-reader-writer.md
+              - Touchscreen: AS/3-hardware/touchscreen.md
+              - Virtual Reality Headset: AS/3-hardware/virtual-reality-headset.md
           - Buffers: AS/3-hardware/buffers.md
           - Memory Types:
               - RAM and ROM: AS/3-hardware/ram-rom.md
