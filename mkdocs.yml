@@ -103,10 +103,10 @@ nav:
             - ✅Speakers: IG/3-hardware/output-devices/speakers.md
             - ✅Actuators: IG/3-hardware/output-devices/actuators.md
           - Data Storage:
-            - Primary Storage: IG/3-hardware/primary-storage.md
-            - Secondary Storage: IG/3-hardware/secondary-storage.md
-            - Virtual Memory: IG/3-hardware/virtual-memory.md
-            - Cloud Storage: IG/3-hardware/cloud-storage.md
+            - Primary Storage: IG/3-hardware/storage/primary-storage.md
+            - Secondary Storage: IG/3-hardware/storage/secondary-storage.md
+            - Cloud Storage: IG/3-hardware/storage/cloud-storage.md
+            - Virtual Memory: IG/3-hardware/storage/virtual-memory.md
           - Input Output Devices: IG/3-hardware/input-output-devices.md
           - Network Hardware: IG/3-hardware/network-hardware.md
       - 4 - Software:

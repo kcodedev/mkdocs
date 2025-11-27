@@ -16,7 +16,7 @@ graph LR;
 
 ## Resistive Touch Screens 👆
 
-![Resistive Touch Screen](https://www.researchgate.net/publication/351003790/figure/fig4/AS:1014669342945291@1618927431764/Touch-screen-sensor-7-Touchscreen-Sensors.png)
+![Resistive Touch Screen](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/TouchScreen_5wires.svg/640px-TouchScreen_5wires.svg.png)
 
 **How it works:**
 
