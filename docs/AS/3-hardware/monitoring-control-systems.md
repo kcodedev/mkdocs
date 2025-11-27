@@ -1,24 +1,59 @@
 # Monitoring and Control Systems
 
+## Pseudocode
+
+### Monitoring System
+
+```
+WHILE true DO
+    analogue_signal ← read_sensor()
+    digital_signal ← ADC_convert(analogue_signal)
+    IF digital_signal NOT in acceptable_range THEN
+        send_warning_message()
+        // Microprocessor observes without intervening
+    END IF
+END WHILE
+```
+
+### Control System
+
+```
+WHILE true DO
+    analogue_signal ← read_sensor()
+    digital_signal ← ADC_convert(analogue_signal)
+    IF digital_signal NOT in acceptable_range THEN
+        adjust_actuator()  // valves, motors, etc.
+        // Actively control the system
+    END IF
+END WHILE
+```
+
+## Picture Examples
+
+![Patient monitor](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Dash_5000_Medical_monitor.jpg/330px-Dash_5000_Medical_monitor.jpg)
+
+![Air conditioning system](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/ACFujitsu2.jpg/330px-ACFujitsu2.jpg)
+
 ## Introduction
 
 Monitoring and control systems use sensors and actuators to observe and manage processes. They are essential in automated environments for maintaining desired conditions.
 
-## Difference Between Monitoring and Control
+## Monitoring vs Control
 
 - **Monitoring Systems**: Observe and report on system states without intervening. They collect data for analysis or alerts.
 - **Control Systems**: Actively adjust system parameters to achieve desired outcomes, using feedback to make decisions.
 
 ## Sensors
 
-Sensors detect physical quantities and convert them into electrical signals.
+Sensors detect physical quantities and convert them into electrical signals. They provide input data for decision-making in systems
 
-- **Types and Uses**:
-  - **Temperature Sensors**: Thermistors or thermocouples for measuring heat in HVAC systems or engines.
-  - **Pressure Sensors**: Piezoelectric or strain gauges for monitoring fluid pressure in industrial processes.
-  - **Infra-Red Sensors**: Detect IR radiation for motion detection or thermal imaging.
-  - **Sound Sensors**: Microphones for audio input or noise level monitoring.
-- **Role**: Provide input data for decision-making in systems.
+**Types and Uses**
+
+  - **Light Sensors**: Photodiodes or phototransistors for light detection in cameras or automatic lighting systems.<br>
+  - **Temperature Sensors**: Thermistors or thermocouples for measuring heat in HVAC systems or engines.<br>
+  - **Pressure Sensors**: Piezoelectric or strain gauges for monitoring fluid pressure in industrial processes.<br>
+  - **Infra-Red Sensors**: Detect IR radiation for motion detection or thermal imaging.<br>
+  - **Sound Sensors**: Microphones for audio input or noise level monitoring.<br>
 
 ## Actuators
 
@@ -29,13 +64,22 @@ Actuators convert electrical signals into physical actions.
 
 ## Importance of Feedback
 
-- **Definition**: The process of using output measurements to adjust inputs, creating a closed-loop system.
-- **Benefits**:
-  - Improves accuracy and stability.
-  - Compensates for disturbances or errors.
-  - Enables automation and self-regulation.
-- **Examples**: Thermostats adjusting heating based on temperature readings; cruise control maintaining speed.
+**Definition**: The process of using output measurements to adjust inputs, creating a closed-loop system.
 
-## Applications
+**Benefits**:
 
-- Industrial automation, home security, automotive systems, and environmental monitoring rely on these systems for efficiency and safety.
+- Improves accuracy and stability.
+- Compensates for disturbances or errors.
+- Enables automation and self-regulation.
+
+
+## Quiz
+
+For each of the following items, state whether it is a monitoring system or a control system.
+
+| Item | Classification |
+|------|----------------|
+| burglar alarm | ??? |
+| cruise control | ??? |
+| auto street light | ??? |
+| air conditioner | ??? |
