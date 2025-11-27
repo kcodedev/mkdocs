@@ -1,5 +1,8 @@
 # Types of Programmable ROM
 
+![16Mbit EPROM ST Microelectronics M27C160](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/16Mbit_EPROM_ST_Microelectronics_M27C160_%281%29.jpg/960px-16Mbit_EPROM_ST_Microelectronics_M27C160_%281%29.jpg)
+
+
 ## Introduction
 
 Programmable Read-Only Memory (PROM) and its variants allow data to be written once or multiple times, providing flexibility in storing permanent data.

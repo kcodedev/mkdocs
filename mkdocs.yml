@@ -210,6 +210,7 @@ nav:
           - Memory Types:
               - RAM and ROM: AS/3-hardware/ram-rom.md
               - SRAM and DRAM: AS/3-hardware/sram-dram.md
+              - Cache: AS/3-hardware/cache.md
               - PROM Types: AS/3-hardware/prom-types.md
           - Monitoring and Control Systems: AS/3-hardware/monitoring-control-systems.md
       - 4 - Processor Fundamentals:
