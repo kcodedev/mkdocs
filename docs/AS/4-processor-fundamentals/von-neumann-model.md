@@ -3,7 +3,7 @@
 ![ENIAC](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Reprogramming_ENIAC.png/960px-Reprogramming_ENIAC.png)
 >The ENIAC completed in 1945. Operators had to manually rewire the machine using plugboards, set thousands of switches, and adjust patch cables to connect different components in order to change the program. This made programming extremely time-consuming.
 
-## Before Von Neumann:
+## Before Von Neumann
 
 - **Hardwired Computers**: Computers were built with specific hardware for each task
 - **No Separation of Data and Instructions**: Data and instructions were physically separate
