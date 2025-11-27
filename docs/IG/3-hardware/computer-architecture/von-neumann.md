@@ -1,6 +1,8 @@
 # Von Neumann Architecture
 
-![Von Neumann Architecture](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/640px-Von_Neumann_Architecture.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Computer_Systems_-_Von_Neumann_Architecture_Large_poster_anchor_chart.svg/960px-Computer_Systems_-_Von_Neumann_Architecture_Large_poster_anchor_chart.svg.png" alt="Von Neumann Architecture Diagram" style="clip-path: inset(90px 0 0 0);">
+
+## Components
 
 Most computers follow the Von Neumann architecture, which includes:
 
@@ -8,6 +10,15 @@ Most computers follow the Von Neumann architecture, which includes:
   - **Control Unit** (CU): Directs the operation of the processor
   - **Registers**: Small, fast storage locations within the CPU
   - **Buses**: Pathways for data transfer (address bus, data bus, control bus)
+
+### Registers
+
+- **Program Counter (PC)**: Holds the address of the next instruction to be fetched.
+- **Current Instruction Register (CIR)**: Stores the current instruction being decoded and executed.
+- **Memory Address Register (MAR)**: Holds the address of the memory location to be accessed.
+- **Memory Data Register (MDR)**: Holds data being transferred to or from memory.
+- **Accumulator**: A general-purpose register used for arithmetic and logic operations.
+
 
 ## Key Principles
 
@@ -23,7 +34,3 @@ The Von Neumann architecture is based on several core principles:
 ## Modern Relevance
 
 Even today, most computers, from smartphones to supercomputers, are based on the Von Neumann architecture. Advances like multicore processors and memory hierarchies build upon this foundation. Emerging architectures, such as quantum computing, may eventually challenge it, but Von Neumann's design continues to influence computer science education and hardware development.
-
-## Von Neumann Diagram
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Computer_Systems_-_Von_Neumann_Architecture_Large_poster_anchor_chart.svg/960px-Computer_Systems_-_Von_Neumann_Architecture_Large_poster_anchor_chart.svg.png" alt="Von Neumann Architecture Diagram" style="clip-path: inset(90px 0 0 0);">

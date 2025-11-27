@@ -4,7 +4,7 @@ Network hardware enables communication between computers and devices. Key compon
 
 ---
 
-## 🖥️ Network Interface Card (NIC)
+## Network Interface Card (NIC)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Eicon_Networks_E50409-002-8565.jpg/960px-Eicon_Networks_E50409-002-8565.jpg" alt="Network Interface Card">
 
@@ -16,7 +16,7 @@ Every device needs a NIC to connect to a network:
 
 ---
 
-## 🏷️ MAC Address
+## MAC Address
 
 Each NIC has a unique identifier called a MAC address:
 
@@ -25,9 +25,27 @@ Each NIC has a unique identifier called a MAC address:
 - **Purpose**: Identifies devices on a local network
 - **Assignment**: Set by manufacturer at production
 
+### 🔍 Finding Your MAC Address
+
+To find your device's MAC address using the command line:
+
+**Windows:**
+
+```cmd
+ipconfig /all
+```
+
+Look for "Physical Address" under your network adapter.
+
+**macOS/Linux:**
+
+```bash
+ifconfig
+```
+
 ---
 
-## 📍 IP Address
+## IP Address
 
 IP addresses identify devices on the internet:
 
@@ -38,9 +56,29 @@ IP addresses identify devices on the internet:
 - **Assignment**: Static (fixed) or Dynamic (changes)
 - **Allocation**: Managed by network router
 
+### 🔍 Finding Your IP Address
+
+To find your device's IP address using the command line:
+
+**Windows:**
+
+```cmd
+ipconfig
+```
+
+Look for "IPv4 Address" under your network adapter.
+
+**macOS/Linux:**
+
+```bash
+ifconfig
+```
+
+Look for "inet" followed by the IP address.
+
 ---
 
-## 🛤️ Router
+## Router
 
 Routers direct network traffic:
 
@@ -51,22 +89,14 @@ Routers direct network traffic:
   - Manages network security
 
 **Router Capabilities:**
+
 - **IP Assignment**: DHCP server functionality
 - **Network Connection**: Gateway between LAN and internet
 - **Traffic Management**: Routes packets efficiently
 
 ---
 
-## 🔗 Network Communication Flow
-
-1. Device sends data through NIC
-2. Data packets include destination IP and MAC addresses
-3. Router receives packets and forwards to correct destination
-4. Receiving device processes the data
-
----
-
-## 📝 **Key Points:**
+## Key Points
 
 - NIC enables network connection ✅
 - MAC address uniquely identifies hardware ✅
