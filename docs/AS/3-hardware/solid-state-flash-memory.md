@@ -20,8 +20,8 @@ A NAND flash die is the semiconductor chip that contains the NAND flash memory c
 ![NAND flash die](https://flashdba.com/wp-content/uploads/2014/06/nand-flash-die-layout.png)
 
 - **Memory Cells**: The basic unit, each a floating-gate transistor that stores charge to represent data (1s and 0s).
-- **Pages**: Groups of cells (typically 4-16 KB) that are read or programmed together for efficiency.
-- **Blocks**: Larger units (typically 128-512 pages) that must be erased as a whole before new data can be written.
+- **Pages**: Groups of cells (~ 4-16 KB) that are read or programmed together for efficiency.
+- **Blocks**: Larger units (~ 128-512 pages) that must be erased as a whole before new data can be written.
 - **Planes**: Subdivisions within a die that allow parallel operations for better performance.
 - **Dies**: The physical chip itself; multiple dies can be stacked or packaged together in modern SSDs.
 
