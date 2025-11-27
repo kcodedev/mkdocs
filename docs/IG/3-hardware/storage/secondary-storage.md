@@ -54,8 +54,14 @@ When reading, a change in the magnetic field on the disk produces a variation in
 
 
 ## ⚡Solid-State Storage (Flash Memory)
-- Uses NAND or NOR technology
-- Transistors act as control gates and floating gates
-- Examples: SSD, USB drives, SD cards
 
----
+![ssd](https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Samsung_980_PRO_PCIe_4.0_NVMe_SSD_1TB-top_PNr%C2%B00915.jpg/960px-Samsung_980_PRO_PCIe_4.0_NVMe_SSD_1TB-top_PNr%C2%B00915.jpg)
+
+## Key Information
+
+⚡Solid state memory (aka flash memory) is a type of non-volatile memory that stores data in an array of memory cells <br>
+⚡It can be volatile(RAM) or non-volatile(SSD) <br>
+⚡It uses semiconductor technology and has no moving parts <br>
+⚡Arrays of transistors act as memory cells <br>
+⚡Most circuitry resembles that of a NAND logic gates <br>
+⚡Data is “flashed” onto chips <br>
