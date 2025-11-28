@@ -6,6 +6,8 @@ This tutorial explores both switching techniques, their mechanisms, advantages, 
 
 ## 📞 Circuit Switching
 
+ ![Circuit Switching](https://media.geeksforgeeks.org/wp-content/uploads/20240906152427/Circuit-Switching.gif)
+
 ### What it is
 Circuit switching establishes a dedicated communication path between two devices before data transmission begins. This path remains reserved for the entire duration of the communication session.
 
@@ -75,26 +77,6 @@ Packet switching breaks data into small packets that are transmitted independent
 - Receiver uses sequence numbers to reorder packets
 - Missing packets are requested for retransmission
 
-### Types of Packet Switching
-
-#### Datagram Switching
-- Each packet is routed independently
-- No setup phase required
-- Packets may arrive out of order
-- Used by IP (Internet Protocol)
-
-#### Virtual Circuit Switching
-- Connection is established first (like circuit switching)
-- All packets follow the same path
-- Packets arrive in order
-- Used by ATM, Frame Relay
-
-### Key features
-- **Shared resources**: Network bandwidth used efficiently
-- **Dynamic routing**: Packets can take alternative paths
-- **Store-and-forward**: Packets buffered at intermediate nodes
-- **Statistical multiplexing**: Better utilization of network capacity
-
 ### Advantages
 - **Efficient resource use**: Bandwidth shared among multiple communications
 - **Fault tolerance**: Alternative paths available if links fail
@@ -106,9 +88,6 @@ Packet switching breaks data into small packets that are transmitted independent
 - **Packet loss**: Overloaded networks may drop packets
 - **Overhead**: Packet headers add extra data
 - **Complexity**: Requires sophisticated routing and reassembly
-
-### Analogy
-Packet switching is like sending a letter through the postal service. You break your message into multiple postcards, each mailed separately. They might take different routes and arrive at different times, but the recipient can reassemble them in the correct order.
 
 ## 📊 Comparison Table
 
