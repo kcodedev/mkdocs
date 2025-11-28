@@ -19,9 +19,6 @@ HyperText Transfer Protocol (HTTP) and its secure version HTTPS are the foundati
 - **Status codes**: 200 OK, 404 Not Found, 500 Internal Server Error
 - **HTTPS uses SSL/TLS** for encryption
 
-### Analogy
-HTTP is like sending a letter through regular mail (HTTP) vs. registered mail (HTTPS).
-
 ## 📁 FTP (File Transfer Protocol)
 
 ### What it does
@@ -37,9 +34,6 @@ FTP allows transferring files between computers on a network.
 - **Authentication**: Username/password required
 - **Modes**: Active (server initiates data connection) vs. Passive
 - **SFTP**: Secure version using SSH
-
-### Analogy
-FTP is like a file courier service for networks.
 
 ## 📧 Email Protocols
 
@@ -85,9 +79,6 @@ IMAP synchronizes emails between server and multiple clients.
 - **Server-side storage** and synchronization
 - **Folders and flags** (read, deleted, etc.)
 
-### Analogy
-SMTP is the postal service sending mail, POP3 is picking up mail from a PO box (and removing it), IMAP is managing mail in your home mailbox from anywhere.
-
 ## 🔗 BitTorrent
 
 ### What it does
@@ -103,16 +94,13 @@ BitTorrent is a peer-to-peer (P2P) file sharing protocol that distributes data a
 - **Swarm**: Group of peers sharing the same file
 - **Piece selection**: Downloads different parts from multiple sources
 - **Choking/unchoking**: Manages upload/download speeds
-- **DHT**: Decentralized tracking (no central server needed)
 
 ### How it works
-1. User downloads a .torrent file
-2. Connects to tracker or uses DHT to find peers
-3. Downloads file pieces from multiple peers simultaneously
-4. Uploads pieces to other peers while downloading
-
-### Analogy
-BitTorrent is like a potluck dinner where everyone brings and shares different dishes (file pieces) to create a complete meal.
+1. **Obtain a .torrent file**: A .torrent file is a torrent descriptor file (an example of a metadata file) containing information about the files to be shared and the tracker server.
+2. **Open the .torrent file**: Use BitTorrent software to open the .torrent file, which connects the client to a tracker server.
+3. **Connect to peers**: The tracker provides a list of peers (other users) and their IP addresses, forming a swarm for direct connections.
+4. **Exchange file pieces**: The file(s) to be shared (described by the .torrent file) are split into small pieces. Peers simultaneously download and upload these pieces from/to each other.
+5. **Maintain fair sharing**: Peers aim for a balanced upload ratio. BitTorrent employs a tit-for-tat strategy to discourage leeching, prioritizing uploads to peers who are actively sharing.
 
 ## 📊 Protocol Comparison Table
 
