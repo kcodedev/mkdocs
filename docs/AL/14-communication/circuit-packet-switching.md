@@ -50,6 +50,8 @@ Circuit switching is like reserving a dedicated lane on a highway for your entir
 
 ## 📦 Packet Switching
 
+![Packet Switching](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Packet_Switching.gif/960px-Packet_Switching.gif)
+
 ### What it is
 Packet switching breaks data into small packets that are transmitted independently across the network. Each packet finds its own path to the destination and is reassembled upon arrival.
 
