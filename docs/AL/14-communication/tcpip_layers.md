@@ -4,6 +4,93 @@ TCP/IP is the foundational architecture of the Internet. It defines how data is 
 
 It's usually shown in four layers, each with its own responsibilities.
 
+## 📊 Encapsulation Diagram
+
+```mermaid
+sequenceDiagram
+    participant App as Application Layer
+    participant Trans as Transport Layer
+    participant Int as Internet Layer
+    participant DL as Data Link Layer
+    participant Phys as Physical Layer
+
+    Note over App,Phys: Sending (Encapsulation) Process
+    App->>App: Adds application headers (e.g., HTTP) → Application PDU
+    App->>Trans: Passes application PDU
+    Trans->>Trans: Adds transport header → Segment
+    Trans->>Int: Passes segment
+    Int->>Int: Adds IP header → Packet
+    Int->>DL: Passes packet
+    DL->>DL: Adds frame header/trailer → Frame
+    DL->>Phys: Transmits frame as bits
+
+    Note over Phys,App: Receiving (Decapsulation) Process
+    Phys-->>DL: Receives frame
+    DL->>DL: Removes frame header/trailer → Packet
+    DL-->>Int: Passes packet
+    Int->>Int: Removes IP header → Segment
+    Int-->>Trans: Passes segment
+    Trans->>Trans: Removes transport header → Application PDU
+    Trans-->>App: Passes application PDU
+    App->>App: Removes application headers → Application data
+```
+
+
+### TCP Segment Structure
+
+```mermaid
+classDiagram
+    class TCPSegment {
+        +Source Port
+        +Destination Port
+        +Sequence Number
+        +Acknowledgment Number
+        +Data (Application data)
+    }
+```
+
+### IP Packet Structure
+
+```mermaid
+classDiagram
+    class IPPacket {
+        +Version
+        +Protocol
+        +Header Checksum
+        +Source IP Address
+        +Destination IP Address
+        +Data (TCP segment)
+    }
+```
+
+### Ethernet Frame Structure
+
+```mermaid
+classDiagram
+    class EthernetFrame {
+        +Destination MAC Address
+        +Source MAC Address
+        +EtherType/Length
+        +Payload (IP packet)
+        +FCS (Frame Check Sequence)
+    }
+```
+
+## 📦 How Data Moves Through the Layers (Example)
+
+### If you load a web page
+
+#### Sending (Your computer → Internet)
+- **Application Layer:** Browser creates an HTTP request.
+- **Transport Layer:** TCP wraps it into **segments** and manages the connection to port 80/443.
+- **Internet Layer:** IP adds source/destination IPs and routes it across the internet.
+- **Data Link Layer:** Wi-Fi/Ethernet **frames** carry it across your local network.
+
+This downward process through the layers is called **encapsulation**, where each layer adds its own header (and sometimes trailer) to the data from the layer above, creating a protocol data unit (PDU).
+
+#### Receiving (Server → Your computer)
+The layers are processed in reverse in a process called **decapsulation**, where each layer removes its header and passes the data upward.
+
 ## 1️⃣ Application Layer
 
 ### What it does
@@ -72,28 +159,13 @@ Handles communication within a single local network segment (e.g., within your W
 - Physical addressing (MAC addresses)
 - Frame formatting
 - Access to the physical medium (Wi-Fi radio waves, Ethernet cables)
-- Error detection (e.g., FCS checks)
+- Error detection (e.g., checksum)
 
 ### Common technologies and protocols
 - Ethernet (IEEE 802.3)
 - Wi-Fi (IEEE 802.11)
 - Switches operate at this layer
 - MAC addressing
-
-## 📦 How Data Moves Through the Layers (Example)
-
-### If you load a web page
-
-#### Sending (Your computer → Internet)
-- **Application Layer:** Browser creates an HTTP request.
-- **Transport Layer:** TCP wraps it into **segments** and manages the connection to port 80/443.
-- **Internet Layer:** IP adds source/destination IPs and routes it across the internet.
-- **Data Link Layer:** Wi-Fi/Ethernet **frames** carry it across your local network.
-
-This downward process through the layers is called **encapsulation**, where each layer adds its own header (and sometimes trailer) to the data from the layer above, creating a protocol data unit (PDU).
-
-#### Receiving (Server → Your computer)
-The layers are processed in reverse in a process called **decapsulation**, where each layer removes its header and passes the data upward.
 
 ## 🧠 Summary Table
 
@@ -103,34 +175,3 @@ The layers are processed in reverse in a process called **decapsulation**, where
 | Transport   | End-to-end connections, ports, reliability | TCP, UDP         |
 | Internet    | Routing, IP addressing           | IP, ICMP, ARP     |
 | Data Link   | Local network delivery, MAC addressing | Ethernet, Wi-Fi  |
-
-## 📊 Encapsulation Process Diagram
-
-```mermaid
-sequenceDiagram
-    participant App as Application Layer
-    participant Trans as Transport Layer
-    participant Int as Internet Layer
-    participant DL as Data Link Layer
-    participant Phys as Physical Layer
-
-    Note over App,Phys: Sending (Encapsulation) Process
-    App->>App: Adds application headers (e.g., HTTP) → Application PDU
-    App->>Trans: Passes application PDU
-    Trans->>Trans: Adds transport header → Segment
-    Trans->>Int: Passes segment
-    Int->>Int: Adds IP header → Packet
-    Int->>DL: Passes packet
-    DL->>DL: Adds frame header/trailer → Frame
-    DL->>Phys: Transmits frame as bits
-
-    Note over Phys,App: Receiving (Decapsulation) Process
-    Phys-->>DL: Receives frame
-    DL->>DL: Removes frame header/trailer → Packet
-    DL-->>Int: Passes packet
-    Int->>Int: Removes IP header → Segment
-    Int-->>Trans: Passes segment
-    Trans->>Trans: Removes transport header → Application PDU
-    Trans-->>App: Passes application PDU
-    App->>App: Removes application headers → Application data
-```
