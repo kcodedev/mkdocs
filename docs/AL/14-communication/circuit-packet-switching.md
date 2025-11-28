@@ -107,18 +107,12 @@ Packet switching breaks data into small packets that are transmitted independent
 ### Circuit Switching Today
 - Still used in traditional telephone networks (PSTN)
 - Some private networks and real-time applications
-- MPLS (Multiprotocol Label Switching) combines circuit-like behavior with packet switching
 
 ### Packet Switching Dominance
 - Foundation of the Internet (IP networks)
 - Ethernet LANs
 - Wireless networks (Wi-Fi, cellular)
 - Most modern communication systems
-
-### Hybrid Approaches
-- Modern networks often combine both techniques
-- Voice over IP (VoIP) uses packet switching but may reserve bandwidth
-- Quality of Service (QoS) mechanisms provide circuit-like guarantees in packet networks
 
 ## 📈 Performance Considerations
 
