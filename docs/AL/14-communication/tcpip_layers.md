@@ -36,13 +36,17 @@ Provides end-to-end communication between devices. It ensures that data from one
 - Segmentation and reassembly of data
 
 ### Common protocols
-- **TCP (Transmission Control Protocol)**
-  - Reliable, ordered delivery
-  - Flow control, error correction
-  - Used by web, email, SSH
-- **UDP (User Datagram Protocol)**
-  - Faster, no reliability guarantees
-  - Used by games, voice/video, DNS queries
+
+**TCP (Transmission Control Protocol)**
+
+- Reliable, ordered delivery
+- Flow control, error correction
+- Used by web, email, SSH
+
+**UDP (User Datagram Protocol)**
+
+- Faster, no reliability guarantees
+- Used by games, voice/video, DNS queries
 
 ## 3️⃣ Internet Layer
 
@@ -55,9 +59,7 @@ Moves packets between networks, deciding the best path across the Internet.
 - Packet fragmentation
 
 ### Common protocols
-- **IP (Internet Protocol)** → the core of the Internet
-  - IPv4 (32-bit)
-  - IPv6 (128-bit)
+- **IP (Internet Protocol)** → the core of the Internet, IPv4 (32-bit), IPv6 (128-bit)
 - **ICMP** – errors and diagnostics (ping, traceroute)
 - **ARP** – maps IP → MAC (sometimes considered between Internet/Data Link)
 
