@@ -103,3 +103,34 @@ The layers are processed in reverse in a process called **decapsulation**, where
 | Transport   | End-to-end connections, ports, reliability | TCP, UDP         |
 | Internet    | Routing, IP addressing           | IP, ICMP, ARP     |
 | Data Link   | Local network delivery, MAC addressing | Ethernet, Wi-Fi  |
+
+## 📊 Encapsulation Process Diagram
+
+```mermaid
+sequenceDiagram
+    participant App as Application Layer
+    participant Trans as Transport Layer
+    participant Int as Internet Layer
+    participant DL as Data Link Layer
+    participant Phys as Physical Layer
+
+    Note over App,Phys: Sending (Encapsulation) Process
+    App->>App: Adds application headers (e.g., HTTP) → Application PDU
+    App->>Trans: Passes application PDU
+    Trans->>Trans: Adds transport header → Segment
+    Trans->>Int: Passes segment
+    Int->>Int: Adds IP header → Packet
+    Int->>DL: Passes packet
+    DL->>DL: Adds frame header/trailer → Frame
+    DL->>Phys: Transmits frame as bits
+
+    Note over Phys,App: Receiving (Decapsulation) Process
+    Phys-->>DL: Receives frame
+    DL->>DL: Removes frame header/trailer → Packet
+    DL-->>Int: Passes packet
+    Int->>Int: Removes IP header → Segment
+    Int-->>Trans: Passes segment
+    Trans->>Trans: Removes transport header → Application PDU
+    Trans-->>App: Passes application PDU
+    App->>App: Removes application headers → Application data
+```
