@@ -319,6 +319,7 @@ nav:
            - Floating Point Converter 🐍: AL/13-data-representation/python-exercise.md
       - 14 - Communication & The Internet:
            - TCP/IP: AL/14-communication/tcpip_layers.md
+           - Protocols: AL/14-communication/protocols.md
            - Circuit & Packet switching: AL/14-communication/circuit-packet-switching.md
       - 15 - Hardware:
            - RISC vs CISC: AL/15-hardware/risc-cisc.md
