@@ -78,20 +78,20 @@ nav:
               - Asymmetric Encryption: IG/2-data-transmission/asymmetric-encryption.md
       - 3 - Hardware:
           - Computer Architecture:
-            - The Role of the CPU: IG/3-hardware/computer-architecture/cpu-role.md
-            - Embedded Systems: IG/3-hardware/computer-architecture/embedded-systems.md
-            - Von Neumann Architecture: IG/3-hardware/computer-architecture/von-neumann.md
-            - The Fetch-Decode-Execute Cycle: IG/3-hardware/computer-architecture/fde-cycle.md
-            - Performance Factors: IG/3-hardware/computer-architecture/performance-factors.md
-            - Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
+            - ✅The Role of the CPU: IG/3-hardware/computer-architecture/cpu-role.md
+            - ✅Embedded Systems: IG/3-hardware/computer-architecture/embedded-systems.md
+            - ✅Von Neumann Architecture: IG/3-hardware/computer-architecture/von-neumann.md
+            - ✅The Fetch-Decode-Execute Cycle: IG/3-hardware/computer-architecture/fde-cycle.md
+            - ✅Performance Factors: IG/3-hardware/computer-architecture/performance-factors.md
+            - ✅Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
           - Input Devices:
-            - Keyboard: IG/3-hardware/input-devices/Mitchell_Keyboards.md
-            - Mouse: IG/3-hardware/input-devices/mouse.md
+            - ✅Keyboard: IG/3-hardware/input-devices/Mitchell_Keyboards.md
+            - ✅Mouse: IG/3-hardware/input-devices/mouse.md
             - ✅Microphone: IG/3-hardware/input-devices/mic.md
             - Scanners: IG/3-hardware/input-devices/scanners.md
             - Digital Camera: IG/3-hardware/input-devices/digitalcam2.md
-            - 🧠 Sensors: IG/3-hardware/input-devices/🧠 Sensors.md
-            - Sensors (1): IG/3-hardware/input-devices/sensors (1).md
+            - ✅🧠 Sensors: IG/3-hardware/input-devices/🧠 Sensors.md
+            - ✅Sensors (1): IG/3-hardware/input-devices/sensors (1).md
             - ✅Touch Screen: IG/3-hardware/input-devices/touch-screen.md
           - Output Devices:
             - Monitors: IG/3-hardware/output-devices/monitor.md
@@ -103,12 +103,11 @@ nav:
             - ✅Speakers: IG/3-hardware/output-devices/speakers.md
             - ✅Actuators: IG/3-hardware/output-devices/actuators.md
           - Data Storage:
-            - Primary Storage: IG/3-hardware/storage/primary-storage.md
-            - Secondary Storage: IG/3-hardware/storage/secondary-storage.md
+            - ✅Primary Storage: IG/3-hardware/storage/primary-storage.md
+            - ✅Secondary Storage: IG/3-hardware/storage/secondary-storage.md
             - Cloud Storage: IG/3-hardware/storage/cloud-storage.md
             - Virtual Memory: IG/3-hardware/storage/virtual-memory.md
-          - Input Output Devices: IG/3-hardware/input-output-devices.md
-          - Network Hardware: IG/3-hardware/network-hardware.md
+            - Network Hardware: IG/3-hardware/network-hardware.md
       - 4 - Software:
           - System vs Application Software: IG/4-software/system-vs-application.md
           - Basic OS Functions: IG/4-software/os-functions.md
