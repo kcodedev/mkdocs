@@ -20,32 +20,31 @@
 - **Network ID**: Identifies the subnet.
 - **Host ID**: Identifies a device within the subnet.
 - **Subnet Mask**: Defines how many bits are used for the network vs. the host.
-
----
-
-## Understanding CIDR and Binary
-
-In CIDR notation, an IP address like `192.168.1.0/26` means:
-
-- The **first 26 bits** are used for the **network ID**
-- The **remaining 6 bits** are used for **host addresses**
-
+- **Broadcast Address**: Used to send data to all devices on the subnet simultaneously.
 
 ---
 
 ## Subnetting Example
 
-Suppose a company is assigned a public Class C block:
+A company has **4 departments**, each needing around **50 hosts**.  Suppose the company is assigned a public Class C block. A Class C network block uses:
 
-The company has **4 departments**, each needing around **50 hosts**.  
-We can divide the `/24` block into **4 subnets** of `/26`, like this:
+- 24 bits for the network ID
+- 8 bits for the host ID, 
 
-| Subnet | Network Address    | Usable Host Range       | Broadcast Address   | Department  |
-|--------|--------------------|--------------------------|---------------------|-------------|
-| /26 #1 | `203.0.113.0/26`   | `203.0.113.1 – .62`      | `203.0.113.63`      | Finance     |
-| /26 #2 | `203.0.113.64/26`  | `203.0.113.65 – .126`    | `203.0.113.127`     | Support     |
-| /26 #3 | `203.0.113.128/26` | `203.0.113.129 – .190`   | `203.0.113.191`     | Engineering |
-| /26 #4 | `203.0.113.192/26` | `203.0.113.193 – .254`   | `203.0.113.255`     | Sales       |
+This provides 256 total IP addresses. 
+
+Before subnetting, all departments would share the same broadcast domain, potentially leading to network congestion and security risks. 
+
+After subnetting into four subnets, each department gets an isolated segment with 64 addresses (62 usable hosts), improving efficiency, security, and manageability.
+
+We can divide the network with subnet mask `255.255.255.0` into **4 subnets** with subnet mask `255.255.255.192`, like this:
+
+| Subnet | Network Address    | Subnet Mask       | Usable Host Range       | Broadcast Address   | Department  |
+|--------|--------------------|-------------------|--------------------------|---------------------|-------------|
+| Subnet 1 | `203.0.113.0`   | `255.255.255.192` | `203.0.113.1 – .62`      | `203.0.113.63`      | Finance     |
+| Subnet 2 | `203.0.113.64`  | `255.255.255.192` | `203.0.113.65 – .126`    | `203.0.113.127`     | Support     |
+| Subnet 3 | `203.0.113.128` | `255.255.255.192` | `203.0.113.129 – .190`   | `203.0.113.191`     | Engineering |
+| Subnet 4 | `203.0.113.192` | `255.255.255.192` | `203.0.113.193 – .254`   | `203.0.113.255`     | Sales       |
 
 Each subnet supports **62 usable host addresses** — perfect for the ~50 devices per department.
 
@@ -60,16 +59,13 @@ You're borrowing **2 bits** from the host portion of the address:
 - `10` → Engineering
 - `11` → Sales
 
-A router can read these subnet ID bits and route traffic appropriately.
-
-This is how **CIDR** (Classless Inter-Domain Routing) enables **flexible, efficient subnetting**, even outside the rigid old Class A/B/C system.
-
 ---
 
-## Summary
+## Subnet Mask Calculation
+To calculate the subnet mask `255.255.255.192`:
 
-- CIDR lets you divide IP blocks precisely, like splitting a `/24` into four `/26`s.
-- Subnetting supports better network design, security, and scalability.
-- Routers use subnet IDs to direct packets within your internal network.
+1. Start with the default Class C mask: `255.255.255.0` (binary: `11111111.11111111.11111111.00000000`).
+2. Borrow **2 bits** from the host portion: `11111111.11111111.11111111.11000000`.
+3. Convert back to decimal: `255.255.255.192`.
 
 ---
