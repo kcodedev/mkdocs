@@ -1,5 +1,12 @@
 # Monitoring and Control Systems
 
+
+## Picture Examples
+
+![Patient monitor](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Dash_5000_Medical_monitor.jpg/330px-Dash_5000_Medical_monitor.jpg)
+
+![Air conditioning system](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/ACFujitsu2.jpg/330px-ACFujitsu2.jpg)
+
 ## Pseudocode
 
 ### Monitoring System
@@ -27,12 +34,6 @@ WHILE true DO
     END IF
 END WHILE
 ```
-
-## Picture Examples
-
-![Patient monitor](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Dash_5000_Medical_monitor.jpg/330px-Dash_5000_Medical_monitor.jpg)
-
-![Air conditioning system](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/ACFujitsu2.jpg/330px-ACFujitsu2.jpg)
 
 ## Introduction
 
