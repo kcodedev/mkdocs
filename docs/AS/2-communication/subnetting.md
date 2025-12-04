@@ -78,4 +78,4 @@ To calculate the subnet mask `255.255.255.192`:
 
 Each subnet supports **62 usable host addresses** — perfect for the ~50 devices per department.
 
----
+---w

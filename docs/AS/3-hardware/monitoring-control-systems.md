@@ -74,13 +74,26 @@ Actuators convert electrical signals into physical actions.
 - Enables automation and self-regulation.
 
 
-## Quiz
+## 📊❓Quiz 
 
 For each of the following items, state whether it is a monitoring system or a control system.
 
-| Item | Classification |
-|------|----------------|
-| burglar alarm | ??? |
-| cruise control | ??? |
-| auto street light | ??? |
-| air conditioner | ??? |
+- Digital watch
+- MP3 player
+- Weather station
+- Thermostat
+- air conditioner
+- burglar alarm
+- cruise control
+- auto street light
+
+| Device | Embedded system? | Monitoring system? | Control system? | Why |
+|--------|------------------|---------------------|-----------------|-----|
+| Digital watch | ✔️ | ❌ | ❌ | Displays time only |
+| MP3 player | ✔️ | ❌ | ❌ | Plays stored audio |
+| Weather station | ✔️ | ✔️ | ❌ | Uses sensors to collect data |
+| Thermostat | ✔️ | ✔️ | ✔️ | Monitors temperature and controls heating |
+| air conditioner | ✔️ | ✔️ | ✔️ | Monitors temperature and controls cooling |
+| burglar alarm | ✔️ | ✔️ | ❌ | Monitors for intruders but does not control anything |
+| cruise control | ✔️ | ✔️ | ✔️ | Monitors speed and controls engine |
+| auto street light | ✔️ | ✔️ | ✔️ | Monitors light and controls street light |

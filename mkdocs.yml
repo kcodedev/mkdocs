@@ -197,11 +197,11 @@ nav:
           - Network Address Translation: AS/2-communication/nat.md
           - URLs & DNS: AS/2-communication/urls-dns.md
       - 3 - Hardware:
-          - Input, Output, and Storage: AS/3-hardware/input-output-storage.md
-          - Embedded Systems: AS/3-hardware/embedded-systems.md
+          - ✅Input, Output, and Storage: AS/3-hardware/input-output-storage.md
+          - ✅Embedded Systems: AS/3-hardware/embedded-systems.md
           - Hardware Devices:
-              - Laser Printer: AS/3-hardware/laser-printer.md
-              - 3D Printer: AS/3-hardware/3d-printer.md
+              - ✅Laser Printer: AS/3-hardware/laser-printer.md
+              - ✅3D Printer: AS/3-hardware/3d-printer.md
               - Microphone: AS/3-hardware/microphone.md
               - Speakers: AS/3-hardware/speakers.md
               - Magnetic Hard Disk: AS/3-hardware/magnetic-hard-disk.md
@@ -210,12 +210,12 @@ nav:
               - Touchscreen: AS/3-hardware/touchscreen.md
               - Virtual Reality Headset: AS/3-hardware/virtual-reality-headset.md
           - Buffers: AS/3-hardware/buffers.md
-          - Memory Types:
+          - ✅Memory Types:
               - RAM and ROM: AS/3-hardware/ram-rom.md
               - SRAM and DRAM: AS/3-hardware/sram-dram.md
               - Cache: AS/3-hardware/cache.md
               - PROM Types: AS/3-hardware/prom-types.md
-          - Monitoring and Control Systems: AS/3-hardware/monitoring-control-systems.md
+          - ✅Monitoring and Control Systems: AS/3-hardware/monitoring-control-systems.md
       - 4 - Processor Fundamentals:
           - 4.1 CPU Architecture:
               - Von Neumann Model: AS/4-processor-fundamentals/von-neumann-model.md
