@@ -10,13 +10,11 @@ Buffers are temporary storage areas used to manage data flow between devices or 
 sequenceDiagram
     participant N as Network
     participant B as Buffer
-    participant D as Decoder
     participant V as Video Output
     
     loop Continuous Streaming
-        N->>B: Download chunks (2MB chunks)
-        B->>D: Feed decoded video data
-        D->>V: Video frames (30fps)
+        N->>B: Download video data (2MB chunks)
+        B->>V: Process & display frames (30fps)
         
         alt Buffer Low (<20%)
             B->>N: Request more data
@@ -26,6 +24,37 @@ sequenceDiagram
         alt Buffer High (>80%)
             B->>N: Pause downloading
             Note over B: ✅ Buffered
+        end
+    end
+```
+
+## Keystroke Buffer Management
+
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant K as Keyboard
+    participant B as Key Buffer
+    participant C as CPU
+    participant D as Display
+    
+    loop Fast Typing
+        U->>K: Press key 'H'
+        K->>B: Store 'H' in buffer
+        U->>K: Press key 'E'  
+        K->>B: Store 'E' in buffer
+        U->>K: Press key 'L'
+        K->>B: Store 'L' in buffer
+        
+        alt CPU Available
+            C->>B: Read next key
+            B->>C: Send 'H'
+            C->>D: Display 'H'
+            C->>B: Read next key
+            B->>C: Send 'E'
+            C->>D: Display 'HE'
+        else CPU Busy
+            Note over B: Keys queuing up...
         end
     end
 ```
@@ -41,12 +70,7 @@ sequenceDiagram
 - **Hardware Buffers**: Physical memory areas in devices like keyboards (key buffer) or printers (print buffer).
 - **Software Buffers**: Memory allocated by the operating system or applications for data queuing.
 
-## Examples
-
-- **Keyboard Buffer**: Stores keystrokes until the CPU can process them, allowing continuous typing.
-- **Video Buffer (Frame Buffer)**: Holds pixel data for display, enabling smooth rendering.
-- **Network Buffer**: Manages incoming/outgoing packets to handle variable network speeds.
-
 ## Importance
 
 Buffers are crucial in real-time systems and multimedia applications where timing is critical, ensuring data integrity and user experience.
+
