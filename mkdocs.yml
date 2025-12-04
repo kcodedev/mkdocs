@@ -88,12 +88,12 @@ nav:
             - ✅Keyboard: IG/3-hardware/input-devices/Mitchell_Keyboards.md
             - ✅Mouse: IG/3-hardware/input-devices/mouse.md
             - ✅Microphone: IG/3-hardware/input-devices/mic.md
-            - Scanners: IG/3-hardware/input-devices/scanners.md
-            - Digital Camera: IG/3-hardware/input-devices/digitalcam2.md
+            - 🟨Scanners: IG/3-hardware/input-devices/scanners.md
+            - 🟨Digital Camera: IG/3-hardware/input-devices/digitalcam2.md
             - ✅Sensors: IG/3-hardware/input-devices/sensors.md
             - ✅Touch Screen: IG/3-hardware/input-devices/touch-screen.md
           - Output Devices:
-            - Monitors: IG/3-hardware/output-devices/monitor.md
+            - 🟨Monitors: IG/3-hardware/output-devices/monitor.md
             - ✅Projectors: IG/3-hardware/output-devices/projectors.md
             - ✅Printers Overview: IG/3-hardware/output-devices/printers.md
             - ✅Inkjet Printer: IG/3-hardware/output-devices/inkjet-printers.md
@@ -104,9 +104,9 @@ nav:
           - Data Storage:
             - ✅Primary Storage: IG/3-hardware/storage/primary-storage.md
             - ✅Secondary Storage: IG/3-hardware/storage/secondary-storage.md
-            - Cloud Storage: IG/3-hardware/storage/cloud-storage.md
-            - Virtual Memory: IG/3-hardware/storage/virtual-memory.md
-            - Network Hardware: IG/3-hardware/network-hardware.md
+            - 🟨Cloud Storage: IG/3-hardware/storage/cloud-storage.md
+            - 🟨Virtual Memory: IG/3-hardware/storage/virtual-memory.md
+            - 🟨Network Hardware: IG/3-hardware/network-hardware.md
       - 4 - Software:
           - System vs Application Software: IG/4-software/system-vs-application.md
           - Basic OS Functions: IG/4-software/os-functions.md
@@ -201,19 +201,19 @@ nav:
           - Hardware Devices:
               - ✅Laser Printer: AS/3-hardware/laser-printer.md
               - ✅3D Printer: AS/3-hardware/3d-printer.md
-              - Microphone: AS/3-hardware/microphone.md
-              - Speakers: AS/3-hardware/speakers.md
-              - Magnetic Hard Disk: AS/3-hardware/magnetic-hard-disk.md
-              - Solid State (Flash) Memory: AS/3-hardware/solid-state-flash-memory.md
-              - Optical Disc Reader/Writer: AS/3-hardware/optical-disc-reader-writer.md
-              - Touchscreen: AS/3-hardware/touchscreen.md
-              - Virtual Reality Headset: AS/3-hardware/virtual-reality-headset.md
-          - Buffers: AS/3-hardware/buffers.md
+              - 🟨Microphone: AS/3-hardware/microphone.md
+              - 🟨Speakers: AS/3-hardware/speakers.md
+              - 🟨Magnetic Hard Disk: AS/3-hardware/magnetic-hard-disk.md
+              - 🟨Solid State (Flash) Memory: AS/3-hardware/solid-state-flash-memory.md
+              - 🟨Optical Disc Reader/Writer: AS/3-hardware/optical-disc-reader-writer.md
+              - 🟨Touchscreen: AS/3-hardware/touchscreen.md
+              - 🟨Virtual Reality Headset: AS/3-hardware/virtual-reality-headset.md
+          - 🟨Buffers: AS/3-hardware/buffers.md
           - ✅Memory Types:
-              - RAM and ROM: AS/3-hardware/ram-rom.md
-              - SRAM and DRAM: AS/3-hardware/sram-dram.md
-              - Cache: AS/3-hardware/cache.md
-              - PROM Types: AS/3-hardware/prom-types.md
+              - ✅RAM and ROM: AS/3-hardware/ram-rom.md
+              - ✅SRAM and DRAM: AS/3-hardware/sram-dram.md
+              - ✅Cache: AS/3-hardware/cache.md
+              - ✅PROM Types: AS/3-hardware/prom-types.md
           - ✅Monitoring and Control Systems: AS/3-hardware/monitoring-control-systems.md
       - 4 - Processor Fundamentals:
           - 4.1 CPU Architecture:

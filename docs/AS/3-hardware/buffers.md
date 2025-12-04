@@ -4,6 +4,32 @@
 
 Buffers are temporary storage areas used to manage data flow between devices or processes that operate at different speeds or timings. They prevent data loss and ensure smooth operation.
 
+## Buffer Management in Media Player
+
+```mermaid
+sequenceDiagram
+    participant N as Network
+    participant B as Buffer
+    participant D as Decoder
+    participant V as Video Output
+    
+    loop Continuous Streaming
+        N->>B: Download chunks (2MB chunks)
+        B->>D: Feed decoded video data
+        D->>V: Video frames (30fps)
+        
+        alt Buffer Low (<20%)
+            B->>N: Request more data
+            Note over B: ⚠️ Buffering...
+        end
+        
+        alt Buffer High (>80%)
+            B->>N: Pause downloading
+            Note over B: ✅ Buffered
+        end
+    end
+```
+
 ## Purpose of Buffers
 
 - **Data Synchronization**: Accommodate differences in data transfer rates between components (e.g., CPU and I/O devices).
