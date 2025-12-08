@@ -44,6 +44,7 @@ nav:
       - Software: AEP/what-is-software.md
       - Internet Basics: AEP/internet-basics.md
       - Digital Safety: AEP/digital-safety.md
+      - Block Coding: AEP/block-coding.md
   - IGCSE:
       - 1 - Data Representation:
           - Binary, why? how?: IG/1-data-representation/binary.md
