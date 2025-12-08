@@ -201,8 +201,8 @@ nav:
           - 🟨Hardware Devices:
               - ✅Laser Printer: AS/3-hardware/laser-printer.md
               - ✅3D Printer: AS/3-hardware/3d-printer.md
-              - 🟨Microphone: AS/3-hardware/microphone.md
-              - 🟨Speakers: AS/3-hardware/speakers.md
+              - ✅Microphone: AS/3-hardware/microphone.md
+              - ✅Speakers: AS/3-hardware/speakers.md
               - 🟨Magnetic Hard Disk: AS/3-hardware/magnetic-hard-disk.md
               - 🟨Solid State (Flash) Memory: AS/3-hardware/solid-state-flash-memory.md
               - 🟨Optical Disc Reader/Writer: AS/3-hardware/optical-disc-reader-writer.md
