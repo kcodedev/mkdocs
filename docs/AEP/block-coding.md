@@ -1,8 +1,8 @@
-# 🎮 Block Coding with Blockly Games
+# 🎮 Block Coding with Scratch
 
-## 🤔 What is Blockly Games?
+## 🤔 What is Scratch?
 
-[Blockly Games](https://blockly.games/) is an educational platform developed by Google that introduces programming concepts through visual block-based coding. 
+[Scratch](https://scratch.mit.edu/) is a free educational programming platform developed by the MIT Media Lab that introduces programming concepts through visual block-based coding. It's designed especially for young learners aged 8-16 but is used by people of all ages.
 
 ## ⭐ Key Features
 
@@ -11,17 +11,20 @@
 - **No Syntax Errors**: Since blocks snap together only in valid combinations, syntax errors are impossible
 - **Immediate Visual Feedback**: See your program's output instantly as you build it
 
-### 🎯 Progressive Learning Structure
-Blockly Games offers a series of progressively challenging games that teach different programming concepts:
+### 🎯 Creative Project Types
+Scratch allows you to create a variety of interactive projects:
 
-1. **Puzzle** - Introduction to how blocks work
-2. **Maze** - Basic programming concepts with loops and conditionals
-3. **Bird** - Decision-making with if-else statements
-4. **Turtle Graphics** - Drawing and geometry with programming
-5. **Movie** - Animation using mathematical equations
-6. **Music** - Creating sounds and music with code
-7. **Pond Tutor** - Strategy and problem-solving
-8. **Pond** - Advanced programming challenges
+1. **Animations** - Tell stories with animated characters and backgrounds
+2. **Games** - Create interactive games with scoring and levels
+3. **Interactive Stories** - Build choose-your-own-adventure narratives
+4. **Music and Art** - Make digital art and compose music
+5. **Simulations** - Model real-world concepts and systems
+
+### 🌐 Community Features
+- **Share Projects**: Publish your creations for others to see and remix
+- **Explore**: Browse millions of projects created by other Scratchers
+- **Remix**: Learn by modifying existing projects
+- **Studios**: Organize projects into themed collections
 
 ## 🎓 Educational Benefits
 
@@ -30,16 +33,16 @@ Blockly Games offers a series of progressively challenging games that teach diff
 - **Loops**: Repeating actions multiple times
 - **Conditionals**: Making decisions in code (if-then statements)
 - **Variables**: Storing and using data
-- **Functions**: Creating reusable code blocks
+- **Functions**: Creating reusable code blocks (custom blocks)
 - **Events**: Responding to user actions
 
 ## 🚀 Getting Started
 
 ### First Steps
-1. Visit [https://blockly.games/](https://blockly.games/)
-2. Start with the "Puzzle" section to learn the interface
-3. Progress through games in order for best learning experience
-4. Complete each level before moving to the next
+1. Visit [https://scratch.mit.edu/](https://scratch.mit.edu/)
+2. Click "Create" to start a new project
+3. Try the built-in tutorials to learn the basics
+4. Experiment with different block categories (Motion, Looks, Sound, Events, Control, etc.)
 
 ### 💡 Tips for Success
 - **Experiment**: Try different block combinations to see what happens
@@ -47,10 +50,10 @@ Blockly Games offers a series of progressively challenging games that teach diff
 - **Use Comments**: Add notes to remember your thinking process
 - **Practice Regularly**: Consistent practice builds programming skills
 - **Don't Give Up**: Programming requires patience and persistence
+- **Explore the Community**: Learn from other Scratchers' projects
 
 ### 🛤️ Further Learning Paths
-After mastering Blockly Games:
-- **Scratch**: More advanced visual programming
+After mastering Scratch:
 - **Python**: Popular text-based programming language
 - **JavaScript**: Web development language
 - **HTML/CSS**: Web page creation
@@ -58,4 +61,4 @@ After mastering Blockly Games:
 
 ---
 
-*🎯 Ready to start your programming journey? Visit [Blockly Games](https://blockly.games/) today and begin creating with code!*
+*🎯 Ready to start your programming journey? Visit [Scratch](https://scratch.mit.edu/) today and begin creating with code!*
