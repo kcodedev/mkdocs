@@ -54,10 +54,10 @@ Scratch allows you to create a variety of interactive projects:
 
 ### 🛤️ Further Learning Paths
 After mastering Scratch:
+
 - **Python**: Popular text-based programming language
 - **JavaScript**: Web development language
 - **HTML/CSS**: Web page creation
-- **App Development**: Mobile and desktop applications
 
 ---
 
