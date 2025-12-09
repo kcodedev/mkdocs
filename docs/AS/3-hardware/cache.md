@@ -10,14 +10,14 @@
 
 ---
 
-#### Types of Cache:
+#### Types of Cache
 
-  - **L1 Cache**: Smallest and fastest, integrated into the CPU core. Divided into instruction cache and data cache.
-  - **L2 Cache**: Larger than L1, can be on-chip or off-chip. Shared between CPU cores.
-  - **L3 Cache**: Largest level, shared among all CPU cores on multi-core processors.
+  + **L1 Cache**: Smallest and fastest, integrated into the CPU core. Divided into instruction cache and data cache.
+  + **L2 Cache**: Larger than L1, can be on-chip or off-chip. Shared between CPU cores.
+  + **L3 Cache**: Largest level, shared among all CPU cores on multi-core processors.
 
 ---
-## State Transition Diagram
+#### State Transition Diagram
 ```mermaid
 stateDiagram-v2
     [*] --> CPU_Request
@@ -45,12 +45,10 @@ stateDiagram-v2
 
 
 ---
-#### How Cache Works
+#### Cache works using locality
 
-Cache operates on the principle of locality:
-
-- ==**Temporal Locality**==: Recently accessed data is likely to be accessed again soon.
-- ==**Spatial Locality**==: Data near recently accessed data is likely to be accessed soon.
++ ==**Temporal Locality**==: Recently accessed data is likely to be accessed again soon.
++ ==**Spatial Locality**==: Data near recently accessed data is likely to be accessed soon.
 
 ---
 #### Cache hits and misses
