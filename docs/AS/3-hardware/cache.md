@@ -1,12 +1,16 @@
 # Cache Memory
 
-![Cache Memory Illustration](https://i.sstatic.net/OiaaB.jpg)
+...
 
 ---
 ## Cache?
 
 + **==Cache==** memory is a high-speed, temporary storage area that stores frequently accessed data and instructions. 
 + It acts as a bridge between the CPU and main memory (RAM), reducing access times and enhancing overall system efficiency. 🚀
+
+---
+
+![Cache Memory Illustration](https://i.sstatic.net/OiaaB.jpg)
 
 ---
 
