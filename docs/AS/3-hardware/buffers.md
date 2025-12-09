@@ -1,10 +1,12 @@
-# Buffers in Hardware
+# **Buffers** 
 
-## Introduction
+---
 
-Buffers are temporary storage areas used to manage data flow between devices or processes that operate at different speeds or timings. They prevent data loss and ensure smooth operation.
+**==Buffers==** are temporary storage areas used to manage data flow between devices or processes that operate at different speeds or timings. 
 
-## Buffer Management in Media Player
+---
+
+## Media Player Buffer
 
 ```mermaid
 sequenceDiagram
@@ -28,6 +30,7 @@ sequenceDiagram
     end
 ```
 
+---
 ## Keystroke Buffer Management
 
 ```mermaid
@@ -59,6 +62,7 @@ sequenceDiagram
     end
 ```
 
+---
 ## Purpose of Buffers
 
 - **Data Synchronization**: Accommodate differences in data transfer rates between components (e.g., CPU and I/O devices).
