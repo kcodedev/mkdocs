@@ -35,12 +35,12 @@ This is exactly how linear search works!
 
 ### Visual Example
 
-Let's search for the number `7` in this list: `[3, 1, 4, 1, 5, 9, 2, 6]`
+Let's search for the number `7` in this list: `[3, 1, 4, 1, 5]`
 
 ```
-Position:  0  1  2  3  4  5  6  7
-Values:   [3, 1, 4, 1, 5, 9, 2, 6]
-           ↑                    Start here
+Position:  0  1  2  3  4
+Values:   [3, 1, 4, 1, 5]
+           ↑             Start here
           
 Step 1: Check position 0 (value 3)
         Is 3 == 7? No, move to next
@@ -55,26 +55,19 @@ Step 4: Check position 3 (value 1)
         Is 1 == 7? No, move to next
           
 Step 5: Check position 4 (value 5)
-        Is 5 == 7? No, move to next
-          
-Step 6: Check position 5 (value 9)
-        Is 9 == 7? No, move to next
-          
-Step 7: Check position 6 (value 2)
-        Is 2 == 7? No, move to next
-          
-Step 8: Check position 7 (value 6)
-        Is 6 == 7? No, we've reached the end
+        Is 5 == 7? No, we've reached the end
         
 Result: 7 was not found in the list
 ```
 
+---
+
 Now let's search for `5` in the same list:
 
 ```
-Position:  0  1  2  3  4  5  6  7
-Values:   [3, 1, 4, 1, 5, 9, 2, 6]
-          ↑                    Start here
+Position:  0  1  2  3  4
+Values:   [3, 1, 4, 1, 5]
+           ↑                    Start here
           
 Step 1: Check position 0 (value 3) - Not 5
 Step 2: Check position 1 (value 1) - Not 5  
@@ -82,6 +75,8 @@ Step 3: Check position 2 (value 4) - Not 5
 Step 4: Check position 3 (value 1) - Not 5
 Step 5: Check position 4 (value 5) - FOUND! Return position 4
 ```
+
+---
 
 ## Building the Python Solution
 
