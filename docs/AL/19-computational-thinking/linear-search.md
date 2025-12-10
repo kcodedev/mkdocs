@@ -40,7 +40,7 @@ Let's search for the number `7` in this list: `[3, 1, 4, 1, 5, 9, 2, 6]`
 ```
 Position:  0  1  2  3  4  5  6  7
 Values:   [3, 1, 4, 1, 5, 9, 2, 6]
-          ↑                    Start here
+           ↑                    Start here
           
 Step 1: Check position 0 (value 3)
         Is 3 == 7? No, move to next
