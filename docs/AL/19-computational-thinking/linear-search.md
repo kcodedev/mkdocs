@@ -50,7 +50,7 @@ Result: 7 was not found in the list
 
 ---
 
-Now let's search for `5` in the same list:
+Now let's search for `4` in the same list:
 
 ```
 Position:  0  1  2  3  4
@@ -59,9 +59,7 @@ Start:     ↑
           
 Step 1: Check position 0 (value 3) - Not 5
 Step 2: Check position 1 (value 1) - Not 5  
-Step 3: Check position 2 (value 4) - Not 5
-Step 4: Check position 3 (value 1) - Not 5
-Step 5: Check position 4 (value 5) - FOUND! Return position 4
+Step 3: Check position 2 (value 4) - FOUND! Return position 2
 ```
 
 ---
