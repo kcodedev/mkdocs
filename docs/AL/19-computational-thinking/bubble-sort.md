@@ -21,7 +21,7 @@ Think of it like bubbles rising to the surface - larger elements "bubble" up to 
 
 ---
 
-### 👁️ Visual Example
+### 👁️ Visual Example - Efficient bubble sort
 
 Let's sort this array: `[5, 3, 8, 4, 2]`
 
@@ -38,21 +38,15 @@ Pass 2:
 Compare 3<5: no swap → [3, 5, 4, 2, 8]
 Compare 5>4: swap → [3, 4, 5, 2, 8]
 Compare 5>2: swap → [3, 4, 2, 5, 8]
-Compare 5<8: no swap → [3, 4, 2, 5, 8]
 
 Pass 3:
 Compare 3<4: no swap → [3, 4, 2, 5, 8]
 Compare 4>2: swap → [3, 2, 4, 5, 8]
-Compare 4<5: no swap → [3, 2, 4, 5, 8]
-Compare 5<8: no swap → [3, 2, 4, 5, 8]
 
 Pass 4:
 Compare 3>2: swap → [2, 3, 4, 5, 8]
-Compare 3<4: no swap → [2, 3, 4, 5, 8]
-Compare 4<5: no swap → [2, 3, 4, 5, 8]
-Compare 5<8: no swap → [2, 3, 4, 5, 8]
 
-Final: [2, 3, 4, 5, 8] (no swaps in pass 4, sorting complete)
+Final: [2, 3, 4, 5, 8] (sorting complete)
 ```
 
 ---
