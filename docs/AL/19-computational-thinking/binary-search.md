@@ -172,38 +172,6 @@ print("Searching for 7:")
 result = binary_search_with_trace(numbers, 7)
 ```
 
-### 4️⃣ Version 4: Finding Leftmost Occurrence
-
-When there are duplicates, this finds the leftmost occurrence:
-
-```python
-def binary_search_leftmost(arr, target):
-    """
-    Binary search that finds the leftmost occurrence of target
-    Returns the index of the first occurrence, -1 if not found
-    """
-    left, right = 0, len(arr) - 1
-    result = -1
-
-    while left <= right:
-        mid = (left + right) // 2
-
-        if arr[mid] == target:
-            result = mid
-            right = mid - 1  # Continue searching left for earlier occurrences
-        elif arr[mid] < target:
-            left = mid + 1
-        else:
-            right = mid - 1
-
-    return result
-
-# Test finding leftmost occurrence
-numbers = [1, 3, 3, 3, 5, 7, 9]
-result = binary_search_leftmost(numbers, 3)
-print(f"Leftmost 3 is at position: {result}")  # Output: Leftmost 3 is at position: 1
-```
-
 ## 💪 Practice Exercises
 
 ### 1️⃣ Exercise 1: Basic Iterative Implementation
@@ -232,33 +200,6 @@ def count_occurrences_binary(arr, target):
 test_list = [1, 2, 2, 2, 3, 4, 5]
 result = count_occurrences_binary(test_list, 2)
 print(f"2 appears {result} times")  # Should be 3
-```
-
-### 3️⃣ Exercise 3: Find Insertion Point
-Write a binary search that finds the position where a target should be inserted to maintain sorted order.
-
-```python
-def find_insertion_point(arr, target):
-    """Find where target should be inserted in sorted array"""
-    # Your code here
-
-# Test
-test_list = [1, 3, 5, 7, 9]
-result = find_insertion_point(test_list, 4)
-print(f"4 should be inserted at position: {result}")  # Should be 2
-```
-
-### 4️⃣ Exercise 4: Square Root Approximation
-Use binary search to approximate the square root of a number.
-
-```python
-def approximate_sqrt(n, precision=0.0001):
-    """Approximate square root using binary search"""
-    # Your code here
-
-# Test
-result = approximate_sqrt(16)
-print(f"Square root of 16 is approximately: {result}")  # Should be ~4.0
 ```
 
 ## 📚 Complete Example: Library Book Search

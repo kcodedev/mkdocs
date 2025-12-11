@@ -140,35 +140,9 @@ bubble_sort_optimized(numbers)
 print(f"Sorted array: {numbers}")  # Output: Sorted array: [2, 3, 4, 5, 8]
 ```
 
-### 4️⃣ Version 4: Working with Different Data Types
-
-Bubble sort works with any comparable data type:
-
-```python
-def bubble_sort_generic(arr):
-    """
-    Generic bubble sort that works with any comparable data type
-    """
-    n = len(arr)
-    for i in range(n):
-        for j in range(0, n - i - 1):
-            if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
-
-# Test with strings
-words = ["zebra", "apple", "banana", "cherry"]
-bubble_sort_generic(words)
-print(f"Sorted words: {words}")
-
-# Test with mixed comparable types (if needed)
-mixed = [3.14, 1, 2.71, 0, 42]
-bubble_sort_generic(mixed)
-print(f"Sorted mixed: {mixed}")
-```
-
 ## 💪 Practice Exercises
 
-### 1️⃣ Exercise 1: Basic Implementation
+### 1️⃣ Exercise 1: Basic Implementation (for loops)
 Write a bubble sort function that sorts a list of integers in ascending order.
 
 ```python
@@ -196,69 +170,17 @@ bubble_sort_descending(test_list)
 print(f"Sorted descending: {test_list}")  # Should be [5, 4, 3, 1, 1]
 ```
 
-### 3️⃣ Exercise 3: Count Passes
-Write a function that counts how many passes were needed to sort the array.
+### 3️⃣ Exercise 3: Use while loop with flag
+Write a bubble sort version using a while loop and a flag to track swaps.
 
 ```python
-def bubble_sort_count_passes(arr):
+def bubble_sort_efficient(arr):
     """Count passes needed for sorting"""
     # Your code here
 
 # Test
 test_list = [5, 4, 3, 2, 1]
-passes = bubble_sort_count_passes(test_list)
-print(f"Needed {passes} passes")  # Should be 4 for reverse sorted
-```
-
-### 4️⃣ Exercise 4: Advanced Challenge
-Implement bubble sort that can sort a list of tuples by a specific index.
-
-```python
-def bubble_sort_by_index(arr, index):
-    """Sort list of tuples by specified index"""
-    # Your code here
-
-# Test
-data = [("Alice", 25), ("Bob", 20), ("Charlie", 30)]
-bubble_sort_by_index(data, 1)  # Sort by age
-print(f"Sorted by age: {data}")  # Should be [("Bob", 20), ("Alice", 25), ("Charlie", 30)]
-```
-
-## 📚 Complete Example: Sorting Student Scores
-
-Here's a practical example using bubble sort to sort student exam scores:
-
-```python
-def sort_student_scores(students, scores):
-    """
-    Sort students by their scores using bubble sort
-
-    Args:
-        students: List of student names
-        scores: List of corresponding scores
-
-    Returns:
-        tuple: (sorted_students, sorted_scores)
-    """
-    n = len(scores)
-    for i in range(n):
-        for j in range(0, n - i - 1):
-            if scores[j] < scores[j + 1]:  # Sort in descending order (highest first)
-                # Swap scores
-                scores[j], scores[j + 1] = scores[j + 1], scores[j]
-                # Swap corresponding students
-                students[j], students[j + 1] = students[j + 1], students[j]
-
-    return students, scores
-
-# Example usage
-class_names = ["Alice", "Bob", "Charlie", "Diana", "Eve"]
-class_scores = [85, 92, 78, 96, 88]
-
-sorted_names, sorted_scores = sort_student_scores(class_names, class_scores)
-print("Students sorted by score (highest first):")
-for name, score in zip(sorted_names, sorted_scores):
-    print(f"{name}: {score}")
+bubble_sort_efficient(test_list)
 ```
 
 ## 📝 Summary
