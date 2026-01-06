@@ -26,7 +26,7 @@ Let's sort this array: `[5, 3, 8, 4, 2]`
 
 ```
 Initial: [5, 3, 8, 4, 2]
-         ↑
+          ↑
          i=0 (sorted portion)
 
 Step 1: i=1, key=3
@@ -151,37 +151,6 @@ insertion_sort_binary(numbers)
 print(f"Sorted array: {numbers}")  # Output: Sorted array: [2, 3, 4, 5, 8]
 ```
 
-### 4️⃣ Version 4: Working with Custom Comparison
-
-Insertion sort with custom comparison function:
-
-```python
-def insertion_sort_custom(arr, compare_func=None):
-    """
-    Insertion sort with custom comparison function
-    """
-    if compare_func is None:
-        compare_func = lambda a, b: a > b  # Default ascending
-
-    for i in range(1, len(arr)):
-        key = arr[i]
-        j = i - 1
-
-        while j >= 0 and compare_func(arr[j], key):
-            arr[j + 1] = arr[j]
-            j -= 1
-
-        arr[j + 1] = key
-
-# Test with custom comparison (descending order)
-def descending(a, b):
-    return a < b
-
-numbers = [5, 3, 8, 4, 2]
-insertion_sort_custom(numbers, descending)
-print(f"Sorted descending: {numbers}")  # Output: [8, 5, 4, 3, 2]
-```
-
 ## 💪 Practice Exercises
 
 ### 1️⃣ Exercise 1: Basic Implementation
@@ -224,23 +193,6 @@ def insertion_sort_by_length(arr):
 words = ["a", "bbb", "cc", "dddd", "ee"]
 insertion_sort_by_length(words)
 print(f"Sorted by length: {words}")  # Should be ["a", "cc", "ee", "bbb", "dddd"]
-```
-
-### 4️⃣ Exercise 4: Advanced Challenge
-Implement insertion sort for a linked list structure.
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-
-def insertion_sort_linked_list(head):
-    """Sort a linked list using insertion sort logic"""
-    # Your code here (advanced exercise)
-
-# Test (would need linked list creation)
-# This is more complex - focus on the array version first
 ```
 
 ## 📚 Complete Example: Sorting Exam Scores
