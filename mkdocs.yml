@@ -46,7 +46,7 @@ nav:
       - Digital Safety: AEP/digital-safety.md
       - Block Coding: AEP/block-coding.md
   - IGCSE:
-      - 1 - Data Representation:
+      - 1 - ✅ Data Representation:
           - Binary, why? how?: IG/1-data-representation/binary.md
           - Number systems: IG/1-data-representation/number-systems.md
           - Why hexadecimal?: IG/1-data-representation/why-hex.md
@@ -62,7 +62,7 @@ nav:
           - Data Storage Units: IG/1-data-representation/data-storage-units.md
           - Calculating file size: IG/1-data-representation/calculating-file-size.md
           - Compression: IG/1-data-representation/compression.md
-      - 2 - Data Transmission:
+      - 2 - ✅ Data Transmission:
           - Packet Switching: IG/2-data-transmission/packet-switching.md
           - Serial vs Parallel Transmission: IG/2-data-transmission/serial-parallel-transmission.md
           - Directional Transmission: IG/2-data-transmission/directional-transmission.md
@@ -78,13 +78,13 @@ nav:
               - Symmetric Encryption: IG/2-data-transmission/symmetric-encryption.md
               - Asymmetric Encryption: IG/2-data-transmission/asymmetric-encryption.md
       - 3 - Hardware:
-          - Computer Architecture:
-            - ✅The Role of the CPU: IG/3-hardware/computer-architecture/cpu-role.md
-            - ✅Embedded Systems: IG/3-hardware/computer-architecture/embedded-systems.md
-            - ✅Von Neumann Architecture: IG/3-hardware/computer-architecture/von-neumann.md
-            - ✅The Fetch-Decode-Execute Cycle: IG/3-hardware/computer-architecture/fde-cycle.md
-            - ✅Performance Factors: IG/3-hardware/computer-architecture/performance-factors.md
-            - ✅Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
+          - ✅Computer Architecture:
+            - The Role of the CPU: IG/3-hardware/computer-architecture/cpu-role.md
+            - Embedded Systems: IG/3-hardware/computer-architecture/embedded-systems.md
+            - Von Neumann Architecture: IG/3-hardware/computer-architecture/von-neumann.md
+            - The Fetch-Decode-Execute Cycle: IG/3-hardware/computer-architecture/fde-cycle.md
+            - Performance Factors: IG/3-hardware/computer-architecture/performance-factors.md
+            - Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
           - Input Devices:
             - ✅Keyboard: IG/3-hardware/input-devices/Mitchell_Keyboards.md
             - ✅Mouse: IG/3-hardware/input-devices/mouse.md
@@ -93,15 +93,15 @@ nav:
             - 🟨Digital Camera: IG/3-hardware/input-devices/digitalcam2.md
             - ✅Sensors: IG/3-hardware/input-devices/sensors.md
             - ✅Touch Screen: IG/3-hardware/input-devices/touch-screen.md
-          - Output Devices:
-            - 🟨Monitors: IG/3-hardware/output-devices/monitor.md
-            - ✅Projectors: IG/3-hardware/output-devices/projectors.md
-            - ✅Printers Overview: IG/3-hardware/output-devices/printers.md
-            - ✅Inkjet Printer: IG/3-hardware/output-devices/inkjet-printers.md
-            - ✅Laser Printer: IG/3-hardware/output-devices/laser-printers.md
-            - ✅3D Printer: IG/3-hardware/output-devices/3d-printers.md
-            - ✅Speakers: IG/3-hardware/output-devices/speakers.md
-            - ✅Actuators: IG/3-hardware/output-devices/actuators.md
+          - ✅ Output Devices:
+            - Monitors: IG/3-hardware/output-devices/monitor.md
+            - Projectors: IG/3-hardware/output-devices/projectors.md
+            - Printers Overview: IG/3-hardware/output-devices/printers.md
+            - Inkjet Printer: IG/3-hardware/output-devices/inkjet-printers.md
+            - Laser Printer: IG/3-hardware/output-devices/laser-printers.md
+            - 3D Printer: IG/3-hardware/output-devices/3d-printers.md
+            - Speakers: IG/3-hardware/output-devices/speakers.md
+            - Actuators: IG/3-hardware/output-devices/actuators.md
           - Data Storage:
             - ✅Primary Storage: IG/3-hardware/storage/primary-storage.md
             - ✅Secondary Storage: IG/3-hardware/storage/secondary-storage.md
@@ -162,7 +162,6 @@ nav:
           - ✅ Logic Gates: IG/10-logic-gates-circuits/logic-gates.md
           - ✅ Gate Functions: IG/10-logic-gates-circuits/gate-functions.md
           - ✅ Creating Circuits: IG/10-logic-gates-circuits/creating-circuits.md
-          - ✅ Logic Expressions: IG/10-logic-gates-circuits/logic-expressions.md
       - Pseudocode Tasks: IG/pseudocode-tasks.md
       - Python Tasks: IG/python-tasks.md
   - AS:
