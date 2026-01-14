@@ -84,9 +84,10 @@ Logic gates can be combined to create complex circuits:
 - **Digital devices**: Control electronic circuits
 - **Decision making**: Implement logical conditions
 - **Signal processing**: Digital signal manipulation
-📝 **Key Points:**
 
- 
+---
+
+📝 **Key Points:**
 
 - Logic gates process binary inputs/outputs ✅
 - Each gate has specific truth table ✅

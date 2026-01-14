@@ -35,30 +35,13 @@ Logic circuits combine multiple gates to perform complex operations. They can be
 **Circuit**:
 ```
      Door ──┐
-            ├── AND ──┐
-     Motion─┘         │
+            ├── AND ─┐
+     Motion─┘        │
                      ├── OR ── Alarm
      Window ─────────┘
 ```
 
 ---
-
-## 🔄 Circuit Simplification
-
-### Boolean Algebra Laws
-- **Identity**: A + 0 = A, A • 1 = A
-- **Null**: A + 1 = 1, A • 0 = 0
-- **Idempotent**: A + A = A, A • A = A
-- **Complement**: A + ¬A = 1, A • ¬A = 0
-- **Commutative**: A + B = B + A, A • B = B • A
-- **Associative**: (A + B) + C = A + (B + C)
-
-### De Morgan's Laws
-- ¬(A + B) = ¬A • ¬B
-- ¬(A • B) = ¬A + ¬B
-
----
-
 ## 🎯 Circuit Design Principles
 
 - **Minimize gates**: Use fewest gates possible
@@ -88,12 +71,3 @@ Logic circuits combine multiple gates to perform complex operations. They can be
 - Mathematical representation
 - Easier for complex circuits
 - Basis for optimization
-📝 **Key Points:**
-
- 
-
-- Circuits built from problem statements, expressions, truth tables ✅
-- Boolean algebra simplifies circuits ✅
-- De Morgan's laws enable transformations ✅
-- Testing verifies circuit correctness ✅
-- Multiple representation methods available ✅

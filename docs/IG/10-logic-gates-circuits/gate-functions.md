@@ -75,15 +75,16 @@ Each logic gate performs a specific Boolean operation on binary inputs. Understa
 ## 🔄 Boolean Algebra
 
 Gates implement Boolean algebra operations:
+
 - **AND**: A • B
 - **OR**: A + B
 - **NOT**: ¬A or A'
 - **NAND**: ¬(A • B)
 - **NOR**: ¬(A + B)
 - **XOR**: A ⊕ B
-📝 **Key Points:**
 
- 
+
+📝 **Key Points:**
 
 - Each gate has specific Boolean function ✅
 - AND requires all inputs true ✅

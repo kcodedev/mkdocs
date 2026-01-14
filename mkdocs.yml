@@ -159,11 +159,10 @@ nav:
           - Primary Keys: IG/9-databases/primary-keys.md
           - SQL Queries: IG/9-databases/sql-queries.md
       - 10 - Boolean Logic:
-          - Logic Gates: IG/10-logic-gates-circuits/logic-gates.md
-          - Gate Functions: IG/10-logic-gates-circuits/gate-functions.md
-          - Creating Circuits: IG/10-logic-gates-circuits/creating-circuits.md
-          - Truth Tables: IG/10-logic-gates-circuits/truth-tables.md
-          - Logic Expressions: IG/10-logic-gates-circuits/logic-expressions.md
+          - ✅ Logic Gates: IG/10-logic-gates-circuits/logic-gates.md
+          - ✅ Gate Functions: IG/10-logic-gates-circuits/gate-functions.md
+          - ✅ Creating Circuits: IG/10-logic-gates-circuits/creating-circuits.md
+          - ✅ Logic Expressions: IG/10-logic-gates-circuits/logic-expressions.md
       - Pseudocode Tasks: IG/pseudocode-tasks.md
       - Python Tasks: IG/python-tasks.md
   - AS:
