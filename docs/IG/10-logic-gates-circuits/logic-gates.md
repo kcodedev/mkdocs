@@ -7,7 +7,7 @@ Logic gates are the fundamental building blocks of digital circuits. They proces
 ## 🚪 Basic Logic Gates
 
 ### AND Gate
-- **Symbol**: A • B or A ∧ B
+- **Symbol**: A • B
 - **Function**: Output 1 only if both inputs are 1
 - **Truth Table**:
 
@@ -19,7 +19,7 @@ Logic gates are the fundamental building blocks of digital circuits. They proces
 | 1 | 1 | 1 |
 
 ### OR Gate
-- **Symbol**: A + B or A ∨ B
+- **Symbol**: A + B
 - **Function**: Output 1 if at least one input is 1
 - **Truth Table**:
 
@@ -31,7 +31,7 @@ Logic gates are the fundamental building blocks of digital circuits. They proces
 | 1 | 1 | 1 |
 
 ### NOT Gate
-- **Symbol**: ¬A or Ā
+- **Symbol**: ¬A
 - **Function**: Inverts the input (0→1, 1→0)
 - **Truth Table**:
 
