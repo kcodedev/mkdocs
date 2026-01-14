@@ -46,45 +46,45 @@ nav:
       - Digital Safety: AEP/digital-safety.md
       - Block Coding: AEP/block-coding.md
   - IGCSE:
-      - 1 - ✅ Data Representation:
-          - Binary, why? how?: IG/1-data-representation/binary.md
-          - Number systems: IG/1-data-representation/number-systems.md
-          - Why hexadecimal?: IG/1-data-representation/why-hex.md
-          - Find your MAC address: IG/1-data-representation/mac-address.md
-          - Binary addition: IG/1-data-representation/binary-addition.md
-          - Overflow: IG/1-data-representation/overflow.md
-          - Gandhi underflow: IG/1-data-representation/gandhi-underflow.md
-          - Logical shifts: IG/1-data-representation/logical-shifts.md
-          - Two's complement: IG/1-data-representation/twos-complement.md
-          - ASCII and Unicode: IG/1-data-representation/ascii.md
-          - Sound: IG/1-data-representation/sound.md
-          - Images: IG/1-data-representation/images.md
-          - Data Storage Units: IG/1-data-representation/data-storage-units.md
-          - Calculating file size: IG/1-data-representation/calculating-file-size.md
-          - Compression: IG/1-data-representation/compression.md
-      - 2 - ✅ Data Transmission:
-          - Packet Switching: IG/2-data-transmission/packet-switching.md
-          - Serial vs Parallel Transmission: IG/2-data-transmission/serial-parallel-transmission.md
-          - Directional Transmission: IG/2-data-transmission/directional-transmission.md
-          - USB: IG/2-data-transmission/usb-interface.md
+      - 1 - Data Representation:
+          - ✅ Binary, why? how?: IG/1-data-representation/binary.md
+          - ✅ Number systems: IG/1-data-representation/number-systems.md
+          - ✅ Why hexadecimal?: IG/1-data-representation/why-hex.md
+          - ✅ Find your MAC address: IG/1-data-representation/mac-address.md
+          - ✅ Binary addition: IG/1-data-representation/binary-addition.md
+          - ✅ Overflow: IG/1-data-representation/overflow.md
+          - ✅ Gandhi underflow: IG/1-data-representation/gandhi-underflow.md
+          - ✅ Logical shifts: IG/1-data-representation/logical-shifts.md
+          - ✅ Two's complement: IG/1-data-representation/twos-complement.md
+          - ✅ ASCII and Unicode: IG/1-data-representation/ascii.md
+          - ✅ Sound: IG/1-data-representation/sound.md
+          - ✅ Images: IG/1-data-representation/images.md
+          - ✅ Data Storage Units: IG/1-data-representation/data-storage-units.md
+          - ✅ Calculating file size: IG/1-data-representation/calculating-file-size.md
+          - ✅ Compression: IG/1-data-representation/compression.md
+      - 2 - Data Transmission:
+          - ✅ Packet Switching: IG/2-data-transmission/packet-switching.md
+          - ✅ Serial vs Parallel Transmission: IG/2-data-transmission/serial-parallel-transmission.md
+          - ✅ Directional Transmission: IG/2-data-transmission/directional-transmission.md
+          - ✅ USB: IG/2-data-transmission/usb-interface.md
           - Error detection:
-              - Overview: IG/2-data-transmission/error-detection.md
-              - Parity Check: IG/2-data-transmission/parity-check.md
-              - Checksum: IG/2-data-transmission/checksum.md
-              - Echo Check: IG/2-data-transmission/echo-check.md
-              - Check Digit: IG/2-data-transmission/check-digit.md
-              - Automatic Repeat Query: IG/2-data-transmission/arq.md
+              - ✅ Overview: IG/2-data-transmission/error-detection.md
+              - ✅ Parity Check: IG/2-data-transmission/parity-check.md
+              - ✅ Checksum: IG/2-data-transmission/checksum.md
+              - ✅ Echo Check: IG/2-data-transmission/echo-check.md
+              - ✅ Check Digit: IG/2-data-transmission/check-digit.md
+              - ✅ Automatic Repeat Query: IG/2-data-transmission/arq.md
           - Encryption:
-              - Symmetric Encryption: IG/2-data-transmission/symmetric-encryption.md
-              - Asymmetric Encryption: IG/2-data-transmission/asymmetric-encryption.md
+              - ✅ Symmetric Encryption: IG/2-data-transmission/symmetric-encryption.md
+              - ✅ Asymmetric Encryption: IG/2-data-transmission/asymmetric-encryption.md
       - 3 - Hardware:
-          - ✅Computer Architecture:
-            - The Role of the CPU: IG/3-hardware/computer-architecture/cpu-role.md
-            - Embedded Systems: IG/3-hardware/computer-architecture/embedded-systems.md
-            - Von Neumann Architecture: IG/3-hardware/computer-architecture/von-neumann.md
-            - The Fetch-Decode-Execute Cycle: IG/3-hardware/computer-architecture/fde-cycle.md
-            - Performance Factors: IG/3-hardware/computer-architecture/performance-factors.md
-            - Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
+          - Computer Architecture:
+            - ✅ The Role of the CPU: IG/3-hardware/computer-architecture/cpu-role.md
+            - ✅ Embedded Systems: IG/3-hardware/computer-architecture/embedded-systems.md
+            - ✅ Von Neumann Architecture: IG/3-hardware/computer-architecture/von-neumann.md
+            - ✅ The Fetch-Decode-Execute Cycle: IG/3-hardware/computer-architecture/fde-cycle.md
+            - ✅ Performance Factors: IG/3-hardware/computer-architecture/performance-factors.md
+            - ✅ Instruction Set: IG/3-hardware/computer-architecture/instruction-set.md
           - Input Devices:
             - ✅Keyboard: IG/3-hardware/input-devices/Mitchell_Keyboards.md
             - ✅Mouse: IG/3-hardware/input-devices/mouse.md
@@ -93,15 +93,15 @@ nav:
             - 🟨Digital Camera: IG/3-hardware/input-devices/digitalcam2.md
             - ✅Sensors: IG/3-hardware/input-devices/sensors.md
             - ✅Touch Screen: IG/3-hardware/input-devices/touch-screen.md
-          - ✅ Output Devices:
-            - Monitors: IG/3-hardware/output-devices/monitor.md
-            - Projectors: IG/3-hardware/output-devices/projectors.md
-            - Printers Overview: IG/3-hardware/output-devices/printers.md
-            - Inkjet Printer: IG/3-hardware/output-devices/inkjet-printers.md
-            - Laser Printer: IG/3-hardware/output-devices/laser-printers.md
-            - 3D Printer: IG/3-hardware/output-devices/3d-printers.md
-            - Speakers: IG/3-hardware/output-devices/speakers.md
-            - Actuators: IG/3-hardware/output-devices/actuators.md
+          - Output Devices:
+            - ✅ Monitors: IG/3-hardware/output-devices/monitor.md
+            - ✅ Projectors: IG/3-hardware/output-devices/projectors.md
+            - ✅ Printers Overview: IG/3-hardware/output-devices/printers.md
+            - ✅ Inkjet Printer: IG/3-hardware/output-devices/inkjet-printers.md
+            - ✅ Laser Printer: IG/3-hardware/output-devices/laser-printers.md
+            - ✅ 3D Printer: IG/3-hardware/output-devices/3d-printers.md
+            - ✅ Speakers: IG/3-hardware/output-devices/speakers.md
+            - ✅ Actuators: IG/3-hardware/output-devices/actuators.md
           - Data Storage:
             - ✅Primary Storage: IG/3-hardware/storage/primary-storage.md
             - ✅Secondary Storage: IG/3-hardware/storage/secondary-storage.md
