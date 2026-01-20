@@ -31,36 +31,6 @@ Stacks are commonly used in programming for tasks like:
 
 ---
 
-## 🧠 Pseudocode for Stack Operations
-
-### Push Operation
-
-```
-PROCEDURE Push(item)
-    IF stack is full THEN
-        OUTPUT "Stack Overflow - Cannot push"
-        RETURN
-    ENDIF
-    Add item to top of stack
-ENDPROCEDURE
-```
-
-### Pop Operation
-
-```
-FUNCTION Pop()
-    IF stack is empty THEN
-        OUTPUT "Stack Underflow - Cannot pop"
-        RETURN null
-    ENDIF
-    item ← top item from stack
-    Remove top item from stack
-    RETURN item
-ENDFUNCTION
-```
-
----
-
 ## 👁️ Visual Example
 
 Let's simulate a stack with maximum size 8. We'll start with an empty stack and perform some operations:
@@ -86,234 +56,256 @@ Push(1): [5, 2, 7, 1] (size 4/8)
 
 ### Stack Implementation with Limited Size
 
+We'll implement the stack using a Python list with a fixed size of 8, initialized with `None` values. We'll write functions to perform stack operations on this list.
+
 ```python
-class LimitedStack:
+# Initialize stack with fixed size of 8, all None
+MAX_SIZE = 8
+stack = [None] * MAX_SIZE
+top = -1
+
+def push(item):
     """
-    A stack implementation with a maximum size limit of 8 items
-    Uses a Python list as the underlying data structure
+    Add an item to the top of the stack
+    Returns True if successful, False if stack is full
     """
-    
-    def __init__(self, max_size=8):
-        self.stack = []
-        self.max_size = max_size
-    
-    def push(self, item):
-        """
-        Add an item to the top of the stack
-        Returns True if successful, False if stack is full
-        """
-        if len(self.stack) >= self.max_size:
-            print("Stack Overflow - Cannot push, stack is full")
-            return False
-        self.stack.append(item)
-        return True
-    
-    def pop(self):
-        """
-        Remove and return the top item from the stack
-        Returns None if stack is empty
-        """
-        if not self.stack:
-            print("Stack Underflow - Cannot pop, stack is empty")
-            return None
-        return self.stack.pop()
-    
-    def peek(self):
-        """
-        Return the top item without removing it
-        Returns None if stack is empty
-        """
-        if not self.stack:
-            return None
-        return self.stack[-1]
-    
-    def is_empty(self):
-        """
-        Check if the stack is empty
-        """
-        return len(self.stack) == 0
-    
-    def size(self):
-        """
-        Return the current number of items in the stack
-        """
-        return len(self.stack)
-    
-    def __str__(self):
-        """
-        String representation of the stack
-        """
-        return f"Stack: {self.stack} (size {self.size()}/{self.max_size})"
+    global top
+    if top >= MAX_SIZE - 1:
+        print("Stack Overflow - Cannot push, stack is full")
+        return False
+    top += 1
+    stack[top] = item
+    return True
+
+def pop():
+    """
+    Remove and return the top item from the stack
+    Returns None if stack is empty
+    """
+    global top
+    if top == -1:
+        print("Stack Underflow - Cannot pop, stack is empty")
+        return None
+    item = stack[top]
+    stack[top] = None  # Clear the position
+    top -= 1
+    return item
+
+def peek():
+    """
+    Return the top item without removing it
+    Returns None if stack is empty
+    """
+    if top == -1:
+        return None
+    return stack[top]
+
+def is_empty():
+    """
+    Check if the stack is empty
+    """
+    return top == -1
+
+def size():
+    """
+    Return the current number of items in the stack
+    """
+    return top + 1
+
+def display_stack():
+    """
+    Display the current state of the stack
+    """
+    print(f"Stack: {stack} (size {size()}/{MAX_SIZE})")
 
 # Test the stack implementation
-stack = LimitedStack()
+print("Initial stack:")
+display_stack()
 
-print("Initial:", stack)
+push(5)
+print("After push(5):")
+display_stack()
 
-stack.push(5)
-print("After push(5):", stack)
+push(3)
+push(8)
+print("After push(3), push(8):")
+display_stack()
 
-stack.push(3)
-stack.push(8)
-print("After push(3), push(8):", stack)
+popped = pop()
+print(f"Popped: {popped}")
+display_stack()
 
-popped = stack.pop()
-print(f"Popped: {popped}, Stack now:", stack)
-
-stack.push(2)
-stack.push(7)
-stack.push(1)
-print("After more pushes:", stack)
+push(2)
+push(7)
+push(1)
+print("After more pushes:")
+display_stack()
 ```
-
----
 
 ## 💪 Practice Exercises
 
-### Exercise 1: Convert Push Pseudocode to Python
+### Exercise 1: Implement the Push Function
 
-Based on the pseudocode above, implement the `push` method for our `LimitedStack` class. The method should:
+Implement the `push` function for a stack with limited size. The function should:
 
-- Check if the stack is full (size >= max_size)
+- Check if the stack is full (top >= MAX_SIZE - 1)
 - If full, print "Stack Overflow - Cannot push" and return False
-- If not full, add the item to the stack and return True
-
+- If not full, increment top, set stack[top] = item, and return True
 
 ```python
-class LimitedStack:
-    def __init__(self, max_size=8):
-        self.stack = []
-        self.max_size = max_size
-    
-    def push(self, item):
-        # Your implementation here
-        pass
-    
-    # ... other methods ...
+# Global variables
+MAX_SIZE = 8
+stack = [None] * MAX_SIZE
+top = -1
+
+def push(item):
+    # Your implementation here
+    pass
 
 # Test your implementation
-stack = LimitedStack()
-stack.push(1)
-stack.push(2)
-print(stack)  # Should show [1, 2]
+push(1)
+push(2)
+print(f"Stack: {stack}")  # Should show [1, 2, None, None, None, None, None, None]
+print(f"Top: {top}")  # Should be 1
 ```
 
 **Reveal Answer** (don't peek until you've tried!)
 
 ```python
-def push(self, item):
-    if len(self.stack) >= self.max_size:
+def push(item):
+    global top
+    if top >= MAX_SIZE - 1:
         print("Stack Overflow - Cannot push")
         return False
-    self.stack.append(item)
+    top += 1
+    stack[top] = item
     return True
 ```
 
-### Exercise 2: Convert Pop Pseudocode to Python
+### Exercise 2: Implement the Pop Function
 
-Now implement the `pop` method. It should:
+Implement the `pop` function. It should:
 
-- Check if the stack is empty
+- Check if the stack is empty (top == -1)
 - If empty, print "Stack Underflow - Cannot pop" and return None
-- If not empty, remove and return the top item
-
+- If not empty, get the item, set stack[top] = None, decrement top, and return the item
 
 ```python
-class LimitedStack:
-    def __init__(self, max_size=8):
-        self.stack = []
-        self.max_size = max_size
-    
-    def pop(self):
-        # Your implementation here
-        pass
-    
-    # ... other methods ...
+# Global variables
+MAX_SIZE = 8
+stack = [None] * MAX_SIZE
+top = -1
+
+def pop():
+    # Your implementation here
+    pass
 
 # Test your implementation
-stack = LimitedStack()
-stack.push(5)
-stack.push(10)
-popped = stack.pop()
+stack[0] = 5
+stack[1] = 10
+top = 1
+popped = pop()
 print(f"Popped: {popped}")  # Should be 10
-print(stack)  # Should show [5]
+print(f"Stack: {stack}")  # Should show [5, None, None, None, None, None, None, None]
+print(f"Top: {top}")  # Should be 0
 ```
 
 **Reveal Answer**
 
 ```python
-def pop(self):
-    if not self.stack:
+def pop():
+    global top
+    if top == -1:
         print("Stack Underflow - Cannot pop")
         return None
-    return self.stack.pop()
+    item = stack[top]
+    stack[top] = None
+    top -= 1
+    return item
 ```
 
-### Exercise 3: Complete Stack Class
+### Exercise 3: Complete Stack Implementation
 
-Put it all together! Create a complete `LimitedStack` class with all the methods we've discussed. Test it with various operations including trying to push onto a full stack and pop from an empty stack.
+Put it all together! Create all the stack functions we've discussed. Test it with various operations including trying to push onto a full stack and pop from an empty stack.
 
 ```python
-class LimitedStack:
-    # Your complete implementation here
+# Global variables
+MAX_SIZE = 3  # Small stack for testing limits
+stack = [None] * MAX_SIZE
+top = -1
+
+# Your complete implementation here
+def push(item):
+    pass
+
+def pop():
+    pass
+
+def peek():
+    pass
+
+def is_empty():
+    pass
+
+def size():
+    pass
+
+def display_stack():
     pass
 
 # Test your complete implementation
-stack = LimitedStack(3)  # Small stack for testing limits
-
-# Test normal operations
-stack.push(1)
-stack.push(2)
-stack.push(3)
-print("After pushes:", stack)
+push(1)
+push(2)
+push(3)
+display_stack()
 
 # Test overflow
-stack.push(4)  # Should fail
-print("After overflow attempt:", stack)
+push(4)  # Should fail
+display_stack()
 
 # Test normal pops
-print("Pop:", stack.pop())
-print("Pop:", stack.pop())
-print("Stack now:", stack)
+print("Pop:", pop())
+print("Pop:", pop())
+display_stack()
 
 # Test underflow
-print("Pop:", stack.pop())
-print("Pop:", stack.pop())  # Should fail
-print("Final stack:", stack)
+print("Pop:", pop())
+print("Pop:", pop())  # Should fail
+display_stack()
 ```
 
 **Reveal Complete Answer**
 
 ```python
-class LimitedStack:
-    def __init__(self, max_size=8):
-        self.stack = []
-        self.max_size = max_size
-    
-    def push(self, item):
-        if len(self.stack) >= self.max_size:
-            print("Stack Overflow - Cannot push")
-            return False
-        self.stack.append(item)
-        return True
-    
-    def pop(self):
-        if not self.stack:
-            print("Stack Underflow - Cannot pop")
-            return None
-        return self.stack.pop()
-    
-    def peek(self):
-        if not self.stack:
-            return None
-        return self.stack[-1]
-    
-    def is_empty(self):
-        return len(self.stack) == 0
-    
-    def size(self):
-        return len(self.stack)
-    
-    def __str__(self):
-        return f"Stack: {self.stack} (size {self.size()}/{self.max_size})"
-```
+def push(item):
+    global top
+    if top >= MAX_SIZE - 1:
+        print("Stack Overflow - Cannot push")
+        return False
+    top += 1
+    stack[top] = item
+    return True
+
+def pop():
+    global top
+    if top == -1:
+        print("Stack Underflow - Cannot pop")
+        return None
+    item = stack[top]
+    stack[top] = None
+    top -= 1
+    return item
+
+def peek():
+    if top == -1:
+        return None
+    return stack[top]
+
+def is_empty():
+    return top == -1
+
+def size():
+    return top + 1
+
+def display_stack():
+    print(f"Stack: {stack} (size {size()}/{MAX_SIZE})")
