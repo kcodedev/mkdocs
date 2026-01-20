@@ -316,3 +316,4 @@ class LimitedStack:
     
     def __str__(self):
         return f"Stack: {self.stack} (size {self.size()}/{self.max_size})"
+```
