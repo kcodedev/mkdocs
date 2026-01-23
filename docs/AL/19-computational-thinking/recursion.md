@@ -25,6 +25,7 @@ def factorial_recursive(n):
 ```
 
 How it works:
+
 - If n is 0 or 1, return 1 (base case).
 - Otherwise, multiply n by the factorial of (n-1).
 
@@ -39,6 +40,7 @@ def factorial_iterative(n):
 ```
 
 How it works:
+
 - Start with result = 1.
 - Multiply result by each number from 1 to n.
 
@@ -61,6 +63,7 @@ def fibonacci_recursive(n):
 ```
 
 How it works:
+
 - If n is 0, return 0.
 - If n is 1, return 1.
 - Otherwise, return the sum of the (n-1)th and (n-2)th Fibonacci numbers.
@@ -92,10 +95,13 @@ The iterative version is more efficient as it avoids redundant calculations.
 ## Example 3: Collatz Conjecture
 
 The Collatz conjecture (also known as the 3n+1 problem) states that for any positive integer n, if we repeatedly apply the following rules, we'll eventually reach 1:
+
 - If n is even, divide by 2.
 - If n is odd, multiply by 3 and add 1.
 
-For example, starting with 6: 6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1.
+For example, starting with 6: 
+
+6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1.
 
 We can implement a function that counts the steps to reach 1.
 
@@ -112,6 +118,7 @@ def collatz_recursive(n, steps=0):
 ```
 
 How it works:
+
 - If n is 1, return the current step count.
 - If n is even, recurse with n/2 and increment steps.
 - If n is odd, recurse with 3n+1 and increment steps.
@@ -131,6 +138,7 @@ def collatz_iterative(n):
 ```
 
 How it works:
+
 - Initialize steps to 0.
 - While n is not 1, apply the Collatz rules and increment steps.
 
@@ -139,10 +147,12 @@ Both versions count the steps to reach 1, demonstrating the conjecture's behavio
 ## When to Use Recursion
 
 Recursion is great for:
+
 - Problems that can be broken down into smaller subproblems of the same type (like tree traversals, sorting algorithms).
 - When the code is more readable and elegant.
 
 However, be cautious:
+
 - Recursive functions can lead to stack overflow for deep recursion.
 - They might be less efficient due to function call overhead.
 - Always ensure there's a base case to prevent infinite recursion.
