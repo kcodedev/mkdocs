@@ -163,6 +163,7 @@ nav:
           - ✅ Gate Functions: IG/10-logic-gates-circuits/gate-functions.md
           - ✅ Creating Circuits: IG/10-logic-gates-circuits/creating-circuits.md
       - Pseudocode Tasks: IG/pseudocode-tasks.md
+      - Bug hunt: IG/bug-hunt.md
       - Python Tasks: IG/python-tasks.md
   - AS:
       - 1 - Information Representation:
