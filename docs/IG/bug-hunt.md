@@ -158,44 +158,6 @@ The correct solution uses nested `IF...ELSE` statements to handle all three case
 
 ---
 
-## 5: Array Index Out of Bounds
-
-### Problem
-Find the largest number in an array of 4 elements.
-
-### Buggy Code
-```plaintext
-numbers ← [12, 45, 7, 23]
-max ← numbers[1]
-FOR i ← 2 TO LENGTH(numbers) DO
-    IF numbers[i] > max THEN
-        max ← numbers[i]
-    ENDIF
-NEXT i
-OUTPUT "Maximum: ", max
-```
-
-### Solution
-```plaintext
-numbers ← [12, 45, 7, 23]
-max ← numbers[1]
-FOR i ← 2 TO LENGTH(numbers) - 1 DO
-    IF numbers[i] > max THEN
-        max ← numbers[i]
-    ENDIF
-NEXT i
-OUTPUT "Maximum: ", max
-```
-
-### Explanation
-The bug is an **off-by-one error** when using 1-based indexing. If you're using 1-based indexing:
-- The loop starts at 2 and should end at `LENGTH(numbers) - 1` (which is 3)
-- `numbers[4]` in the buggy code tries to access a 5th element that doesn't exist
-
-Using `LENGTH(numbers) - 1` makes the code work correctly for any size array and prevents "index out of bounds" errors.
-
----
-
 ## 6: Variable Not Initialized
 
 ### Problem
@@ -243,15 +205,15 @@ Convert a numerical grade (1-5) to a letter grade.
 OUTPUT "Enter grade (1-5): "
 INPUT grade
 CASE OF grade
-    5
+    5:
         OUTPUT "A*"
-    4
+    4:
         OUTPUT "A"
-    3
+    3:
         OUTPUT "B"
-    2
+    2:
         OUTPUT "C"
-    1
+    1:
         OUTPUT "D"
 ENDCASE
 ```
@@ -261,15 +223,15 @@ ENDCASE
 OUTPUT "Enter grade (1-5): "
 INPUT grade
 CASE OF grade
-    5
+    5:
         OUTPUT "A*"
-    4
+    4:
         OUTPUT "A"
-    3
+    3:
         OUTPUT "B"
-    2
+    2:
         OUTPUT "C"
-    1
+    1:
         OUTPUT "D"
     OTHERWISE
         OUTPUT "Invalid grade"
@@ -322,41 +284,6 @@ A number is divisible by 3 if the remainder is 0, not 3 (remainder can never equ
 
 ---
 
-## 9: REPEAT UNTIL Logic Error
-
-### Problem
-Ask the user to enter a number between 1 and 10 until they do so.
-
-### Buggy Code
-```plaintext
-REPEAT
-    OUTPUT "Enter a number between 1 and 10: "
-    INPUT num
-UNTIL num >= 1 AND num <= 10
-OUTPUT "Valid number entered!"
-```
-
-### Solution
-```plaintext
-REPEAT
-    OUTPUT "Enter a number between 1 and 10: "
-    INPUT num
-    IF num < 1 OR num > 10 THEN
-        OUTPUT "Invalid! Try again."
-    ENDIF
-UNTIL num >= 1 AND num <= 10
-OUTPUT "Valid number entered!"
-```
-
-### Explanation
-The bug isn't in the loop condition itself, but in **user experience**. The buggy code:
-- Doesn't tell the user why their input was rejected
-- Just keeps asking without feedback
-
-A good program should inform the user of invalid input. The solution adds validation feedback inside the loop.
-
----
-
 ## 10: Inefficient Bubble Sort Passes
 
 ### Problem
@@ -392,7 +319,7 @@ REPEAT
         ENDIF
     NEXT i
     last ← last - 1
-UNTIL NOT swapped
+UNTIL NOT swapped or first = last
 OUTPUT "Sorted: ", array
 ```
 
@@ -405,76 +332,6 @@ The efficient solution:
 - Uses a `swapped` flag to detect when no swaps occur (array is sorted)
 - Reduces the comparison range (`last`) after each pass
 - Stops early if array is sorted before completing all passes
-
----
-## 11: Linear Search with Early Exit Bug
-
-### Problem
-Search for a target value in an array and return its position (or -1 if not found).
-
-### Buggy Code
-```plaintext
-FUNCTION LinearSearch(arr :ARRAY, target :INT) RETURNS INT
-    FOR i ← 1 TO LENGTH(arr) DO
-        IF arr[i] = target THEN
-            RETURN i
-        ENDIF
-    NEXT i
-    RETURN -1
-ENDFUNCTION
-
-// Test
-numbers ← [4, 7, 2, 9, 5, 1]
-result ← LinearSearch(numbers, 9)
-OUTPUT "Found at position: ", result
-```
-
-### Solution
-```plaintext
-FUNCTION LinearSearch(arr :ARRAY, target :INT) RETURNS INT
-    found ← FALSE
-    position ← -1
-    
-    FOR i ← 1 TO LENGTH(arr) DO
-        IF arr[i] = target THEN
-            found ← TRUE
-            position ← i
-            // Bug fix: Don't return immediately if you need to count occurrences
-            // For single occurrence, return i is fine
-            RETURN i
-        ENDIF
-    NEXT i
-    RETURN -1
-ENDFUNCTION
-
-// Test
-numbers ← [4, 7, 2, 9, 5, 1]
-result ← LinearSearch(numbers, 9)
-OUTPUT "Found at position: ", result
-```
-
-### Explanation
-This example shows a **subtle logical issue** with early exit in search algorithms. The code itself is mostly correct for finding a single occurrence. However, consider these scenarios:
-
-1. **Finding all occurrences**: If you need to find ALL positions where the target appears, returning immediately would miss duplicates.
-2. **Multiple targets**: The algorithm can only return the first occurrence.
-
-For finding all occurrences, you would need:
-```plaintext
-FUNCTION FindAllOccurrences(arr :ARRAY, target :INT) RETURNS ARRAY
-    results ← []
-    FOR i ← 1 TO LENGTH(arr) DO
-        IF arr[i] = target THEN
-            APPEND i TO results
-        ENDIF
-    NEXT i
-    RETURN results
-ENDFUNCTION
-```
-
-The original code is correct for finding if a value exists or returning its first position - just be aware of its limitations.
-
----
 
 ## 12: Average Calculator with Division Bug
 
