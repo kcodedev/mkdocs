@@ -4,7 +4,7 @@ Find the bugs in the following pseudocode examples! Each example has a problem d
 
 ---
 
-## 1: Off-by-One Error in Array Sum
+## Off-by-One Error in Array Sum
 
 ### Problem
 Calculate the sum of all numbers in an array containing 5 elements.
@@ -41,7 +41,7 @@ The fix uses 1-based indexing consistently, ending at `LENGTH(numbers)`. Alterna
 
 ---
 
-## 2: Infinite Loop
+## Infinite Loop
 
 ### Problem
 Keep asking the user for a password until they enter "secret123".
@@ -74,7 +74,7 @@ Always ensure loops have their proper closing statements (`ENDWHILE`, `NEXT i`, 
 
 ---
 
-## 3: Wrong Comparison Operator
+## Wrong Comparison Operator
 
 ### Problem
 Check if a student's score (0-100) is passing. Passing grade is 40 or above.
@@ -110,7 +110,7 @@ This is exactly backwards! The condition should check if the score is **greater 
 
 ---
 
-## 4: Missing ELSE Branch
+## Missing ELSE Branch
 
 ### Problem
 Determine if a number is positive, negative, or zero.
@@ -158,7 +158,7 @@ The correct solution uses nested `IF...ELSE` statements to handle all three case
 
 ---
 
-## 6: Variable Not Initialized
+## Variable Not Initialized
 
 ### Problem
 Count how many numbers in a list are greater than 10.
@@ -195,7 +195,7 @@ Always initialize variables before using them in calculations. Start `count` at 
 
 ---
 
-## 7: CASE Without OTHERWISE
+## CASE Without OTHERWISE
 
 ### Problem
 Convert a numerical grade (1-5) to a letter grade.
@@ -247,7 +247,7 @@ The program would produce no output or behave unexpectedly. The `OTHERWISE` clau
 
 ---
 
-## 8: MOD Operator Bug
+## MOD Operator Bug
 
 ### Problem
 Check if a number is divisible by 3.
@@ -284,7 +284,7 @@ A number is divisible by 3 if the remainder is 0, not 3 (remainder can never equ
 
 ---
 
-## 10: Inefficient Bubble Sort Passes
+## Inefficient Bubble Sort Passes
 
 ### Problem
 Sort an array of numbers using bubble sort.
@@ -333,7 +333,7 @@ The efficient solution:
 - Reduces the comparison range (`last`) after each pass
 - Stops early if array is sorted before completing all passes
 
-## 12: Average Calculator with Division Bug
+## Average Calculator with Division Bug
 
 ### Problem
 Calculate the average of a list of exam scores. The average is the total divided by the count.
@@ -389,7 +389,7 @@ The bug is using `total` before initializing it. In the buggy code:
 
 ---
 
-## 13: Temperature Converter with Formula Error
+## Temperature Converter with Formula Error
 
 ### Problem
 Convert temperatures between Celsius and Fahrenheit.
@@ -454,7 +454,7 @@ The fix adds an `ELSE` clause that handles invalid input gracefully by showing a
 
 ---
 
-## 14: Grade Calculator with Boundary Error
+## Grade Calculator with Boundary Error
 
 ### Problem
 Calculate the grade based on marks (0-100):
