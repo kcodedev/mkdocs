@@ -33,6 +33,7 @@ OUTPUT "Total: ", total
 The bug is an **off-by-one error** caused by mixing indexing styles. If you start your loop at 0 (0-based indexing), you must end at `LENGTH(numbers) - 1`. If you start at 1 (1-based indexing), you should end at `LENGTH(numbers)`.
 
 In the buggy code:
+
 - The loop starts at 0 but ends at `LENGTH(numbers)` (which is 5)
 - `numbers[0]` = 3 (first element, correct)
 - `numbers[5]` tries to access a 6th element that doesn't exist!
