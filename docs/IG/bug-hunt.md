@@ -233,7 +233,7 @@ CASE OF grade
         OUTPUT "C"
     1:
         OUTPUT "D"
-    OTHERWISE
+    OTHERWISE:
         OUTPUT "Invalid grade"
 ENDCASE
 ```
