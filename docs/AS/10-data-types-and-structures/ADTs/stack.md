@@ -30,6 +30,58 @@ Stacks support basic operations to add, edit, and delete data:
 
 ---
 
+## 📝 Pseudocode for Push and Pop
+
+### Variable Declaration
+```pseudo
+DECLARE max : INT
+DECLARE top : INT
+DECLARE stack : ARRAY[5]
+
+max = 5
+top = -1
+```
+
+### Push Operation
+```pseudo
+FUNCTION Push(item):
+    IF top >= max - 1 THEN
+        PRINT "Stack Overflow - cannot push " + item
+        RETURN FALSE
+    END IF
+    
+    top = top + 1
+    stack[top] = item
+    RETURN TRUE
+```
+
+### Pop Operation
+```pseudo
+FUNCTION Pop():
+    IF top < 0 THEN
+        PRINT "Stack Underflow - stack is empty"
+        RETURN NULL
+    END IF
+    
+    item = stack[top]
+    top = top - 1
+    RETURN item
+```
+
+### Helper Functions
+```pseudo
+FUNCTION IsEmpty():
+    RETURN top < 0
+
+FUNCTION Peek():
+    IF top < 0 THEN
+        RETURN NULL
+    END IF
+    RETURN stack[top]
+```
+
+---
+
 ## 🚫 Stack Overflow
 
 **Fixed Array Size: 5 (Max capacity: 5 elements, indices 0-4)**
