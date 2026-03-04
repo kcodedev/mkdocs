@@ -94,9 +94,9 @@ To avoid wasting space in fixed arrays after dequeues, a **circular queue** trea
 | 7 | 2 | 3 | 5 | 6 |
 
 #### Step 6: Dequeue
-| rp | - | fp | - | - |
-| --- | --- | --- | --- | --- |
-| 7 | (unused) | 3 | 5 | 6 |
+|  rp |        - |  fp |   - |   - |
+| --- |      --- | --- | --- | --- |
+|   7 | (unused) |   3 |   5 |   6 |
 
 **Note:** After Step 5, queue full (next enqueue (0+1)%5=1 == fp=1). Step 6 frees space. This visual shows pointer movements and data changes clearly.
 
