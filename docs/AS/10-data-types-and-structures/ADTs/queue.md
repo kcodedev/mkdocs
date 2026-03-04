@@ -66,35 +66,35 @@ A queue can be implemented using an **array** with two pointers: **front** (poin
 
 ## 🔄 Circular Queue Tables
 
-To avoid wasting space in fixed arrays after dequeues, a **circular queue** treats the array as a circle: rear (ep) and front (fp) pointers wrap around using modulo (% size).
+To avoid wasting space in fixed arrays after dequeues, a **circular queue** treats the array as a circle: rear (rp) and front (fp) pointers wrap around using modulo (% size).
 
 #### Step 1: Initial
-| fp | - | ep | - | - |
+| fp | - | rp | - | - |
 | --- | --- | --- | --- | --- |
 | 4 | 2 | 3 | - | - |
 
 #### Step 2: Enqueue 5
-| fp | - | - | ep | - |
+| fp | - | - | rp | - |
 | --- | --- | --- | --- | --- |
 | 4 | 2 | 3 | 5 | - |
 
 #### Step 3: Dequeue
-| - | fp | - | ep | - |
+| - | fp | - | rp | - |
 | --- | --- | --- | --- | --- |
 | (unused) | 2 | 3 | 5 | - |
 
 #### Step 4: Enqueue 6
-| - | fp | - | - | ep |
+| - | fp | - | - | rp |
 | --- | --- | --- | --- | --- |
 | (unused) | 2 | 3 | 5 | 6 |
 
-#### Step 5: Enqueue 7 (ep wrap)
-| ep | fp | - | - | - |
+#### Step 5: Enqueue 7 (rp wrap)
+| rp | fp | - | - | - |
 | --- | --- | --- | --- | --- |
 | 7 | 2 | 3 | 5 | 6 |
 
 #### Step 6: Dequeue
-| ep | - | fp | - | - |
+| rp | - | fp | - | - |
 | --- | --- | --- | --- | --- |
 | 7 | (unused) | 3 | 5 | 6 |
 
