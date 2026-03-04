@@ -30,6 +30,78 @@ Queues support essential operations to add, edit, and delete data:
 
 ---
 
+## 💡 When to Use a Queue?
+
+Queues are perfect for **sequential processing** where order of arrival matters:
+
+**Common Use Cases:**
+
+- **Print Queues**: In printers, jobs are processed in the order they arrive.
+- **Task Scheduling**: Operating systems use queues for CPU time allocation.
+- **Message Buffering**: In networking, handle incoming data packets.
+
+**Justification:** Choose queues for scenarios needing fair treatment of requests, preventing later arrivals from overtaking earlier ones.
+
+---
+
+## 🔧 Implementing a Queue with Arrays
+
+A queue can be implemented using an **array** with two pointers: **front** (points to first element) and **rear** (points to last element).
+
+**How it Works:**
+
+- Initialize front = -1, rear = -1 (empty).
+- **Enqueue**: Add at array[rear+1], increment rear.
+- **Dequeue**: Return array[front], increment front.
+- **Full/Empty Check**: Rear == array size -1 (full) or front > rear (empty).
+
+**Benefits:**
+
+- Efficient O(1) time for enqueue/dequeue.
+- Simple memory management in contiguous space.
+
+**Limitations:**
+
+- Fixed arrays lead to overflow; circular queues (wrapping around) or dynamic arrays solve inefficiency in linear implementation.
+
+## 🔄 Circular Queue Tables
+
+To avoid wasting space in fixed arrays after dequeues, a **circular queue** treats the array as a circle: rear (ep) and front (fp) pointers wrap around using modulo (% size).
+
+#### Step 1: Initial
+| fp | - | ep | - | - |
+| --- | --- | --- | --- | --- |
+| 4 | 2 | 3 | - | - |
+
+#### Step 2: Enqueue 5
+| fp | - | - | ep | - |
+| --- | --- | --- | --- | --- |
+| 4 | 2 | 3 | 5 | - |
+
+#### Step 3: Dequeue
+| - | fp | - | ep | - |
+| --- | --- | --- | --- | --- |
+| (unused) | 2 | 3 | 5 | - |
+
+#### Step 4: Enqueue 6
+| - | fp | - | - | ep |
+| --- | --- | --- | --- | --- |
+| (unused) | 2 | 3 | 5 | 6 |
+
+#### Step 5: Enqueue 7 (ep wrap)
+| ep | fp | - | - | - |
+| --- | --- | --- | --- | --- |
+| 7 | 2 | 3 | 5 | 6 |
+
+#### Step 6: Dequeue
+| ep | - | fp | - | - |
+| --- | --- | --- | --- | --- |
+| 7 | (unused) | 3 | 5 | 6 |
+
+**Note:** After Step 5, queue full (next enqueue (0+1)%5=1 == fp=1). Step 6 frees space. This visual shows pointer movements and data changes clearly.
+
+---
+
 ## 📝 Pseudocode for Enqueue and Dequeue
 
 ### Variable Declaration
@@ -99,74 +171,6 @@ ENDFUNCTION
 
 ---
 
-## 💡 When to Use a Queue?
-
-Queues are perfect for **sequential processing** where order of arrival matters:
-
-**Common Use Cases:**
-
-- **Print Queues**: In printers, jobs are processed in the order they arrive.
-- **Task Scheduling**: Operating systems use queues for CPU time allocation.
-- **Message Buffering**: In networking, handle incoming data packets.
-
-**Justification:** Choose queues for scenarios needing fair treatment of requests, preventing later arrivals from overtaking earlier ones.
-
----
-
-## 🔧 Implementing a Queue with Arrays
-
-A queue can be implemented using an **array** with two pointers: **front** (points to first element) and **rear** (points to last element).
-
-**How it Works:**
-
-- Initialize front = -1, rear = -1 (empty).
-- **Enqueue**: Add at array[rear+1], increment rear.
-- **Dequeue**: Return array[front], increment front.
-- **Full/Empty Check**: Rear == array size -1 (full) or front > rear (empty).
-
-**Benefits:**
-
-- Efficient O(1) time for enqueue/dequeue.
-- Simple memory management in contiguous space.
-
-**Limitations:**
-
-- Fixed arrays lead to overflow; circular queues (wrapping around) or dynamic arrays solve inefficiency in linear implementation.
-## 🔄 Circular Queue Tables
-
-To avoid wasting space in fixed arrays after dequeues, a **circular queue** treats the array as a circle: rear (ep) and front (fp) pointers wrap around using modulo (% size).
-
-#### Step 1: Initial
-| fp | - | ep | - | - |
-| --- | --- | --- | --- | --- |
-| 4 | 2 | 3 | - | - |
-
-#### Step 2: Enqueue 5
-| fp | - | - | ep | - |
-| --- | --- | --- | --- | --- |
-| 4 | 2 | 3 | 5 | - |
-
-#### Step 3: Dequeue
-| - | fp | - | ep | - |
-| --- | --- | --- | --- | --- |
-| (unused) | 2 | 3 | 5 | - |
-
-#### Step 4: Enqueue 6
-| - | fp | - | - | ep |
-| --- | --- | --- | --- | --- |
-| (unused) | 2 | 3 | 5 | 6 |
-
-#### Step 5: Enqueue 7 (ep wrap)
-| ep | fp | - | - | - |
-| --- | --- | --- | --- | --- |
-| 7 | 2 | 3 | 5 | 6 |
-
-#### Step 6: Dequeue
-| ep | - | fp | - | - |
-| --- | --- | --- | --- | --- |
-| 7 | (unused) | 3 | 5 | 6 |
-
-**Note:** After Step 5, queue full (next enqueue (0+1)%5=1 == fp=1). Step 6 frees space. This visual shows pointer movements and data changes clearly.
 ## ✅ Summary
 
 - **Queue = FIFO Structure** for ordered, sequential data processing.

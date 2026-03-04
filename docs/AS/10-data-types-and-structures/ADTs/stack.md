@@ -30,62 +30,6 @@ Stacks support basic operations to add, edit, and delete data:
 
 ---
 
-## 📝 Pseudocode for Push and Pop
-
-### Variable Declaration
-```pseudo
-DECLARE max : INT
-DECLARE top : INT
-DECLARE stack : ARRAY[0 to 5] OF INT
-
-max = 5
-top = -1
-```
-
-### Push Operation
-```pseudo
-FUNCTION Push(item : INT)
-    IF top >= max - 1 THEN
-        PRINT "Stack Overflow - cannot push " + item
-        RETURN FALSE
-    END IF
-    
-    top = top + 1
-    stack[top] = item
-    RETURN TRUE
-ENDFUNCTION
-```
-
-### Pop Operation
-```pseudo
-FUNCTION Pop():
-    IF top < 0 THEN
-        PRINT "Stack Underflow - stack is empty"
-        RETURN NULL
-    END IF
-    
-    item = stack[top]
-    top = top - 1
-    RETURN item
-ENDFUNCTION
-```
-
-### Helper Functions
-```pseudo
-FUNCTION IsEmpty():
-    RETURN top < 0
-ENDFUNCTION
-
-FUNCTION Peek():
-    IF top < 0 THEN
-        RETURN NULL
-    END IF
-    RETURN stack[top]
-ENDFUNCTION
-```
-
----
-
 ## 🚫 Stack Overflow
 
 **Fixed Array Size: 5 (Max capacity: 5 elements, indices 0-4)**
@@ -147,6 +91,64 @@ ENDFUNCTION
 | 4           | 50    |     |
 
 **Note:** The stack uses a fixed array of size 5. It grows from bottom (index 0) to top (up to index 4). Push increments top and adds at array[top]. Pop returns array[top] and decrements top. When top == max_size - 1, it's full; when top == -1, it's empty. Values remain in array but are no longer part of the stack after pop.
+
+---
+
+## 📝 Pseudocode for Push and Pop
+
+### Variable Declaration
+```pseudo
+DECLARE max : INT
+DECLARE top : INT
+DECLARE stack : ARRAY[0 to 5] OF INT
+
+max = 5
+top = -1
+```
+
+### Push Operation
+```pseudo
+FUNCTION Push(item : INT)
+    IF top >= max - 1 THEN
+        PRINT "Stack Overflow - cannot push " + item
+        RETURN FALSE
+    END IF
+    
+    top = top + 1
+    stack[top] = item
+    RETURN TRUE
+ENDFUNCTION
+```
+
+### Pop Operation
+```pseudo
+FUNCTION Pop():
+    IF top < 0 THEN
+        PRINT "Stack Underflow - stack is empty"
+        RETURN NULL
+    END IF
+    
+    item = stack[top]
+    top = top - 1
+    RETURN item
+ENDFUNCTION
+```
+
+### Helper Functions
+```pseudo
+FUNCTION IsEmpty():
+    RETURN top < 0
+ENDFUNCTION
+
+FUNCTION Peek():
+    IF top < 0 THEN
+        RETURN NULL
+    END IF
+    RETURN stack[top]
+ENDFUNCTION
+```
+
+---
 
 ## 💡 When to Use a Stack?
 
