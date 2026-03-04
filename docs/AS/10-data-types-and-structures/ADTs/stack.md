@@ -36,7 +36,7 @@ Stacks support basic operations to add, edit, and delete data:
 ```pseudo
 DECLARE max : INT
 DECLARE top : INT
-DECLARE stack : ARRAY[5]
+DECLARE stack : ARRAY[0 to 5] OF INT
 
 max = 5
 top = -1
@@ -44,7 +44,7 @@ top = -1
 
 ### Push Operation
 ```pseudo
-FUNCTION Push(item):
+FUNCTION Push(item : INT)
     IF top >= max - 1 THEN
         PRINT "Stack Overflow - cannot push " + item
         RETURN FALSE
