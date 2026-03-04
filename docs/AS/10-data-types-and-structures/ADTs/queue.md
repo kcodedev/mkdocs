@@ -106,51 +106,53 @@ To avoid wasting space in fixed arrays after dequeues, a **circular queue** trea
 
 ### Variable Declaration
 ```pseudo
-DECLARE max : INT
-DECLARE front : INT
-DECLARE rear : INT
-DECLARE queue : ARRAY[5]
+DECLARE queue : ARRAY[1:5] OF INTEGER
+DECLARE rearPointer : INTEGER
+DECLARE frontPointer : INTEGER
+DECLARE queueful : INTEGER
+DECLARE queueLength : INTEGER
 
-max = 5
-front = -1
-rear = -1
+frontPointer = 1
+rearPointer = 0
+queueful = 5
+queueLength = 0
 ```
 
 ### Enqueue Operation
 ```pseudo
 FUNCTION Enqueue(item):
-    IF rear >= max - 1 THEN
-        PRINT "Queue Overflow - cannot enqueue " + item
-        RETURN FALSE
+    IF queueLength < queueful THEN
+        IF rearPointer < queueful THEN
+            rearPointer = rearPointer + 1
+        ELSE
+            rearPointer = 1
+        END IF
+        
+        queueLength = queueLength + 1
+        queue[rearPointer] = item
+    ELSE
+        OUTPUT "Queue is full, cannot enqueue " + item
     END IF
-    
-    rear = rear + 1
-    queue[rear] = item
-    
-    IF front = -1 THEN
-        front = 0
-    END IF
-    
-    RETURN TRUE
 ENDFUNCTION
 ```
 
 ### Dequeue Operation
 ```pseudo
 FUNCTION Dequeue():
-    IF front < 0 OR front > rear THEN
-        PRINT "Queue Underflow - queue is empty"
+    IF queueLength = 0 THEN
+        OUTPUT "Queue is empty, cannot dequeue"
         RETURN NULL
     END IF
     
-    item = queue[front]
-    front = front + 1
+    item = queue[frontPointer]
     
-    IF front > rear THEN
-        front = -1
-        rear = -1
+    IF frontPointer < queueful THEN
+        frontPointer = frontPointer + 1
+    ELSE
+        frontPointer = 1
     END IF
     
+    queueLength = queueLength - 1
     RETURN item
 ENDFUNCTION
 ```
@@ -158,14 +160,14 @@ ENDFUNCTION
 ### Helper Functions
 ```pseudo
 FUNCTION IsEmpty():
-    RETURN front < 0 OR front > rear
+    RETURN queueLength = 0
 ENDFUNCTION
 
 FUNCTION Peek():
-    IF front < 0 OR front > rear THEN
+    IF queueLength = 0 THEN
         RETURN NULL
     END IF
-    RETURN queue[front]
+    RETURN queue[frontPointer]
 ENDFUNCTION
 ```
 
