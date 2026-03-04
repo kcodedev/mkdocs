@@ -53,6 +53,7 @@ FUNCTION Push(item : INT)
     top = top + 1
     stack[top] = item
     RETURN TRUE
+ENDFUNCTION
 ```
 
 ### Pop Operation
@@ -66,18 +67,21 @@ FUNCTION Pop():
     item = stack[top]
     top = top - 1
     RETURN item
+ENDFUNCTION
 ```
 
 ### Helper Functions
 ```pseudo
 FUNCTION IsEmpty():
     RETURN top < 0
+ENDFUNCTION
 
 FUNCTION Peek():
     IF top < 0 THEN
         RETURN NULL
     END IF
     RETURN stack[top]
+ENDFUNCTION
 ```
 
 ---

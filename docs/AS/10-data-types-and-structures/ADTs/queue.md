@@ -30,6 +30,75 @@ Queues support essential operations to add, edit, and delete data:
 
 ---
 
+## 📝 Pseudocode for Enqueue and Dequeue
+
+### Variable Declaration
+```pseudo
+DECLARE max : INT
+DECLARE front : INT
+DECLARE rear : INT
+DECLARE queue : ARRAY[5]
+
+max = 5
+front = -1
+rear = -1
+```
+
+### Enqueue Operation
+```pseudo
+FUNCTION Enqueue(item):
+    IF rear >= max - 1 THEN
+        PRINT "Queue Overflow - cannot enqueue " + item
+        RETURN FALSE
+    END IF
+    
+    rear = rear + 1
+    queue[rear] = item
+    
+    IF front = -1 THEN
+        front = 0
+    END IF
+    
+    RETURN TRUE
+ENDFUNCTION
+```
+
+### Dequeue Operation
+```pseudo
+FUNCTION Dequeue():
+    IF front < 0 OR front > rear THEN
+        PRINT "Queue Underflow - queue is empty"
+        RETURN NULL
+    END IF
+    
+    item = queue[front]
+    front = front + 1
+    
+    IF front > rear THEN
+        front = -1
+        rear = -1
+    END IF
+    
+    RETURN item
+ENDFUNCTION
+```
+
+### Helper Functions
+```pseudo
+FUNCTION IsEmpty():
+    RETURN front < 0 OR front > rear
+ENDFUNCTION
+
+FUNCTION Peek():
+    IF front < 0 OR front > rear THEN
+        RETURN NULL
+    END IF
+    RETURN queue[front]
+ENDFUNCTION
+```
+
+---
+
 ## 💡 When to Use a Queue?
 
 Queues are perfect for **sequential processing** where order of arrival matters:
