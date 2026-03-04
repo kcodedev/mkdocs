@@ -16,7 +16,7 @@ Run MkDocs using `uv`:
 
 ```bash
 uv run mkdocs serve
-uv run mkdocs serve -a 0.0.0.0:8001
+uv run mkdocs serve --live-reload -a 0.0.0.0:8001
 ```
 
 `uv run` will automatically handle the virtual environment and dependencies.
