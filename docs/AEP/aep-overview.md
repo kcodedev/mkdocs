@@ -12,5 +12,6 @@ In this course, you will discover:
 - An explanation of software. 📱
 - Fundamental concepts of the internet. 🌐
 - Guidelines for staying safe online. 🛡️
+- 3D Models and 3D Prints with Tinkercad. 🧊🎨
 
 This program is tailored for students aged 10 to 13 whose first language may not be English. We use straightforward language without complex terms. Let's begin our exciting learning journey! 🚀
